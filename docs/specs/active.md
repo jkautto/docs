@@ -27,6 +27,7 @@ Current technical specifications and implementation plans.
 - [jtools API Architecture](jtools-api-architecture.md)
 - [jtools Repository Reorganization](jtools-reorganization.md)
 - [jtools Unified Structure](jtools-unified-structure.md)
+- [jtools Testing Toolkit v0.1](jtools-testing-toolkit.md) - **DRAFT**
 
 ## Context & Knowledge
 
