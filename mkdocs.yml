@@ -116,7 +116,10 @@ nav:
     - Infrastructure: architecture/infrastructure.md
     - Security: architecture/security.md
   - Guides:
+    - Overview: guides/index.md
     - Getting Started: guides/getting-started.md
+    - JTools Testing: guides/jtools-testing.md
+    - Browser Testing: guides/browser-testing.md
     - Development Setup: guides/development-setup.md
     - Authentication: guides/authentication.md
     - Google Services: guides/google-services.md
@@ -134,6 +137,7 @@ nav:
     - PAI Web API: api/pai-web.md
   - Applications:
     - Overview: applications/index.md
+    - JTools Testing Toolkit: applications/jtools-testing-toolkit.md
     - Pastebin: applications/pastebin.md
     - Authentication: applications/auth.md
     - Browser Testing: applications/browser-test.md
