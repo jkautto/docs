@@ -122,6 +122,7 @@ nav:
       - Onboarding: guides/ai-agent-onboarding.md
       - Development: guides/ai-agent-development.md
       - Collaboration: guides/ai-agent-collaboration.md
+      - GitHub CLI: guides/github-cli-guide.md
     - JTools Testing: guides/jtools-testing.md
     - Browser Testing: guides/browser-testing.md
     - Development Setup: guides/development-setup.md

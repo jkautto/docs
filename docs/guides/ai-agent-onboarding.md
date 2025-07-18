@@ -498,9 +498,10 @@ npm run dev
 ## Getting Help
 
 1. **Check documentation**: https://docs.kaut.to
-2. **Search existing issues**: `gh issue list --search "keyword"`
-3. **Ask in Discussions**: For general questions
-4. **Tag team members**: @jkautto for urgent items
+2. **GitHub CLI Guide**: https://docs.kaut.to/guides/github-cli-guide/
+3. **Search existing issues**: `gh issue list --search "keyword"`
+4. **Ask in Discussions**: For general questions
+5. **Tag team members**: @jkautto for urgent items
 
 ## Summary
 
