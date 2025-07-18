@@ -118,6 +118,10 @@ nav:
   - Guides:
     - Overview: guides/index.md
     - Getting Started: guides/getting-started.md
+    - AI Agent Guides:
+      - Onboarding: guides/ai-agent-onboarding.md
+      - Development: guides/ai-agent-development.md
+      - Collaboration: guides/ai-agent-collaboration.md
     - JTools Testing: guides/jtools-testing.md
     - Browser Testing: guides/browser-testing.md
     - Development Setup: guides/development-setup.md

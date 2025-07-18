@@ -7,6 +7,17 @@ Practical guides and tutorials for working with the kaut.to ecosystem.
 ### [Getting Started Guide](getting-started.md)
 Introduction to the kaut.to infrastructure and basic setup instructions.
 
+## AI Agent Guides
+
+### [AI Agent Onboarding](ai-agent-onboarding.md)
+Comprehensive onboarding guide for AI agents joining the development team. Covers Git workflow, coding standards, testing requirements, and communication guidelines.
+
+### [AI Agent Development](ai-agent-development.md)
+Technical reference for AI agents. Includes modular architecture patterns, debugging techniques, performance optimization, and security best practices.
+
+### [AI Agent Collaboration](ai-agent-collaboration.md)
+Team collaboration guidelines for multiple AI agents working together. Covers communication channels, handoff procedures, and conflict resolution.
+
 ## Testing
 
 ### [JTools Testing Guide](jtools-testing.md)
