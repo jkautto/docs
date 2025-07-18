@@ -1,0 +1,63 @@
+/* Custom styles for DAI/PAI Documentation */
+
+/* Grid cards on homepage */
+.md-typeset .grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+  gap: 1rem;
+  margin: 1em 0;
+}
+
+.md-typeset .grid.cards > ul {
+  display: contents;
+}
+
+.md-typeset .grid.cards > ul > li {
+  border: 0.05rem solid var(--md-default-fg-color--lightest);
+  border-radius: 0.1rem;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  transition: border-color 0.25s, box-shadow 0.25s;
+}
+
+.md-typeset .grid.cards > ul > li:hover {
+  border-color: var(--md-accent-fg-color);
+  box-shadow: 0 0 0 0.05rem var(--md-accent-fg-color);
+}
+
+/* AI notice styling */
+.md-typeset .admonition.ai,
+.md-typeset details.ai {
+  border-color: rgb(103, 58, 183);
+}
+
+.md-typeset .ai > .admonition-title,
+.md-typeset .ai > summary {
+  background-color: rgba(103, 58, 183, 0.1);
+  border-color: rgb(103, 58, 183);
+}
+
+.md-typeset .ai > .admonition-title::before,
+.md-typeset .ai > summary::before {
+  background-color: rgb(103, 58, 183);
+  -webkit-mask-image: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2a2 2 0 0 1 2 2c0 .74-.4 1.39-1 1.73V7h1a7 7 0 0 1 7 7h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-1v1a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-1H2a1 1 0 0 1-1-1v-3a1 1 0 0 1 1-1h1a7 7 0 0 1 7-7h1V5.73c-.6-.34-1-.99-1-1.73a2 2 0 0 1 2-2M7.5 13A2.5 2.5 0 0 0 5 15.5A2.5 2.5 0 0 0 7.5 18a2.5 2.5 0 0 0 2.5-2.5A2.5 2.5 0 0 0 7.5 13m9 0a2.5 2.5 0 0 0-2.5 2.5a2.5 2.5 0 0 0 2.5 2.5a2.5 2.5 0 0 0 2.5-2.5a2.5 2.5 0 0 0-2.5-2.5Z"/></svg>');
+  mask-image: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2a2 2 0 0 1 2 2c0 .74-.4 1.39-1 1.73V7h1a7 7 0 0 1 7 7h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-1v1a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-1H2a1 1 0 0 1-1-1v-3a1 1 0 0 1 1-1h1a7 7 0 0 1 7-7h1V5.73c-.6-.34-1-.99-1-1.73a2 2 0 0 1 2-2M7.5 13A2.5 2.5 0 0 0 5 15.5A2.5 2.5 0 0 0 7.5 18a2.5 2.5 0 0 0 2.5-2.5A2.5 2.5 0 0 0 7.5 13m9 0a2.5 2.5 0 0 0-2.5 2.5a2.5 2.5 0 0 0 2.5 2.5a2.5 2.5 0 0 0 2.5-2.5a2.5 2.5 0 0 0-2.5-2.5Z"/></svg>');
+}
+
+/* Better code block styling */
+.md-typeset pre > code {
+  max-height: 40rem;
+}
+
+/* Improved table styling */
+.md-typeset table:not([class]) {
+  font-size: 0.8rem;
+}
+
+/* Custom colors for dark mode */
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #4051b5;
+  --md-primary-fg-color--light: #5d6cc0;
+  --md-primary-fg-color--dark: #303fa1;
+}

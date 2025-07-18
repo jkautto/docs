@@ -1,0 +1,175 @@
+site_name: DAI/PAI Documentation
+site_url: https://docs.kaut.to
+site_description: Comprehensive documentation for the DAI/PAI ecosystem
+site_author: DAI
+
+# Repository
+repo_name: jkautto/apps
+repo_url: https://github.com/jkautto/apps
+edit_uri: edit/main/docs/docs/
+
+# Theme configuration
+theme:
+  name: material
+  custom_dir: overrides
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - navigation.top
+    - navigation.instant
+    - navigation.tracking
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+    - content.action.edit
+    - content.action.view
+    - toc.follow
+  palette:
+    # Light mode
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+  icon:
+    logo: material/book-open-page-variant
+    repo: fontawesome/brands/github
+
+# Plugins
+plugins:
+  - search:
+      separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+      lang: en
+  - minify:
+      minify_html: true
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: iso_datetime
+
+# Extensions
+markdown_extensions:
+  # Python Markdown
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+      toc_depth: 4
+  # Python Markdown Extensions
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - pymdownx.snippets:
+      base_path: docs
+
+# Navigation
+nav:
+  - Home: index.md
+  - Quick Start: quickstart.md
+  - Architecture:
+    - Overview: architecture/index.md
+    - DAI System: architecture/dai-system.md
+    - PAI System: architecture/pai-system.md
+    - Infrastructure: architecture/infrastructure.md
+    - Security: architecture/security.md
+  - Guides:
+    - Getting Started: guides/getting-started.md
+    - Development Setup: guides/development-setup.md
+    - Authentication: guides/authentication.md
+    - Google Services: guides/google-services.md
+    - Deployment: guides/deployment.md
+  - Operations:
+    - Daily Maintenance: operations/daily-maintenance.md
+    - Monitoring: operations/monitoring.md
+    - Backup & Recovery: operations/backup-recovery.md
+    - Troubleshooting: operations/troubleshooting.md
+    - Emergency Procedures: operations/emergency-procedures.md
+  - API Reference:
+    - Overview: api/index.md
+    - Tools API: api/tools.md
+    - Task API: api/task.md
+    - PAI Web API: api/pai-web.md
+  - Applications:
+    - Overview: applications/index.md
+    - Pastebin: applications/pastebin.md
+    - Authentication: applications/auth.md
+    - Browser Testing: applications/browser-test.md
+    - Shifts: applications/shifts.md
+  - Context Library:
+    - Overview: context/index.md
+    - CAG System:
+      - Index: context/cag/cag-index.md
+      - Architecture: context/cag/cag-architecture.md
+      - Operations: context/cag/cag-operations.md
+      - Learnings: context/cag/cag-learnings.md
+    - Current Context: context/current.md
+    - Archives: context/archives.md
+  - Specifications:
+    - Active Specs: specs/active.md
+    - Implementation Guides: specs/implementation.md
+    - Archives: specs/archives.md
+
+# Extra configuration
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/jkautto
+      name: GitHub
+  version:
+    provider: mike
+    default: latest
+    
+# Extra CSS
+extra_css:
+  - stylesheets/extra.css
+
+# Extra JavaScript
+extra_javascript:
+  - javascripts/extra.js
+
+# Copyright
+copyright: Copyright &copy; 2025 DAI/PAI System

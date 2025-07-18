@@ -1,0 +1,91 @@
+{
+  "version": "3.1",
+  "last_updated": "2025-07-17T16:00:00Z",
+  "system": {
+    "name": "DAI",
+    "version": "0.4",
+    "purpose": "Development AI Infrastructure for PAI",
+    "server": {
+      "provider": "Hetzner",
+      "location": "Helsinki, Finland",
+      "ip": "157.180.28.186"
+    }
+  },
+  "project_management": {
+    "github_project_board": "https://github.com/users/jkautto/projects/1/views/1"
+  },
+  "services": {
+    "public_domains": {
+      "kaut.to": { "auth": "joni:Penacova", "ssl": "letsencrypt", "description": "Main homepage and hub" },
+      "pb.kaut.to": { "auth": "kaut:to", "port": 8090, "ssl": "letsencrypt", "description": "Pastebin service v2.0" },
+      "auth.kaut.to": { "auth": "joni:Penacova", "port": 8091, "ssl": "letsencrypt", "description": "Cookie authentication portal" },
+      "dev.kaut.to": { "auth": "joni:Penacova", "ssl": "letsencrypt", "description": "Development site" }
+    },
+    "web_applications": {
+      "/ai/": { "port": 8080, "service": "pai-web", "description": "PAI Dashboard" },
+      "/tasks/": { "port": 8001, "service": "task-api", "description": "Task management UI" },
+      "/api/": { "port": 8002, "service": "kaut-api", "description": "Tools API (jtools/toolkit)" },
+      "/auth/": { "port": 8091, "service": "kaut-auth", "description": "Cookie auth on main domain" }
+    },
+    "systemd_services": [
+      "kaut-pastebin",
+      "pai-web",
+      "kaut-auth",
+      "kaut-api"
+    ]
+  },
+  "paths": {
+    "dai_root": "/srv",
+    "pai_root": "/srv/pai",
+    "jtools": "/srv/jtools",
+    "toolkit": "/srv/toolkit",
+    "api": "/srv/api",
+    "apps": "/srv/apps",
+    "context": "/srv/context",
+    "monitoring": "/srv/pai/monitoring",
+    "intelligence_stack": "/srv/pai/intelligence_stack",
+    "tokens": "/srv/tokens",
+    "config": "/srv/config",
+    "logs": "/srv/pai/logs",
+    "web_root": "/var/www/kaut.to"
+  },
+  "repositories": {
+    "dai": { "url": "https://github.com/jkautto/dai", "type": "private", "token_env": "GITHUB_PAT", "description": "Primary for /srv content" },
+    "pai": { "url": "https://github.com/jkautto/pai", "type": "private", "description": "Personal AI Assistant" },
+    "jtools": { "url": "https://github.com/jkautto/jtools", "type": "public", "description": "CLI tools collection" },
+    "kaut-shared": { "url": "https://github.com/jkautto/kaut-shared", "type": "shared", "description": "Shared resources" }
+  },
+  "authentication": {
+    "google_service_account": { "email": "pai-assistant@personal-ai-453416.iam.gserviceaccount.com", "key_file": "/srv/config/pai-service-account.json" },
+    "oauth_tokens": {
+      "gmail": "/srv/tokens/gmail_token.json",
+      "calendar": "/srv/tokens/gcal_token.json",
+      "tasks": "/srv/tokens/tasks_token.json"
+    },
+    "api_keys": {
+      "github_pat": { "env_var": "GITHUB_PAT", "location": "/srv/.env" },
+      "gemini_api_key": { "env_var": "GEMINI_API_KEY", "location": "/srv/.env" }
+    }
+  },
+  "slack": {
+    "user_id": "UGQR4AJNS",
+    "mention_format": "<@UGQR4AJNS>",
+    "channels": {
+      "pai": { "id": "C08VA59A4CS", "purpose": "urgent_with_mentions", "webhook_env": "SLACK_PAI_WEBHOOK" },
+      "pai-notifications": { "purpose": "important_not_urgent", "webhook_env": "SLACK_PAI_NOTIFICATIONS_WEBHOOK" },
+      "pai-verbose": { "purpose": "all_activity_debug", "webhook_env": "SLACK_PAI_VERBOSE_WEBHOOK" }
+    }
+  },
+  "sessions": {
+    "main": "current_claude_code_session",
+    "monitoring": "e1552581-18f6-491d-b8ca-37dd8edbc38a"
+  },
+  "cron_schedule": {
+    "morning_brief": "0 6 * * *",
+    "email_monitor": "*/10 * * * *",
+    "task_monitor": "0 * * * *",
+    "token_refresh": "0 3 * * *",
+    "system_status": "0 * * * *",
+    "log_rotation": "0 0 * * *"
+  }
+}
