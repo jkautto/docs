@@ -1,235 +1,3 @@
-INFO    -  Doc file 'api/index.md' contains an absolute link '/architecture/security/', it was left as is.
-INFO    -  Doc file 'api/shifts.md' contains an absolute link '/applications/shifts/', it was left as is. Did you mean '../applications/shifts.md'?
-INFO    -  Doc file 'api/shifts.md' contains an absolute link '/guides/authentication/', it was left as is.
-INFO    -  Doc file 'api/shifts.md' contains an absolute link '/api/', it was left as is. Did you mean 'index.md'?
-INFO    -  Doc file 'applications/index.md' contains an absolute link '/applications/shifts/', it was left as is. Did you mean 'shifts.md'?
-INFO    -  Doc file 'applications/index.md' contains an absolute link '/applications/pai-dashboard/', it was left as is.
-INFO    -  Doc file 'applications/index.md' contains an absolute link '/applications/pastebin/', it was left as is.
-INFO    -  Doc file 'applications/index.md' contains an absolute link '/architecture/', it was left as is. Did you mean '../architecture/index.md'?
-INFO    -  Doc file 'applications/index.md' contains an absolute link '/operations/', it was left as is.
-INFO    -  Doc file 'applications/index.md' contains an absolute link '/api/', it was left as is. Did you mean '../api/index.md'?
-INFO    -  Doc file 'applications/index.md' contains an absolute link '/guides/', it was left as is. Did you mean '../guides/index.md'?
-INFO    -  Doc file 'applications/jtools-testing-toolkit.md' contains an absolute link '/guides/jtools-testing/', it was left as is. Did you mean '../guides/jtools-testing.md'?
-INFO    -  Doc file 'applications/jtools-testing-toolkit.md' contains an absolute link '/specs/jtools-testing-toolkit/', it was left as is. Did you mean '../specs/jtools-testing-toolkit.md'?
-INFO    -  Doc file 'applications/jtools-testing-toolkit.md' contains an absolute link '/guides/browser-testing/', it was left as is. Did you mean '../guides/browser-testing.md'?
-INFO    -  Doc file 'applications/jtools-testing-toolkit.md' contains an absolute link '/guides/ci-cd-setup/', it was left as is.
-INFO    -  Doc file 'applications/shifts.md' contains an absolute link '/api/shifts/', it was left as is. Did you mean '../api/shifts.md'?
-INFO    -  Doc file 'applications/shifts.md' contains an absolute link '/guides/github-workflow/', it was left as is. Did you mean '../guides/github-workflow.md'?
-INFO    -  Doc file 'applications/shifts.md' contains an absolute link '/guides/development-standards/', it was left as is.
-INFO    -  Doc file 'applications/shifts.md' contains an absolute link '/guides/testing/', it was left as is.
-WARNING -  Doc file 'applications/slack-bot.md' contains a link '../architecture/intelligence-stack.md', but the target 'architecture/intelligence-stack.md' is not found among documentation files.
-WARNING -  Doc file 'architecture/index.md' contains a link 'dai-system.md', but the target 'architecture/dai-system.md' is not found among documentation files.
-WARNING -  Doc file 'architecture/index.md' contains a link 'pai-system.md', but the target 'architecture/pai-system.md' is not found among documentation files.
-WARNING -  Doc file 'architecture/index.md' contains a link 'infrastructure.md', but the target 'architecture/infrastructure.md' is not found among documentation files.
-WARNING -  Doc file 'architecture/index.md' contains a link 'security.md', but the target 'architecture/security.md' is not found among documentation files.
-INFO    -  Doc file 'context/index.md' contains an absolute link '/srv/context/development/github-issue-driven-workflow.md', it was left as is.
-INFO    -  Doc file 'guides/index.md' contains an absolute link '/reference/commands/', it was left as is.
-INFO    -  Doc file 'guides/index.md' contains an absolute link '/api/', it was left as is. Did you mean '../api/index.md'?
-INFO    -  Doc file 'guides/index.md' contains an absolute link '/reference/configs/', it was left as is.
-INFO    -  Doc file 'guides/index.md' contains an absolute link '/reference/env-vars/', it was left as is.
-INFO    -  Doc file 'guides/ai-agent-collaboration.md' contains an absolute link '/guides/ai-agent-onboarding/', it was left as is. Did you mean 'ai-agent-onboarding.md'?
-INFO    -  Doc file 'guides/ai-agent-collaboration.md' contains an absolute link '/guides/ai-agent-development/', it was left as is. Did you mean 'ai-agent-development.md'?
-INFO    -  Doc file 'guides/ai-agent-collaboration.md' contains an absolute link '/guides/jtools-testing/', it was left as is. Did you mean 'jtools-testing.md'?
-INFO    -  Doc file 'guides/ai-agent-development.md' contains an absolute link '/guides/jtools-testing/', it was left as is. Did you mean 'jtools-testing.md'?
-WARNING -  Doc file 'guides/claude-cli-advanced.md' contains a link '../architecture/intelligence-stack.md', but the target 'architecture/intelligence-stack.md' is not found among documentation files.
-INFO    -  Doc file 'guides/claude-cli-advanced.md' contains an unrecognized relative link '../operations/', it was left as is.
-INFO    -  Doc file 'guides/getting-started.md' contains an absolute link '/quickstart.md', it was left as is. Did you mean '../quickstart.md'?
-WARNING -  Doc file 'guides/getting-started.md' contains a link 'development-setup.md', but the target 'guides/development-setup.md' is not found among documentation files.
-WARNING -  Doc file 'guides/getting-started.md' contains a link 'authentication.md', but the target 'guides/authentication.md' is not found among documentation files.
-INFO    -  Doc file 'guides/github-workflow.md' contains an absolute link '/srv/docs/git-workflow.md', it was left as is.
-WARNING -  Doc file 'guides/github-workflow.md' contains a link './development-standards.md', but the target 'guides/development-standards.md' is not found among documentation files.
-INFO    -  Doc file 'guides/jtools-testing.md' contains an absolute link '/specs/jtools-testing-toolkit/', it was left as is. Did you mean '../specs/jtools-testing-toolkit.md'?
-INFO    -  Doc file 'guides/jtools-testing.md' contains an absolute link '/guides/ci-cd-setup/', it was left as is.
-INFO    -  Doc file 'guides/jtools-testing.md' contains an absolute link '/guides/performance-testing/', it was left as is.
-WARNING -  Doc file 'guides/slack-webhooks.md' contains a link '../operations/monitoring-alerts.md', but the target 'operations/monitoring-alerts.md' is not found among documentation files.
-WARNING -  Doc file 'guides/slack-webhooks.md' contains a link '../architecture/intelligence-stack.md', but the target 'architecture/intelligence-stack.md' is not found among documentation files.
-WARNING -  Doc file 'operations/claude-sessions.md' contains a link './common-issues.md', but the target 'operations/common-issues.md' is not found among documentation files.
-WARNING -  Doc file 'operations/claude-sessions.md' contains a link './monitoring-alerts.md', but the target 'operations/monitoring-alerts.md' is not found among documentation files.
-WARNING -  Doc file 'operations/monitoring.md' contains a link './slack-bot-recovery.md', but the target 'operations/slack-bot-recovery.md' is not found among documentation files.
-WARNING -  Doc file 'operations/monitoring.md' contains a link './token-refresh.md', but the target 'operations/token-refresh.md' is not found among documentation files.
-WARNING -  Doc file 'operations/monitoring.md' contains a link './incident-response.md', but the target 'operations/incident-response.md' is not found among documentation files.
-WARNING -  Doc file 'specs/active.md' contains a link 'kaut-mcp-server.md', but the target 'specs/kaut-mcp-server.md' is not found among documentation files.
-WARNING -  Doc file 'specs/active.md' contains a link 'ai-self-documenting.md', but the target 'specs/ai-self-documenting.md' is not found among documentation files.
-WARNING -  Doc file 'specs/active.md' contains a link 'jtools-api-architecture.md', but the target 'specs/jtools-api-architecture.md' is not found among documentation files.
-WARNING -  Doc file 'specs/active.md' contains a link 'jtools-reorganization.md', but the target 'specs/jtools-reorganization.md' is not found among documentation files.
-WARNING -  Doc file 'specs/active.md' contains a link 'jtools-unified-structure.md', but the target 'specs/jtools-unified-structure.md' is not found among documentation files.
-WARNING -  Doc file 'specs/active.md' contains a link 'context-library.md', but the target 'specs/context-library.md' is not found among documentation files.
-WARNING -  Doc file 'specs/active.md' contains a link 'context-optimization.md', but the target 'specs/context-optimization.md' is not found among documentation files.
-WARNING -  Doc file 'specs/active.md' contains a link 'specialized-agents.md', but the target 'specs/specialized-agents.md' is not found among documentation files.
-WARNING -  Doc file 'specs/documentation-optimization.md' contains a link '../path/to/doc.md', but the target 'path/to/doc.md' is not found among documentation files.
-WARNING -  Doc file 'specs/implementation.md' contains a link 'context-library.md', but the target 'specs/context-library.md' is not found among documentation files.
-WARNING -  Doc file 'specs/implementation.md' contains a link '../guides/development-setup.md', but the target 'guides/development-setup.md' is not found among documentation files.
-WARNING -  Doc file 'specs/implementation.md' contains a link '../guides/testing.md', but the target 'guides/testing.md' is not found among documentation files.
-WARNING -  Doc file 'specs/implementation.md' contains a link '../guides/deployment.md', but the target 'guides/deployment.md' is not found among documentation files.
-INFO    -  Doc file 'updates/2025-06-17-slack-documentation.md' contains an absolute link '/applications/slack-bot/', it was left as is. Did you mean '../applications/slack-bot.md'?
-INFO    -  Doc file 'updates/2025-06-17-slack-documentation.md' contains an absolute link '/guides/claude-cli-advanced/', it was left as is. Did you mean '../guides/claude-cli-advanced.md'?
-INFO    -  Doc file 'updates/2025-06-17-slack-documentation.md' contains an absolute link '/guides/slack-webhooks/', it was left as is. Did you mean '../guides/slack-webhooks.md'?
-INFO    -  Doc file 'updates/2025-06-17-slack-documentation.md' contains an absolute link '/operations/slack-recovery/', it was left as is. Did you mean '../operations/slack-recovery.md'?
-INFO    -  Documentation built in 11.40 seconds
-[Mon Jul 21 06:10:14 PM UTC 2025] Build completed successfully
-[Mon Jul 21 06:10:14 PM UTC 2025] Site updated at https://docs.kaut.to
-[Mon Jul 21 06:10:14 PM UTC 2025] Disk usage: 6.3M
-[Mon Jul 21 06:10:14 PM UTC 2025] Build script completed
-----------------------------------------
-[Mon Jul 21 06:15:01 PM UTC 2025] Starting MkDocs build...
-[Mon Jul 21 06:15:01 PM UTC 2025] Pulling latest changes from git...
-From https://github.com/jkautto/docs
- * branch              main       -> FETCH_HEAD
-Already up to date.
-[Mon Jul 21 06:15:02 PM UTC 2025] Building documentation...
-INFO    -  Cleaning site directory
-INFO    -  Building documentation to directory: /srv/docs/site
-INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
-  - guides/github-workflow.md
-  - updates/2025-06-17-slack-documentation.md
-WARNING -  A reference to 'architecture/dai-system.md' is included in the 'nav' configuration, which is not found in the documentation files.
-WARNING -  A reference to 'architecture/pai-system.md' is included in the 'nav' configuration, which is not found in the documentation files.
-WARNING -  A reference to 'architecture/infrastructure.md' is included in the 'nav' configuration, which is not found in the documentation files.
-WARNING -  A reference to 'architecture/security.md' is included in the 'nav' configuration, which is not found in the documentation files.
-WARNING -  A reference to 'guides/development-setup.md' is included in the 'nav' configuration, which is not found in the documentation files.
-WARNING -  A reference to 'guides/authentication.md' is included in the 'nav' configuration, which is not found in the documentation files.
-WARNING -  A reference to 'guides/google-services.md' is included in the 'nav' configuration, which is not found in the documentation files.
-WARNING -  A reference to 'guides/deployment.md' is included in the 'nav' configuration, which is not found in the documentation files.
-WARNING -  A reference to 'api/tools.md' is included in the 'nav' configuration, which is not found in the documentation files.
-WARNING -  A reference to 'api/task.md' is included in the 'nav' configuration, which is not found in the documentation files.
-WARNING -  A reference to 'api/pai-web.md' is included in the 'nav' configuration, which is not found in the documentation files.
-WARNING -  A reference to 'applications/pastebin.md' is included in the 'nav' configuration, which is not found in the documentation files.
-WARNING -  A reference to 'applications/auth.md' is included in the 'nav' configuration, which is not found in the documentation files.
-WARNING -  A reference to 'applications/browser-test.md' is included in the 'nav' configuration, which is not found in the documentation files.
-WARNING -  Doc file 'index.md' contains a link 'operations/index.md', but the target is not found among documentation files.
-WARNING -  Doc file 'api/index.md' contains a link './tools.md', but the target 'api/tools.md' is not found among documentation files.
-WARNING -  Doc file 'api/index.md' contains a link './task.md', but the target 'api/task.md' is not found among documentation files.
-WARNING -  Doc file 'api/index.md' contains a link './pai-web.md', but the target 'api/pai-web.md' is not found among documentation files.
-INFO    -  Doc file 'api/index.md' contains an absolute link '/architecture/', it was left as is. Did you mean '../architecture/index.md'?
-INFO    -  Doc file 'api/index.md' contains an absolute link '/guides/authentication/', it was left as is.
-INFO    -  Doc file 'api/index.md' contains an absolute link '/guides/development-setup/', it was left as is.
-INFO    -  Doc file 'api/index.md' contains an absolute link '/architecture/security/', it was left as is.
-INFO    -  Doc file 'api/shifts.md' contains an absolute link '/applications/shifts/', it was left as is. Did you mean '../applications/shifts.md'?
-INFO    -  Doc file 'api/shifts.md' contains an absolute link '/guides/authentication/', it was left as is.
-INFO    -  Doc file 'api/shifts.md' contains an absolute link '/api/', it was left as is. Did you mean 'index.md'?
-INFO    -  Doc file 'applications/index.md' contains an absolute link '/applications/shifts/', it was left as is. Did you mean 'shifts.md'?
-INFO    -  Doc file 'applications/index.md' contains an absolute link '/applications/pai-dashboard/', it was left as is.
-INFO    -  Doc file 'applications/index.md' contains an absolute link '/applications/pastebin/', it was left as is.
-INFO    -  Doc file 'applications/index.md' contains an absolute link '/architecture/', it was left as is. Did you mean '../architecture/index.md'?
-INFO    -  Doc file 'applications/index.md' contains an absolute link '/operations/', it was left as is.
-INFO    -  Doc file 'applications/index.md' contains an absolute link '/api/', it was left as is. Did you mean '../api/index.md'?
-INFO    -  Doc file 'applications/index.md' contains an absolute link '/guides/', it was left as is. Did you mean '../guides/index.md'?
-INFO    -  Doc file 'applications/jtools-testing-toolkit.md' contains an absolute link '/guides/jtools-testing/', it was left as is. Did you mean '../guides/jtools-testing.md'?
-INFO    -  Doc file 'applications/jtools-testing-toolkit.md' contains an absolute link '/specs/jtools-testing-toolkit/', it was left as is. Did you mean '../specs/jtools-testing-toolkit.md'?
-INFO    -  Doc file 'applications/jtools-testing-toolkit.md' contains an absolute link '/guides/browser-testing/', it was left as is. Did you mean '../guides/browser-testing.md'?
-INFO    -  Doc file 'applications/jtools-testing-toolkit.md' contains an absolute link '/guides/ci-cd-setup/', it was left as is.
-INFO    -  Doc file 'applications/shifts.md' contains an absolute link '/api/shifts/', it was left as is. Did you mean '../api/shifts.md'?
-INFO    -  Doc file 'applications/shifts.md' contains an absolute link '/guides/github-workflow/', it was left as is. Did you mean '../guides/github-workflow.md'?
-INFO    -  Doc file 'applications/shifts.md' contains an absolute link '/guides/development-standards/', it was left as is.
-INFO    -  Doc file 'applications/shifts.md' contains an absolute link '/guides/testing/', it was left as is.
-WARNING -  Doc file 'applications/slack-bot.md' contains a link '../architecture/intelligence-stack.md', but the target 'architecture/intelligence-stack.md' is not found among documentation files.
-WARNING -  Doc file 'architecture/index.md' contains a link 'dai-system.md', but the target 'architecture/dai-system.md' is not found among documentation files.
-WARNING -  Doc file 'architecture/index.md' contains a link 'pai-system.md', but the target 'architecture/pai-system.md' is not found among documentation files.
-WARNING -  Doc file 'architecture/index.md' contains a link 'infrastructure.md', but the target 'architecture/infrastructure.md' is not found among documentation files.
-WARNING -  Doc file 'architecture/index.md' contains a link 'security.md', but the target 'architecture/security.md' is not found among documentation files.
-INFO    -  Doc file 'context/index.md' contains an absolute link '/srv/context/development/github-issue-driven-workflow.md', it was left as is.
-INFO    -  Doc file 'guides/index.md' contains an absolute link '/reference/commands/', it was left as is.
-INFO    -  Doc file 'guides/index.md' contains an absolute link '/api/', it was left as is. Did you mean '../api/index.md'?
-INFO    -  Doc file 'guides/index.md' contains an absolute link '/reference/configs/', it was left as is.
-INFO    -  Doc file 'guides/index.md' contains an absolute link '/reference/env-vars/', it was left as is.
-INFO    -  Doc file 'guides/ai-agent-collaboration.md' contains an absolute link '/guides/ai-agent-onboarding/', it was left as is. Did you mean 'ai-agent-onboarding.md'?
-INFO    -  Doc file 'guides/ai-agent-collaboration.md' contains an absolute link '/guides/ai-agent-development/', it was left as is. Did you mean 'ai-agent-development.md'?
-INFO    -  Doc file 'guides/ai-agent-collaboration.md' contains an absolute link '/guides/jtools-testing/', it was left as is. Did you mean 'jtools-testing.md'?
-INFO    -  Doc file 'guides/ai-agent-development.md' contains an absolute link '/guides/jtools-testing/', it was left as is. Did you mean 'jtools-testing.md'?
-WARNING -  Doc file 'guides/claude-cli-advanced.md' contains a link '../architecture/intelligence-stack.md', but the target 'architecture/intelligence-stack.md' is not found among documentation files.
-INFO    -  Doc file 'guides/claude-cli-advanced.md' contains an unrecognized relative link '../operations/', it was left as is.
-INFO    -  Doc file 'guides/getting-started.md' contains an absolute link '/quickstart.md', it was left as is. Did you mean '../quickstart.md'?
-WARNING -  Doc file 'guides/getting-started.md' contains a link 'development-setup.md', but the target 'guides/development-setup.md' is not found among documentation files.
-WARNING -  Doc file 'guides/getting-started.md' contains a link 'authentication.md', but the target 'guides/authentication.md' is not found among documentation files.
-INFO    -  Doc file 'guides/github-workflow.md' contains an absolute link '/srv/docs/git-workflow.md', it was left as is.
-WARNING -  Doc file 'guides/github-workflow.md' contains a link './development-standards.md', but the target 'guides/development-standards.md' is not found among documentation files.
-INFO    -  Doc file 'guides/jtools-testing.md' contains an absolute link '/specs/jtools-testing-toolkit/', it was left as is. Did you mean '../specs/jtools-testing-toolkit.md'?
-INFO    -  Doc file 'guides/jtools-testing.md' contains an absolute link '/guides/ci-cd-setup/', it was left as is.
-INFO    -  Doc file 'guides/jtools-testing.md' contains an absolute link '/guides/performance-testing/', it was left as is.
-WARNING -  Doc file 'guides/slack-webhooks.md' contains a link '../operations/monitoring-alerts.md', but the target 'operations/monitoring-alerts.md' is not found among documentation files.
-WARNING -  Doc file 'guides/slack-webhooks.md' contains a link '../architecture/intelligence-stack.md', but the target 'architecture/intelligence-stack.md' is not found among documentation files.
-WARNING -  Doc file 'operations/claude-sessions.md' contains a link './common-issues.md', but the target 'operations/common-issues.md' is not found among documentation files.
-WARNING -  Doc file 'operations/claude-sessions.md' contains a link './monitoring-alerts.md', but the target 'operations/monitoring-alerts.md' is not found among documentation files.
-WARNING -  Doc file 'operations/monitoring.md' contains a link './slack-bot-recovery.md', but the target 'operations/slack-bot-recovery.md' is not found among documentation files.
-WARNING -  Doc file 'operations/monitoring.md' contains a link './token-refresh.md', but the target 'operations/token-refresh.md' is not found among documentation files.
-WARNING -  Doc file 'operations/monitoring.md' contains a link './incident-response.md', but the target 'operations/incident-response.md' is not found among documentation files.
-WARNING -  Doc file 'specs/active.md' contains a link 'kaut-mcp-server.md', but the target 'specs/kaut-mcp-server.md' is not found among documentation files.
-WARNING -  Doc file 'specs/active.md' contains a link 'ai-self-documenting.md', but the target 'specs/ai-self-documenting.md' is not found among documentation files.
-WARNING -  Doc file 'specs/active.md' contains a link 'jtools-api-architecture.md', but the target 'specs/jtools-api-architecture.md' is not found among documentation files.
-WARNING -  Doc file 'specs/active.md' contains a link 'jtools-reorganization.md', but the target 'specs/jtools-reorganization.md' is not found among documentation files.
-WARNING -  Doc file 'specs/active.md' contains a link 'jtools-unified-structure.md', but the target 'specs/jtools-unified-structure.md' is not found among documentation files.
-WARNING -  Doc file 'specs/active.md' contains a link 'context-library.md', but the target 'specs/context-library.md' is not found among documentation files.
-WARNING -  Doc file 'specs/active.md' contains a link 'context-optimization.md', but the target 'specs/context-optimization.md' is not found among documentation files.
-WARNING -  Doc file 'specs/active.md' contains a link 'specialized-agents.md', but the target 'specs/specialized-agents.md' is not found among documentation files.
-WARNING -  Doc file 'specs/documentation-optimization.md' contains a link '../path/to/doc.md', but the target 'path/to/doc.md' is not found among documentation files.
-WARNING -  Doc file 'specs/implementation.md' contains a link 'context-library.md', but the target 'specs/context-library.md' is not found among documentation files.
-WARNING -  Doc file 'specs/implementation.md' contains a link '../guides/development-setup.md', but the target 'guides/development-setup.md' is not found among documentation files.
-WARNING -  Doc file 'specs/implementation.md' contains a link '../guides/testing.md', but the target 'guides/testing.md' is not found among documentation files.
-WARNING -  Doc file 'specs/implementation.md' contains a link '../guides/deployment.md', but the target 'guides/deployment.md' is not found among documentation files.
-INFO    -  Doc file 'updates/2025-06-17-slack-documentation.md' contains an absolute link '/applications/slack-bot/', it was left as is. Did you mean '../applications/slack-bot.md'?
-INFO    -  Doc file 'updates/2025-06-17-slack-documentation.md' contains an absolute link '/guides/claude-cli-advanced/', it was left as is. Did you mean '../guides/claude-cli-advanced.md'?
-INFO    -  Doc file 'updates/2025-06-17-slack-documentation.md' contains an absolute link '/guides/slack-webhooks/', it was left as is. Did you mean '../guides/slack-webhooks.md'?
-INFO    -  Doc file 'updates/2025-06-17-slack-documentation.md' contains an absolute link '/operations/slack-recovery/', it was left as is. Did you mean '../operations/slack-recovery.md'?
-INFO    -  Documentation built in 10.79 seconds
-[Mon Jul 21 06:15:13 PM UTC 2025] Build completed successfully
-[Mon Jul 21 06:15:13 PM UTC 2025] Site updated at https://docs.kaut.to
-[Mon Jul 21 06:15:13 PM UTC 2025] Disk usage: 6.5M
-[Mon Jul 21 06:15:14 PM UTC 2025] Build script completed
-----------------------------------------
-[Mon Jul 21 06:20:01 PM UTC 2025] Starting MkDocs build...
-[Mon Jul 21 06:20:01 PM UTC 2025] Pulling latest changes from git...
-From https://github.com/jkautto/docs
- * branch              main       -> FETCH_HEAD
-Already up to date.
-[Mon Jul 21 06:20:01 PM UTC 2025] Building documentation...
-INFO    -  Cleaning site directory
-INFO    -  Building documentation to directory: /srv/docs/site
-INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
-  - api/github-cli-graphql-research.md
-  - archive/github-workflow.md
-  - guides/claude-code-pm-guide.md
-WARNING -  A reference to 'architecture/dai-system.md' is included in the 'nav' configuration, which is not found in the documentation files.
-WARNING -  A reference to 'architecture/pai-system.md' is included in the 'nav' configuration, which is not found in the documentation files.
-WARNING -  A reference to 'architecture/infrastructure.md' is included in the 'nav' configuration, which is not found in the documentation files.
-WARNING -  A reference to 'architecture/security.md' is included in the 'nav' configuration, which is not found in the documentation files.
-WARNING -  A reference to 'guides/development-setup.md' is included in the 'nav' configuration, which is not found in the documentation files.
-WARNING -  A reference to 'guides/authentication.md' is included in the 'nav' configuration, which is not found in the documentation files.
-WARNING -  A reference to 'guides/google-services.md' is included in the 'nav' configuration, which is not found in the documentation files.
-WARNING -  A reference to 'guides/deployment.md' is included in the 'nav' configuration, which is not found in the documentation files.
-WARNING -  A reference to 'api/tools.md' is included in the 'nav' configuration, which is not found in the documentation files.
-WARNING -  A reference to 'api/task.md' is included in the 'nav' configuration, which is not found in the documentation files.
-WARNING -  A reference to 'api/pai-web.md' is included in the 'nav' configuration, which is not found in the documentation files.
-WARNING -  A reference to 'applications/pastebin.md' is included in the 'nav' configuration, which is not found in the documentation files.
-WARNING -  A reference to 'applications/auth.md' is included in the 'nav' configuration, which is not found in the documentation files.
-WARNING -  A reference to 'specs/browser-testing-toolkit.md' is included in the 'nav' configuration, which is not found in the documentation files.
-WARNING -  A reference to 'specs/jtools-testing-toolkit.md' is included in the 'nav' configuration, which is not found in the documentation files.
-WARNING -  Doc file 'index.md' contains a link 'operations/index.md', but the target is not found among documentation files.
-WARNING -  Doc file 'api/index.md' contains a link './tools.md', but the target 'api/tools.md' is not found among documentation files.
-WARNING -  Doc file 'api/index.md' contains a link './task.md', but the target 'api/task.md' is not found among documentation files.
-WARNING -  Doc file 'api/index.md' contains a link './pai-web.md', but the target 'api/pai-web.md' is not found among documentation files.
-INFO    -  Doc file 'api/index.md' contains an absolute link '/architecture/', it was left as is. Did you mean '../architecture/index.md'?
-INFO    -  Doc file 'api/index.md' contains an absolute link '/guides/authentication/', it was left as is.
-INFO    -  Doc file 'api/index.md' contains an absolute link '/guides/development-setup/', it was left as is.
-INFO    -  Doc file 'api/index.md' contains an absolute link '/architecture/security/', it was left as is.
-INFO    -  Doc file 'api/shifts.md' contains an absolute link '/applications/shifts/', it was left as is. Did you mean '../applications/shifts.md'?
-INFO    -  Doc file 'api/shifts.md' contains an absolute link '/guides/authentication/', it was left as is.
-INFO    -  Doc file 'api/shifts.md' contains an absolute link '/api/', it was left as is. Did you mean 'index.md'?
-WARNING -  Doc file 'applications/index.md' contains a link 'jtools-testing-toolkit.md', but the target 'applications/jtools-testing-toolkit.md' is not found among documentation files.
-INFO    -  Doc file 'applications/index.md' contains an absolute link '/applications/shifts/', it was left as is. Did you mean 'shifts.md'?
-INFO    -  Doc file 'applications/index.md' contains an absolute link '/applications/pai-dashboard/', it was left as is.
-INFO    -  Doc file 'applications/index.md' contains an absolute link '/applications/pastebin/', it was left as is.
-INFO    -  Doc file 'applications/index.md' contains an absolute link '/architecture/', it was left as is. Did you mean '../architecture/index.md'?
-INFO    -  Doc file 'applications/index.md' contains an absolute link '/operations/', it was left as is.
-INFO    -  Doc file 'applications/index.md' contains an absolute link '/api/', it was left as is. Did you mean '../api/index.md'?
-INFO    -  Doc file 'applications/index.md' contains an absolute link '/guides/', it was left as is. Did you mean '../guides/index.md'?
-INFO    -  Doc file 'applications/shifts.md' contains an absolute link '/api/shifts/', it was left as is. Did you mean '../api/shifts.md'?
-INFO    -  Doc file 'applications/shifts.md' contains an absolute link '/guides/github-workflow/', it was left as is.
-INFO    -  Doc file 'applications/shifts.md' contains an absolute link '/guides/development-standards/', it was left as is.
-INFO    -  Doc file 'applications/shifts.md' contains an absolute link '/guides/testing/', it was left as is.
-WARNING -  Doc file 'applications/slack-bot.md' contains a link '../architecture/intelligence-stack.md', but the target 'architecture/intelligence-stack.md' is not found among documentation files.
-INFO    -  Doc file 'applications/jtools-testing-toolkit/index.md' contains an absolute link '/guides/jtools-testing/', it was left as is.
-INFO    -  Doc file 'applications/jtools-testing-toolkit/index.md' contains an absolute link '/specs/jtools-testing-toolkit/', it was left as is.
-INFO    -  Doc file 'applications/jtools-testing-toolkit/index.md' contains an absolute link '/guides/browser-testing/', it was left as is.
 INFO    -  Doc file 'applications/jtools-testing-toolkit/index.md' contains an absolute link '/guides/ci-cd-setup/', it was left as is.
 INFO    -  Doc file 'applications/jtools-testing-toolkit/guide.md' contains an absolute link '/specs/jtools-testing-toolkit/', it was left as is.
 INFO    -  Doc file 'applications/jtools-testing-toolkit/guide.md' contains an absolute link '/guides/ci-cd-setup/', it was left as is.
@@ -999,4 +767,236 @@ INFO    -  Documentation built in 11.99 seconds
 [Mon Jul 21 06:50:15 PM UTC 2025] Site updated at https://docs.kaut.to
 [Mon Jul 21 06:50:15 PM UTC 2025] Disk usage: 6.9M
 [Mon Jul 21 06:50:15 PM UTC 2025] Build script completed
+----------------------------------------
+[Mon Jul 21 06:55:01 PM UTC 2025] Starting MkDocs build...
+[Mon Jul 21 06:55:01 PM UTC 2025] Pulling latest changes from git...
+From https://github.com/jkautto/docs
+ * branch              main       -> FETCH_HEAD
+Already up to date.
+[Mon Jul 21 06:55:01 PM UTC 2025] Building documentation...
+INFO    -  Cleaning site directory
+INFO    -  Building documentation to directory: /srv/docs/site
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - api/github-cli-graphql-research.md
+  - archive/github-workflow.md
+  - guides/github-quick-reference.md
+  - guides/working-with-ai-agents.md
+WARNING -  A reference to 'architecture/dai-system.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  A reference to 'architecture/pai-system.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  A reference to 'architecture/infrastructure.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  A reference to 'architecture/security.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  A reference to 'guides/development-setup.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  A reference to 'guides/authentication.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  A reference to 'guides/google-services.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  A reference to 'guides/deployment.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  A reference to 'api/tools.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  A reference to 'api/task.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  A reference to 'api/pai-web.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  A reference to 'applications/pastebin.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  A reference to 'applications/auth.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  A reference to 'specs/browser-testing-toolkit.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  A reference to 'specs/jtools-testing-toolkit.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  Doc file 'index.md' contains a link 'operations/index.md', but the target is not found among documentation files.
+WARNING -  Doc file 'api/index.md' contains a link './tools.md', but the target 'api/tools.md' is not found among documentation files.
+WARNING -  Doc file 'api/index.md' contains a link './task.md', but the target 'api/task.md' is not found among documentation files.
+WARNING -  Doc file 'api/index.md' contains a link './pai-web.md', but the target 'api/pai-web.md' is not found among documentation files.
+INFO    -  Doc file 'api/index.md' contains an absolute link '/architecture/', it was left as is. Did you mean '../architecture/index.md'?
+INFO    -  Doc file 'api/index.md' contains an absolute link '/guides/authentication/', it was left as is.
+INFO    -  Doc file 'api/index.md' contains an absolute link '/guides/development-setup/', it was left as is.
+INFO    -  Doc file 'api/index.md' contains an absolute link '/architecture/security/', it was left as is.
+INFO    -  Doc file 'api/shifts.md' contains an absolute link '/applications/shifts/', it was left as is. Did you mean '../applications/shifts.md'?
+INFO    -  Doc file 'api/shifts.md' contains an absolute link '/guides/authentication/', it was left as is.
+INFO    -  Doc file 'api/shifts.md' contains an absolute link '/api/', it was left as is. Did you mean 'index.md'?
+WARNING -  Doc file 'applications/index.md' contains a link 'jtools-testing-toolkit.md', but the target 'applications/jtools-testing-toolkit.md' is not found among documentation files.
+INFO    -  Doc file 'applications/index.md' contains an absolute link '/applications/shifts/', it was left as is. Did you mean 'shifts.md'?
+INFO    -  Doc file 'applications/index.md' contains an absolute link '/applications/pai-dashboard/', it was left as is.
+INFO    -  Doc file 'applications/index.md' contains an absolute link '/applications/pastebin/', it was left as is.
+INFO    -  Doc file 'applications/index.md' contains an absolute link '/architecture/', it was left as is. Did you mean '../architecture/index.md'?
+INFO    -  Doc file 'applications/index.md' contains an absolute link '/operations/', it was left as is.
+INFO    -  Doc file 'applications/index.md' contains an absolute link '/api/', it was left as is. Did you mean '../api/index.md'?
+INFO    -  Doc file 'applications/index.md' contains an absolute link '/guides/', it was left as is. Did you mean '../guides/index.md'?
+INFO    -  Doc file 'applications/shifts.md' contains an absolute link '/api/shifts/', it was left as is. Did you mean '../api/shifts.md'?
+INFO    -  Doc file 'applications/shifts.md' contains an absolute link '/guides/github-workflow/', it was left as is.
+INFO    -  Doc file 'applications/shifts.md' contains an absolute link '/guides/development-standards/', it was left as is.
+INFO    -  Doc file 'applications/shifts.md' contains an absolute link '/guides/testing/', it was left as is.
+WARNING -  Doc file 'applications/slack-bot.md' contains a link '../architecture/intelligence-stack.md', but the target 'architecture/intelligence-stack.md' is not found among documentation files.
+INFO    -  Doc file 'applications/jtools-testing-toolkit/index.md' contains an absolute link '/guides/jtools-testing/', it was left as is.
+INFO    -  Doc file 'applications/jtools-testing-toolkit/index.md' contains an absolute link '/specs/jtools-testing-toolkit/', it was left as is.
+INFO    -  Doc file 'applications/jtools-testing-toolkit/index.md' contains an absolute link '/guides/browser-testing/', it was left as is.
+INFO    -  Doc file 'applications/jtools-testing-toolkit/index.md' contains an absolute link '/guides/ci-cd-setup/', it was left as is.
+INFO    -  Doc file 'applications/jtools-testing-toolkit/guide.md' contains an absolute link '/specs/jtools-testing-toolkit/', it was left as is.
+INFO    -  Doc file 'applications/jtools-testing-toolkit/guide.md' contains an absolute link '/guides/ci-cd-setup/', it was left as is.
+INFO    -  Doc file 'applications/jtools-testing-toolkit/guide.md' contains an absolute link '/guides/performance-testing/', it was left as is.
+WARNING -  Doc file 'architecture/index.md' contains a link 'dai-system.md', but the target 'architecture/dai-system.md' is not found among documentation files.
+WARNING -  Doc file 'architecture/index.md' contains a link 'pai-system.md', but the target 'architecture/pai-system.md' is not found among documentation files.
+WARNING -  Doc file 'architecture/index.md' contains a link 'infrastructure.md', but the target 'architecture/infrastructure.md' is not found among documentation files.
+WARNING -  Doc file 'architecture/index.md' contains a link 'security.md', but the target 'architecture/security.md' is not found among documentation files.
+WARNING -  Doc file 'archive/github-workflow.md' contains a link './github-cli-guide.md', but the target 'archive/github-cli-guide.md' is not found among documentation files.
+INFO    -  Doc file 'archive/github-workflow.md' contains an absolute link '/srv/docs/git-workflow.md', it was left as is.
+WARNING -  Doc file 'archive/github-workflow.md' contains a link './ai-agent-onboarding.md', but the target 'archive/ai-agent-onboarding.md' is not found among documentation files.
+WARNING -  Doc file 'archive/github-workflow.md' contains a link './development-standards.md', but the target 'archive/development-standards.md' is not found among documentation files.
+INFO    -  Doc file 'context/index.md' contains an absolute link '/srv/context/development/github-issue-driven-workflow.md', it was left as is.
+WARNING -  Doc file 'guides/index.md' contains a link 'jtools-testing.md', but the target 'guides/jtools-testing.md' is not found among documentation files.
+WARNING -  Doc file 'guides/index.md' contains a link 'browser-testing.md', but the target 'guides/browser-testing.md' is not found among documentation files.
+INFO    -  Doc file 'guides/index.md' contains an absolute link '/reference/commands/', it was left as is.
+INFO    -  Doc file 'guides/index.md' contains an absolute link '/api/', it was left as is. Did you mean '../api/index.md'?
+INFO    -  Doc file 'guides/index.md' contains an absolute link '/reference/configs/', it was left as is.
+INFO    -  Doc file 'guides/index.md' contains an absolute link '/reference/env-vars/', it was left as is.
+INFO    -  Doc file 'guides/ai-agent-collaboration.md' contains an absolute link '/guides/ai-agent-onboarding/', it was left as is. Did you mean 'ai-agent-onboarding.md'?
+INFO    -  Doc file 'guides/ai-agent-collaboration.md' contains an absolute link '/guides/ai-agent-development/', it was left as is. Did you mean 'ai-agent-development.md'?
+INFO    -  Doc file 'guides/ai-agent-collaboration.md' contains an absolute link '/guides/jtools-testing/', it was left as is.
+INFO    -  Doc file 'guides/ai-agent-development.md' contains an absolute link '/guides/jtools-testing/', it was left as is.
+WARNING -  Doc file 'guides/claude-cli-advanced.md' contains a link '../architecture/intelligence-stack.md', but the target 'architecture/intelligence-stack.md' is not found among documentation files.
+INFO    -  Doc file 'guides/claude-cli-advanced.md' contains an unrecognized relative link '../operations/', it was left as is.
+INFO    -  Doc file 'guides/getting-started.md' contains an absolute link '/quickstart.md', it was left as is. Did you mean '../quickstart.md'?
+WARNING -  Doc file 'guides/getting-started.md' contains a link 'development-setup.md', but the target 'guides/development-setup.md' is not found among documentation files.
+WARNING -  Doc file 'guides/getting-started.md' contains a link 'authentication.md', but the target 'guides/authentication.md' is not found among documentation files.
+WARNING -  Doc file 'guides/slack-webhooks.md' contains a link '../operations/monitoring-alerts.md', but the target 'operations/monitoring-alerts.md' is not found among documentation files.
+WARNING -  Doc file 'guides/slack-webhooks.md' contains a link '../architecture/intelligence-stack.md', but the target 'architecture/intelligence-stack.md' is not found among documentation files.
+WARNING -  Doc file 'operations/claude-sessions.md' contains a link './common-issues.md', but the target 'operations/common-issues.md' is not found among documentation files.
+WARNING -  Doc file 'operations/claude-sessions.md' contains a link './monitoring-alerts.md', but the target 'operations/monitoring-alerts.md' is not found among documentation files.
+WARNING -  Doc file 'operations/monitoring.md' contains a link './slack-bot-recovery.md', but the target 'operations/slack-bot-recovery.md' is not found among documentation files.
+WARNING -  Doc file 'operations/monitoring.md' contains a link './token-refresh.md', but the target 'operations/token-refresh.md' is not found among documentation files.
+WARNING -  Doc file 'operations/monitoring.md' contains a link './incident-response.md', but the target 'operations/incident-response.md' is not found among documentation files.
+WARNING -  Doc file 'specs/active.md' contains a link 'browser-testing-toolkit.md', but the target 'specs/browser-testing-toolkit.md' is not found among documentation files.
+WARNING -  Doc file 'specs/active.md' contains a link 'kaut-mcp-server.md', but the target 'specs/kaut-mcp-server.md' is not found among documentation files.
+WARNING -  Doc file 'specs/active.md' contains a link 'ai-self-documenting.md', but the target 'specs/ai-self-documenting.md' is not found among documentation files.
+WARNING -  Doc file 'specs/active.md' contains a link 'jtools-api-architecture.md', but the target 'specs/jtools-api-architecture.md' is not found among documentation files.
+WARNING -  Doc file 'specs/active.md' contains a link 'jtools-reorganization.md', but the target 'specs/jtools-reorganization.md' is not found among documentation files.
+WARNING -  Doc file 'specs/active.md' contains a link 'jtools-unified-structure.md', but the target 'specs/jtools-unified-structure.md' is not found among documentation files.
+WARNING -  Doc file 'specs/active.md' contains a link 'jtools-testing-toolkit.md', but the target 'specs/jtools-testing-toolkit.md' is not found among documentation files.
+WARNING -  Doc file 'specs/active.md' contains a link 'context-library.md', but the target 'specs/context-library.md' is not found among documentation files.
+WARNING -  Doc file 'specs/active.md' contains a link 'context-optimization.md', but the target 'specs/context-optimization.md' is not found among documentation files.
+WARNING -  Doc file 'specs/active.md' contains a link 'specialized-agents.md', but the target 'specs/specialized-agents.md' is not found among documentation files.
+WARNING -  Doc file 'specs/documentation-optimization.md' contains a link '../path/to/doc.md', but the target 'path/to/doc.md' is not found among documentation files.
+WARNING -  Doc file 'specs/implementation.md' contains a link 'context-library.md', but the target 'specs/context-library.md' is not found among documentation files.
+WARNING -  Doc file 'specs/implementation.md' contains a link 'browser-testing-toolkit.md', but the target 'specs/browser-testing-toolkit.md' is not found among documentation files.
+WARNING -  Doc file 'specs/implementation.md' contains a link '../guides/development-setup.md', but the target 'guides/development-setup.md' is not found among documentation files.
+WARNING -  Doc file 'specs/implementation.md' contains a link '../guides/testing.md', but the target 'guides/testing.md' is not found among documentation files.
+WARNING -  Doc file 'specs/implementation.md' contains a link '../guides/deployment.md', but the target 'guides/deployment.md' is not found among documentation files.
+INFO    -  Doc file 'updates/2025-06-17-slack-documentation.md' contains an absolute link '/applications/slack-bot/', it was left as is. Did you mean '../applications/slack-bot.md'?
+INFO    -  Doc file 'updates/2025-06-17-slack-documentation.md' contains an absolute link '/guides/claude-cli-advanced/', it was left as is. Did you mean '../guides/claude-cli-advanced.md'?
+INFO    -  Doc file 'updates/2025-06-17-slack-documentation.md' contains an absolute link '/guides/slack-webhooks/', it was left as is. Did you mean '../guides/slack-webhooks.md'?
+INFO    -  Doc file 'updates/2025-06-17-slack-documentation.md' contains an absolute link '/operations/slack-recovery/', it was left as is. Did you mean '../operations/slack-recovery.md'?
+INFO    -  Documentation built in 12.01 seconds
+[Mon Jul 21 06:55:15 PM UTC 2025] Build completed successfully
+[Mon Jul 21 06:55:15 PM UTC 2025] Site updated at https://docs.kaut.to
+[Mon Jul 21 06:55:15 PM UTC 2025] Disk usage: 7.0M
+[Mon Jul 21 06:55:15 PM UTC 2025] Build script completed
+----------------------------------------
+[Mon Jul 21 07:00:01 PM UTC 2025] Starting MkDocs build...
+[Mon Jul 21 07:00:01 PM UTC 2025] Pulling latest changes from git...
+From https://github.com/jkautto/docs
+ * branch              main       -> FETCH_HEAD
+Already up to date.
+[Mon Jul 21 07:00:02 PM UTC 2025] Building documentation...
+INFO    -  Cleaning site directory
+INFO    -  Building documentation to directory: /srv/docs/site
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - api/github-cli-graphql-research.md
+  - archive/github-workflow.md
+  - guides/github-quick-reference.md
+  - guides/working-with-ai-agents.md
+WARNING -  A reference to 'architecture/dai-system.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  A reference to 'architecture/pai-system.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  A reference to 'architecture/infrastructure.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  A reference to 'architecture/security.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  A reference to 'guides/development-setup.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  A reference to 'guides/authentication.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  A reference to 'guides/google-services.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  A reference to 'guides/deployment.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  A reference to 'api/tools.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  A reference to 'api/task.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  A reference to 'api/pai-web.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  A reference to 'applications/pastebin.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  A reference to 'applications/auth.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  A reference to 'specs/browser-testing-toolkit.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  A reference to 'specs/jtools-testing-toolkit.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  Doc file 'index.md' contains a link 'operations/index.md', but the target is not found among documentation files.
+WARNING -  Doc file 'api/index.md' contains a link './tools.md', but the target 'api/tools.md' is not found among documentation files.
+WARNING -  Doc file 'api/index.md' contains a link './task.md', but the target 'api/task.md' is not found among documentation files.
+WARNING -  Doc file 'api/index.md' contains a link './pai-web.md', but the target 'api/pai-web.md' is not found among documentation files.
+INFO    -  Doc file 'api/index.md' contains an absolute link '/architecture/', it was left as is. Did you mean '../architecture/index.md'?
+INFO    -  Doc file 'api/index.md' contains an absolute link '/guides/authentication/', it was left as is.
+INFO    -  Doc file 'api/index.md' contains an absolute link '/guides/development-setup/', it was left as is.
+INFO    -  Doc file 'api/index.md' contains an absolute link '/architecture/security/', it was left as is.
+INFO    -  Doc file 'api/shifts.md' contains an absolute link '/applications/shifts/', it was left as is. Did you mean '../applications/shifts.md'?
+INFO    -  Doc file 'api/shifts.md' contains an absolute link '/guides/authentication/', it was left as is.
+INFO    -  Doc file 'api/shifts.md' contains an absolute link '/api/', it was left as is. Did you mean 'index.md'?
+WARNING -  Doc file 'applications/index.md' contains a link 'jtools-testing-toolkit.md', but the target 'applications/jtools-testing-toolkit.md' is not found among documentation files.
+INFO    -  Doc file 'applications/index.md' contains an absolute link '/applications/shifts/', it was left as is. Did you mean 'shifts.md'?
+INFO    -  Doc file 'applications/index.md' contains an absolute link '/applications/pai-dashboard/', it was left as is.
+INFO    -  Doc file 'applications/index.md' contains an absolute link '/applications/pastebin/', it was left as is.
+INFO    -  Doc file 'applications/index.md' contains an absolute link '/architecture/', it was left as is. Did you mean '../architecture/index.md'?
+INFO    -  Doc file 'applications/index.md' contains an absolute link '/operations/', it was left as is.
+INFO    -  Doc file 'applications/index.md' contains an absolute link '/api/', it was left as is. Did you mean '../api/index.md'?
+INFO    -  Doc file 'applications/index.md' contains an absolute link '/guides/', it was left as is. Did you mean '../guides/index.md'?
+INFO    -  Doc file 'applications/shifts.md' contains an absolute link '/api/shifts/', it was left as is. Did you mean '../api/shifts.md'?
+INFO    -  Doc file 'applications/shifts.md' contains an absolute link '/guides/github-workflow/', it was left as is.
+INFO    -  Doc file 'applications/shifts.md' contains an absolute link '/guides/development-standards/', it was left as is.
+INFO    -  Doc file 'applications/shifts.md' contains an absolute link '/guides/testing/', it was left as is.
+WARNING -  Doc file 'applications/slack-bot.md' contains a link '../architecture/intelligence-stack.md', but the target 'architecture/intelligence-stack.md' is not found among documentation files.
+INFO    -  Doc file 'applications/jtools-testing-toolkit/index.md' contains an absolute link '/guides/jtools-testing/', it was left as is.
+INFO    -  Doc file 'applications/jtools-testing-toolkit/index.md' contains an absolute link '/specs/jtools-testing-toolkit/', it was left as is.
+INFO    -  Doc file 'applications/jtools-testing-toolkit/index.md' contains an absolute link '/guides/browser-testing/', it was left as is.
+INFO    -  Doc file 'applications/jtools-testing-toolkit/index.md' contains an absolute link '/guides/ci-cd-setup/', it was left as is.
+INFO    -  Doc file 'applications/jtools-testing-toolkit/guide.md' contains an absolute link '/specs/jtools-testing-toolkit/', it was left as is.
+INFO    -  Doc file 'applications/jtools-testing-toolkit/guide.md' contains an absolute link '/guides/ci-cd-setup/', it was left as is.
+INFO    -  Doc file 'applications/jtools-testing-toolkit/guide.md' contains an absolute link '/guides/performance-testing/', it was left as is.
+WARNING -  Doc file 'architecture/index.md' contains a link 'dai-system.md', but the target 'architecture/dai-system.md' is not found among documentation files.
+WARNING -  Doc file 'architecture/index.md' contains a link 'pai-system.md', but the target 'architecture/pai-system.md' is not found among documentation files.
+WARNING -  Doc file 'architecture/index.md' contains a link 'infrastructure.md', but the target 'architecture/infrastructure.md' is not found among documentation files.
+WARNING -  Doc file 'architecture/index.md' contains a link 'security.md', but the target 'architecture/security.md' is not found among documentation files.
+WARNING -  Doc file 'archive/github-workflow.md' contains a link './github-cli-guide.md', but the target 'archive/github-cli-guide.md' is not found among documentation files.
+INFO    -  Doc file 'archive/github-workflow.md' contains an absolute link '/srv/docs/git-workflow.md', it was left as is.
+WARNING -  Doc file 'archive/github-workflow.md' contains a link './ai-agent-onboarding.md', but the target 'archive/ai-agent-onboarding.md' is not found among documentation files.
+WARNING -  Doc file 'archive/github-workflow.md' contains a link './development-standards.md', but the target 'archive/development-standards.md' is not found among documentation files.
+INFO    -  Doc file 'context/index.md' contains an absolute link '/srv/context/development/github-issue-driven-workflow.md', it was left as is.
+WARNING -  Doc file 'guides/index.md' contains a link 'jtools-testing.md', but the target 'guides/jtools-testing.md' is not found among documentation files.
+WARNING -  Doc file 'guides/index.md' contains a link 'browser-testing.md', but the target 'guides/browser-testing.md' is not found among documentation files.
+INFO    -  Doc file 'guides/index.md' contains an absolute link '/reference/commands/', it was left as is.
+INFO    -  Doc file 'guides/index.md' contains an absolute link '/api/', it was left as is. Did you mean '../api/index.md'?
+INFO    -  Doc file 'guides/index.md' contains an absolute link '/reference/configs/', it was left as is.
+INFO    -  Doc file 'guides/index.md' contains an absolute link '/reference/env-vars/', it was left as is.
+INFO    -  Doc file 'guides/ai-agent-collaboration.md' contains an absolute link '/guides/ai-agent-onboarding/', it was left as is. Did you mean 'ai-agent-onboarding.md'?
+INFO    -  Doc file 'guides/ai-agent-collaboration.md' contains an absolute link '/guides/ai-agent-development/', it was left as is. Did you mean 'ai-agent-development.md'?
+INFO    -  Doc file 'guides/ai-agent-collaboration.md' contains an absolute link '/guides/jtools-testing/', it was left as is.
+INFO    -  Doc file 'guides/ai-agent-development.md' contains an absolute link '/guides/jtools-testing/', it was left as is.
+WARNING -  Doc file 'guides/claude-cli-advanced.md' contains a link '../architecture/intelligence-stack.md', but the target 'architecture/intelligence-stack.md' is not found among documentation files.
+INFO    -  Doc file 'guides/claude-cli-advanced.md' contains an unrecognized relative link '../operations/', it was left as is.
+INFO    -  Doc file 'guides/getting-started.md' contains an absolute link '/quickstart.md', it was left as is. Did you mean '../quickstart.md'?
+WARNING -  Doc file 'guides/getting-started.md' contains a link 'development-setup.md', but the target 'guides/development-setup.md' is not found among documentation files.
+WARNING -  Doc file 'guides/getting-started.md' contains a link 'authentication.md', but the target 'guides/authentication.md' is not found among documentation files.
+WARNING -  Doc file 'guides/slack-webhooks.md' contains a link '../operations/monitoring-alerts.md', but the target 'operations/monitoring-alerts.md' is not found among documentation files.
+WARNING -  Doc file 'guides/slack-webhooks.md' contains a link '../architecture/intelligence-stack.md', but the target 'architecture/intelligence-stack.md' is not found among documentation files.
+WARNING -  Doc file 'operations/claude-sessions.md' contains a link './common-issues.md', but the target 'operations/common-issues.md' is not found among documentation files.
+WARNING -  Doc file 'operations/claude-sessions.md' contains a link './monitoring-alerts.md', but the target 'operations/monitoring-alerts.md' is not found among documentation files.
+WARNING -  Doc file 'operations/monitoring.md' contains a link './slack-bot-recovery.md', but the target 'operations/slack-bot-recovery.md' is not found among documentation files.
+WARNING -  Doc file 'operations/monitoring.md' contains a link './token-refresh.md', but the target 'operations/token-refresh.md' is not found among documentation files.
+WARNING -  Doc file 'operations/monitoring.md' contains a link './incident-response.md', but the target 'operations/incident-response.md' is not found among documentation files.
+WARNING -  Doc file 'specs/active.md' contains a link 'browser-testing-toolkit.md', but the target 'specs/browser-testing-toolkit.md' is not found among documentation files.
+WARNING -  Doc file 'specs/active.md' contains a link 'kaut-mcp-server.md', but the target 'specs/kaut-mcp-server.md' is not found among documentation files.
+WARNING -  Doc file 'specs/active.md' contains a link 'ai-self-documenting.md', but the target 'specs/ai-self-documenting.md' is not found among documentation files.
+WARNING -  Doc file 'specs/active.md' contains a link 'jtools-api-architecture.md', but the target 'specs/jtools-api-architecture.md' is not found among documentation files.
+WARNING -  Doc file 'specs/active.md' contains a link 'jtools-reorganization.md', but the target 'specs/jtools-reorganization.md' is not found among documentation files.
+WARNING -  Doc file 'specs/active.md' contains a link 'jtools-unified-structure.md', but the target 'specs/jtools-unified-structure.md' is not found among documentation files.
+WARNING -  Doc file 'specs/active.md' contains a link 'jtools-testing-toolkit.md', but the target 'specs/jtools-testing-toolkit.md' is not found among documentation files.
+WARNING -  Doc file 'specs/active.md' contains a link 'context-library.md', but the target 'specs/context-library.md' is not found among documentation files.
+WARNING -  Doc file 'specs/active.md' contains a link 'context-optimization.md', but the target 'specs/context-optimization.md' is not found among documentation files.
+WARNING -  Doc file 'specs/active.md' contains a link 'specialized-agents.md', but the target 'specs/specialized-agents.md' is not found among documentation files.
+WARNING -  Doc file 'specs/documentation-optimization.md' contains a link '../path/to/doc.md', but the target 'path/to/doc.md' is not found among documentation files.
+WARNING -  Doc file 'specs/implementation.md' contains a link 'context-library.md', but the target 'specs/context-library.md' is not found among documentation files.
+WARNING -  Doc file 'specs/implementation.md' contains a link 'browser-testing-toolkit.md', but the target 'specs/browser-testing-toolkit.md' is not found among documentation files.
+WARNING -  Doc file 'specs/implementation.md' contains a link '../guides/development-setup.md', but the target 'guides/development-setup.md' is not found among documentation files.
+WARNING -  Doc file 'specs/implementation.md' contains a link '../guides/testing.md', but the target 'guides/testing.md' is not found among documentation files.
+WARNING -  Doc file 'specs/implementation.md' contains a link '../guides/deployment.md', but the target 'guides/deployment.md' is not found among documentation files.
+INFO    -  Doc file 'updates/2025-06-17-slack-documentation.md' contains an absolute link '/applications/slack-bot/', it was left as is. Did you mean '../applications/slack-bot.md'?
+INFO    -  Doc file 'updates/2025-06-17-slack-documentation.md' contains an absolute link '/guides/claude-cli-advanced/', it was left as is. Did you mean '../guides/claude-cli-advanced.md'?
+INFO    -  Doc file 'updates/2025-06-17-slack-documentation.md' contains an absolute link '/guides/slack-webhooks/', it was left as is. Did you mean '../guides/slack-webhooks.md'?
+INFO    -  Doc file 'updates/2025-06-17-slack-documentation.md' contains an absolute link '/operations/slack-recovery/', it was left as is. Did you mean '../operations/slack-recovery.md'?
+INFO    -  Documentation built in 12.86 seconds
+[Mon Jul 21 07:00:16 PM UTC 2025] Build completed successfully
+[Mon Jul 21 07:00:16 PM UTC 2025] Site updated at https://docs.kaut.to
+[Mon Jul 21 07:00:16 PM UTC 2025] Disk usage: 7.0M
+[Mon Jul 21 07:00:16 PM UTC 2025] Build script completed
 ----------------------------------------

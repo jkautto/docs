@@ -10,6 +10,19 @@ This guide captures key learnings and best practices for AI agents when debuggin
 4.  **Trace the Full Data Lifecycle:** Do not make assumptions about where data is being corrupted. Trace it from its point of creation to its final point of use (e.g., from `scheduleGenerator.js` to `storageService` to `main.js` to the UI).
 5.  **Implement the Simplest Fix:** Once the root cause is found, implement the most direct and simple fix to verify it. In the case of Issue #12, the fix was a small, intelligent merge loop, not a complex library or refactor.
 
+## Best Practices for Visual Analysis
+
+When programmatic verification is insufficient, visual analysis of a UI screenshot can be used. However, this is prone to error if not done correctly.
+
+1.  **Do Not Assume:** Never assume a successful screenshot command means the content is correct. The screenshot might be blank, show an error state, or be visually wrong.
+2.  **Use Multimodal Analysis:** Use a tool like `gemini.py analyze` to programmatically analyze the content of the screenshot.
+3.  **Construct a Specific, Context-Rich Prompt:** Do not ask simple, open-ended questions. Provide detailed context to guide the vision model.
+
+    *   **Bad Prompt:** `"What's in this image?"` (Leads to hallucination)
+    *   **Good Prompt:** `"This is a screenshot of a web application's user interface. The application is a shift scheduling tool. Focus your analysis on the grid for the project named 'Project Kaamanen'. Specifically, look at the rows for employees 'Niina' and 'Emilia'. Are there colored cells containing the letter 'W' in these two rows? Answer only with YES or NO."`
+
+This method provides a much higher degree of confidence than a flawed assumption.
+
 ## A Case Study: The Shifts App Scheduling Bug (Issue #12)
 
 This issue provides a perfect example of the debugging process.
