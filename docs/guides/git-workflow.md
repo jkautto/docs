@@ -125,3 +125,10 @@ git reset --hard <commit-hash>
 ```
 
 Remember: Git is our safety net. Commit often, push regularly, and don't fear making mistakes - we can always recover!
+
+## Related Guides
+
+- **[GitHub Quick Reference](./github-quick-reference.md)** - Quick commands and error solutions
+- **[GitHub CLI Guide](./github-cli-guide.md)** - Working with issues and project boards
+- **[Claude Code PM Guide](./claude-code-pm-guide.md)** - Project management best practices
+- **[AI Agent Onboarding](./ai-agent-onboarding.md)** - Getting started guide for new AI agents

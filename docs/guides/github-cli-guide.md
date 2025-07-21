@@ -1,5 +1,8 @@
 # GitHub CLI Guide for AI Agents
 
+## Purpose
+This comprehensive guide covers GitHub CLI usage for AI agents, focusing on working with issues, pull requests, and the GraphQL API. For quick commands and error solutions, see the [GitHub Quick Reference](./github-quick-reference.md).
+
 A practical guide for using GitHub CLI with real, tested examples. All commands have been verified to work.
 
 ## Prerequisites
@@ -366,3 +369,10 @@ body=$(cat file | jq -Rs .)               # Escape content
 ```
 
 Remember: When standard CLI commands don't exist (like for discussions), use GraphQL!
+
+## Related Guides
+
+- **[GitHub Quick Reference](./github-quick-reference.md)** - Quick commands and common error solutions
+- **[Git Workflow Guide](./git-workflow.md)** - Basic Git operations
+- **[Claude Code PM Guide](./claude-code-pm-guide.md)** - Project management workflows
+- **[Working with AI Agents](./working-with-ai-agents.md)** - Collaboration with other AIs

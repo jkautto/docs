@@ -18,14 +18,17 @@ Technical reference for AI agents. Includes modular architecture patterns, debug
 ### [AI Agent Collaboration](ai-agent-collaboration.md)
 Team collaboration guidelines for multiple AI agents working together. Covers communication channels, handoff procedures, and conflict resolution.
 
-### [GitHub Quick Reference](github-quick-reference.md) ⭐ NEW
-AI-optimized quick reference for common GitHub operations. Includes error solutions, project board management, and essential commands.
+### Version Control & GitHub
 
-### [GitHub CLI Guide](github-cli-guide.md)
-Comprehensive guide to using GitHub CLI for AI agents. Includes examples for discussions, project boards, issues, and common troubleshooting.
+#### [Git Workflow Guide](git-workflow.md)
+Basic Git operations for daily development. Covers commits, pushes, pulls, and recovery procedures. Start here for Git basics.
 
-### [GitHub Issue-Driven Workflow](github-workflow.md)
-Systematic approach to development using GitHub issues as the primary driver. Covers planning, testing, documentation, and release processes with real examples.
+#### [GitHub Quick Reference](github-quick-reference.md) ⭐ NEW
+Quick commands and solutions for common GitHub CLI errors. Includes project board management and essential operations. Perfect for quick lookups.
+
+#### [GitHub CLI Guide](github-cli-guide.md)
+Comprehensive GitHub CLI reference. Covers issues, PRs, GraphQL API, and advanced features. Use this for detailed GitHub operations.
+
 
 ### [Claude Code PM Guide](claude-code-pm-guide.md) ⭐ NEW
 Optimized project management guide specifically for Claude Code CLI. Covers Git hygiene, issue tracking, codebase maintenance, and technical debt prevention.

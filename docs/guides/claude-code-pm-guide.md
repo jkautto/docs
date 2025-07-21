@@ -1,5 +1,8 @@
 # Claude Code Project Management Guide
 
+## Purpose
+This guide focuses on project management best practices for Claude Code CLI, including issue tracking, codebase maintenance, and technical debt prevention. For Git commands, see [Git Workflow Guide](./git-workflow.md). For GitHub CLI usage, see [GitHub CLI Guide](./github-cli-guide.md).
+
 ## Overview
 This guide is optimized for Claude Code CLI to maintain clean codebases and proper project workflows.
 
@@ -230,23 +233,10 @@ python3 /srv/jtools/screenshot.py https://kaut.to/shifts/ -o before.png
 ## Quick Reference
 
 ### Essential Commands
-```bash
-# Issue management
-gh issue create
-gh issue list
-gh issue view <number>
-gh issue close <number>
-
-# Git workflow  
-git log --graph --oneline
-git stash save "work in progress"
-git reset HEAD~1 --soft
-git cherry-pick <commit>
-
-# Cleanup
-git clean -fd  # Remove untracked files
-git gc         # Garbage collection
-```
+For Git and GitHub commands, see:
+- [Git Workflow Guide](./git-workflow.md) - Git basics
+- [GitHub Quick Reference](./github-quick-reference.md) - GitHub CLI commands
+- [GitHub CLI Guide](./github-cli-guide.md) - Advanced GitHub usage
 
 ### Red Flags to Watch For
 - Uncommitted changes > 24 hours old
@@ -309,3 +299,11 @@ When starting a session:
 4. Clean up any technical debt noticed
 
 Remember: **Clean code is maintainable code**
+
+## Related Guides
+
+- **[Git Workflow Guide](./git-workflow.md)** - Daily Git operations and commands
+- **[GitHub Quick Reference](./github-quick-reference.md)** - Quick GitHub CLI reference
+- **[GitHub CLI Guide](./github-cli-guide.md)** - Comprehensive GitHub CLI usage
+- **[Working with AI Agents](./working-with-ai-agents.md)** - Collaborating with other AIs
+- **[AI Agent Onboarding](./ai-agent-onboarding.md)** - Getting started guide

@@ -137,3 +137,10 @@ gh api graphql -f query='{
 ```
 
 Remember: When in doubt, use the GitHub web interface and document what you did!
+
+## Related Guides
+
+- **[GitHub CLI Guide](./github-cli-guide.md)** - Comprehensive GitHub CLI reference with advanced features
+- **[Git Workflow Guide](./git-workflow.md)** - Basic Git operations and best practices
+- **[Claude Code PM Guide](./claude-code-pm-guide.md)** - Project management workflows
+- **[Working with AI Agents](./working-with-ai-agents.md)** - Collaboration patterns with other AIs
