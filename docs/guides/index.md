@@ -27,6 +27,9 @@ Systematic approach to development using GitHub issues as the primary driver. Co
 ### [Claude Code PM Guide](claude-code-pm-guide.md) ⭐ NEW
 Optimized project management guide specifically for Claude Code CLI. Covers Git hygiene, issue tracking, codebase maintenance, and technical debt prevention.
 
+### [Working with AI Agents](working-with-ai-agents.md) ⭐ NEW
+Practical lessons from collaborating with various AI agents. Includes common behaviors, review processes, and coordination tips.
+
 ## Testing
 
 ### [JTools Testing Guide](jtools-testing.md)

@@ -236,6 +236,51 @@ git gc         # Garbage collection
 - Hardcoded credentials
 - Missing documentation
 
+## Real-World Examples from Practice
+
+### Working with AI Agents (Gemini Case Study)
+When reviewing another AI's work:
+
+1. **Issue Planning Review**:
+   ```bash
+   gh issue view 11 --comments  # Check implementation plan
+   # Look for: Missing details, blank templates, vague descriptions
+   ```
+
+2. **Post-Implementation Review**:
+   ```bash
+   git pull
+   git log --oneline -5  # Check their commits
+   git show <commit-hash>  # Review changes
+   npm run build  # Test if it builds
+   ```
+
+3. **Common Issues to Fix**:
+   - Hardcoded asset paths in index.html
+   - Missing imports or components
+   - No pull request created
+   - Build failures
+
+### Proper Issue Closure Example
+From today's session with issue #10:
+```bash
+# 1. Comment with implementation details
+gh issue comment 10 -b "Implemented in commit 1ca2e7c:
+- Changed role name from 'Helpers' to 'Paramedics'
+- Updated members to Niina and Emilia only
+- Also cleaned up codebase"
+
+# 2. Close the issue
+gh issue close 10
+```
+
+### MVP Implementation Example
+Issue #8 - Keyboard shortcuts:
+- Skip multi-browser testing → Chrome only
+- No complex UI → Simple help text
+- Basic functionality → Just the shortcuts
+- Time to implement: 30 minutes vs 2 hours
+
 ## Integration with Claude Code
 
 When starting a session:
