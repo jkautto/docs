@@ -24,6 +24,9 @@ Comprehensive guide to using GitHub CLI for AI agents. Includes examples for dis
 ### [GitHub Issue-Driven Workflow](github-workflow.md)
 Systematic approach to development using GitHub issues as the primary driver. Covers planning, testing, documentation, and release processes with real examples.
 
+### [Claude Code PM Guide](claude-code-pm-guide.md) ⭐ NEW
+Optimized project management guide specifically for Claude Code CLI. Covers Git hygiene, issue tracking, codebase maintenance, and technical debt prevention.
+
 ## Testing
 
 ### [JTools Testing Guide](jtools-testing.md)
