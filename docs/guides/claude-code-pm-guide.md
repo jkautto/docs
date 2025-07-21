@@ -32,7 +32,16 @@ This guide is optimized for Claude Code CLI to maintain clean codebases and prop
 
 ## GitHub Issue Workflow
 
-### 1. Before Starting Work
+### 1. Issue Creation
+```bash
+# Create a new issue
+gh issue create --title "feat: New Feature Title" --body "Detailed description..."
+
+# IMPORTANT: Add the new issue to the project board
+# This is a manual step using the GitHub UI or a more advanced script
+```
+
+### 2. Before Starting Work
 ```bash
 # Check available issues
 gh issue list --state open

@@ -25,10 +25,6 @@
          <lastmod>2025-07-21</lastmod>
     </url>
     <url>
-         <loc>https://docs.kaut.to/applications/jtools-testing-toolkit/</loc>
-         <lastmod>2025-07-21</lastmod>
-    </url>
-    <url>
          <loc>https://docs.kaut.to/applications/shifts/</loc>
          <lastmod>2025-07-21</lastmod>
     </url>
@@ -37,7 +33,35 @@
          <lastmod>2025-07-21</lastmod>
     </url>
     <url>
+         <loc>https://docs.kaut.to/applications/browser-testing/</loc>
+         <lastmod>2025-07-21</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.kaut.to/applications/browser-testing/guide/</loc>
+         <lastmod>2025-07-21</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.kaut.to/applications/browser-testing/specification/</loc>
+         <lastmod>2025-07-21</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.kaut.to/applications/jtools-testing-toolkit/</loc>
+         <lastmod>2025-07-21</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.kaut.to/applications/jtools-testing-toolkit/guide/</loc>
+         <lastmod>2025-07-21</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.kaut.to/applications/jtools-testing-toolkit/specification/</loc>
+         <lastmod>2025-07-21</lastmod>
+    </url>
+    <url>
          <loc>https://docs.kaut.to/architecture/</loc>
+         <lastmod>2025-07-21</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.kaut.to/archive/github-workflow/</loc>
          <lastmod>2025-07-21</lastmod>
     </url>
     <url>
@@ -85,10 +109,6 @@
          <lastmod>2025-07-21</lastmod>
     </url>
     <url>
-         <loc>https://docs.kaut.to/guides/browser-testing/</loc>
-         <lastmod>2025-07-21</lastmod>
-    </url>
-    <url>
          <loc>https://docs.kaut.to/guides/claude-cli-advanced/</loc>
          <lastmod>2025-07-21</lastmod>
     </url>
@@ -101,15 +121,11 @@
          <lastmod>2025-07-21</lastmod>
     </url>
     <url>
+         <loc>https://docs.kaut.to/guides/git-workflow/</loc>
+         <lastmod>2025-07-21</lastmod>
+    </url>
+    <url>
          <loc>https://docs.kaut.to/guides/github-cli-guide/</loc>
-         <lastmod>2025-07-21</lastmod>
-    </url>
-    <url>
-         <loc>https://docs.kaut.to/guides/github-workflow/</loc>
-         <lastmod>2025-07-21</lastmod>
-    </url>
-    <url>
-         <loc>https://docs.kaut.to/guides/jtools-testing/</loc>
          <lastmod>2025-07-21</lastmod>
     </url>
     <url>
@@ -161,10 +177,6 @@
          <lastmod>2025-07-21</lastmod>
     </url>
     <url>
-         <loc>https://docs.kaut.to/specs/browser-testing-toolkit/</loc>
-         <lastmod>2025-07-21</lastmod>
-    </url>
-    <url>
          <loc>https://docs.kaut.to/specs/documentation-consolidation/</loc>
          <lastmod>2025-07-21</lastmod>
     </url>
@@ -174,10 +186,6 @@
     </url>
     <url>
          <loc>https://docs.kaut.to/specs/implementation/</loc>
-         <lastmod>2025-07-21</lastmod>
-    </url>
-    <url>
-         <loc>https://docs.kaut.to/specs/jtools-testing-toolkit/</loc>
          <lastmod>2025-07-21</lastmod>
     </url>
     <url>
