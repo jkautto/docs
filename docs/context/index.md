@@ -40,6 +40,15 @@ Active operational context files that guide day-to-day operations:
 - Temporary configurations
 - Work-in-progress documentation
 
+## Development Context
+
+Development-specific knowledge and workflows:
+
+- [GitHub Issue-Driven Workflow](/srv/context/development/github-issue-driven-workflow.md) - Systematic development process
+- Project setup guides
+- Testing strategies
+- Release procedures
+
 ## Archives
 
 Historical context preserved for reference:

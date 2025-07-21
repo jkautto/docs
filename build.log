@@ -1,24 +1,61 @@
-[Fri Jul 18 06:03:21 AM UTC 2025] Starting MkDocs build...
-[Fri Jul 18 06:03:21 AM UTC 2025] Pulling latest changes from git...
-fatal: couldn't find remote ref main
-[Fri Jul 18 06:03:21 AM UTC 2025] Building documentation...
+WARNING -  Doc file 'specs/documentation-optimization.md' contains a link '../path/to/doc.md', but the target 'path/to/doc.md' is not found among documentation files.
+WARNING -  Doc file 'specs/implementation.md' contains a link 'context-library.md', but the target 'specs/context-library.md' is not found among documentation files.
+WARNING -  Doc file 'specs/implementation.md' contains a link '../guides/development-setup.md', but the target 'guides/development-setup.md' is not found among documentation files.
+WARNING -  Doc file 'specs/implementation.md' contains a link '../guides/testing.md', but the target 'guides/testing.md' is not found among documentation files.
+WARNING -  Doc file 'specs/implementation.md' contains a link '../guides/deployment.md', but the target 'guides/deployment.md' is not found among documentation files.
+WARNING:root:First revision timestamp is older than last revision timestamp for page updates/2025-06-17-slack-documentation.md. This can be due to a quirk in `git` follow behaviour. You can try to set `enable_git_follow: false` in the plugin configuration.
+INFO    -  Doc file 'updates/2025-06-17-slack-documentation.md' contains an absolute link '/applications/slack-bot/', it was left as is. Did you mean '../applications/slack-bot.md'?
+INFO    -  Doc file 'updates/2025-06-17-slack-documentation.md' contains an absolute link '/guides/claude-cli-advanced/', it was left as is. Did you mean '../guides/claude-cli-advanced.md'?
+INFO    -  Doc file 'updates/2025-06-17-slack-documentation.md' contains an absolute link '/guides/slack-webhooks/', it was left as is. Did you mean '../guides/slack-webhooks.md'?
+INFO    -  Doc file 'updates/2025-06-17-slack-documentation.md' contains an absolute link '/operations/slack-recovery/', it was left as is. Did you mean '../operations/slack-recovery.md'?
+INFO    -  Documentation built in 9.61 seconds
+[Mon Jul 21 05:20:12 PM UTC 2025] Build completed successfully
+[Mon Jul 21 05:20:12 PM UTC 2025] Site updated at https://docs.kaut.to
+[Mon Jul 21 05:20:12 PM UTC 2025] Disk usage: 6.3M
+[Mon Jul 21 05:20:12 PM UTC 2025] Build script completed
+----------------------------------------
+[Mon Jul 21 05:25:01 PM UTC 2025] Starting MkDocs build...
+[Mon Jul 21 05:25:01 PM UTC 2025] Pulling latest changes from git...
+From https://github.com/jkautto/docs
+ * branch              main       -> FETCH_HEAD
+Already up to date.
+[Mon Jul 21 05:25:02 PM UTC 2025] Building documentation...
 INFO    -  Cleaning site directory
 INFO    -  Building documentation to directory: /srv/docs/site
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/api/shifts.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/applications/shifts.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/api/index.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/applications/slack-bot.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/guides/claude-cli-advanced.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/guides/github-workflow.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/guides/slack-webhooks.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/updates/2025-06-17-slack-documentation.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/api/index.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/api/shifts.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/applications/shifts.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/applications/slack-bot.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/guides/claude-cli-advanced.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/guides/github-workflow.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/guides/slack-webhooks.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/updates/2025-06-17-slack-documentation.md' has no git logs, using current timestamp
 INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
-  - guides/browser-testing.md
+  - api/github-cli-graphql-research.md
+  - api/shifts.md
+  - guides/github-workflow.md
   - operations/claude-sessions.md
-  - operations/slack-recovery.md
   - operations/ssl-troubleshooting.md
   - operations/token-optimization.md
   - specs/browser-testing-toolkit.md
   - specs/documentation-consolidation.md
   - specs/documentation-optimization.md
+  - specs/jtools-testing-toolkit.md
   - specs/kaut-apps-repository.md
   - specs/kaut-pastebin.md
   - specs/mkdocs-migration-plan.md
   - specs/pai-web-dashboard.md
   - specs/task-v2.md
   - specs/universal-setup.md
+  - updates/2025-06-17-slack-documentation.md
 WARNING -  A reference to 'architecture/dai-system.md' is included in the 'nav' configuration, which is not found in the documentation files.
 WARNING -  A reference to 'architecture/pai-system.md' is included in the 'nav' configuration, which is not found in the documentation files.
 WARNING -  A reference to 'architecture/infrastructure.md' is included in the 'nav' configuration, which is not found in the documentation files.
@@ -27,37 +64,73 @@ WARNING -  A reference to 'guides/development-setup.md' is included in the 'nav'
 WARNING -  A reference to 'guides/authentication.md' is included in the 'nav' configuration, which is not found in the documentation files.
 WARNING -  A reference to 'guides/google-services.md' is included in the 'nav' configuration, which is not found in the documentation files.
 WARNING -  A reference to 'guides/deployment.md' is included in the 'nav' configuration, which is not found in the documentation files.
-WARNING -  A reference to 'api/index.md' is included in the 'nav' configuration, which is not found in the documentation files.
 WARNING -  A reference to 'api/tools.md' is included in the 'nav' configuration, which is not found in the documentation files.
 WARNING -  A reference to 'api/task.md' is included in the 'nav' configuration, which is not found in the documentation files.
 WARNING -  A reference to 'api/pai-web.md' is included in the 'nav' configuration, which is not found in the documentation files.
-WARNING -  A reference to 'applications/index.md' is included in the 'nav' configuration, which is not found in the documentation files.
 WARNING -  A reference to 'applications/pastebin.md' is included in the 'nav' configuration, which is not found in the documentation files.
 WARNING -  A reference to 'applications/auth.md' is included in the 'nav' configuration, which is not found in the documentation files.
 WARNING -  A reference to 'applications/browser-test.md' is included in the 'nav' configuration, which is not found in the documentation files.
-WARNING -  A reference to 'applications/shifts.md' is included in the 'nav' configuration, which is not found in the documentation files.
-WARNING -  Doc file 'index.md' contains a link 'api/index.md', but the target is not found among documentation files.
 WARNING -  Doc file 'index.md' contains a link 'operations/index.md', but the target is not found among documentation files.
-WARNING -  Doc file 'index.md' contains a link 'api/index.md', but the target is not found among documentation files.
-WARNING -  Doc file 'index.md' contains a link 'applications/index.md', but the target is not found among documentation files.
-WARNING -  Doc file 'quickstart.md' contains a link 'api/index.md', but the target is not found among documentation files.
+WARNING -  Doc file 'api/index.md' contains a link './tools.md', but the target 'api/tools.md' is not found among documentation files.
+WARNING -  Doc file 'api/index.md' contains a link './task.md', but the target 'api/task.md' is not found among documentation files.
+WARNING -  Doc file 'api/index.md' contains a link './pai-web.md', but the target 'api/pai-web.md' is not found among documentation files.
+INFO    -  Doc file 'api/index.md' contains an absolute link '/architecture/', it was left as is. Did you mean '../architecture/index.md'?
+INFO    -  Doc file 'api/index.md' contains an absolute link '/guides/authentication/', it was left as is.
+INFO    -  Doc file 'api/index.md' contains an absolute link '/guides/development-setup/', it was left as is.
+INFO    -  Doc file 'api/index.md' contains an absolute link '/architecture/security/', it was left as is.
+INFO    -  Doc file 'api/shifts.md' contains an absolute link '/applications/shifts/', it was left as is. Did you mean '../applications/shifts.md'?
+INFO    -  Doc file 'api/shifts.md' contains an absolute link '/guides/authentication/', it was left as is.
+INFO    -  Doc file 'api/shifts.md' contains an absolute link '/api/', it was left as is. Did you mean 'index.md'?
+INFO    -  Doc file 'applications/index.md' contains an absolute link '/applications/shifts/', it was left as is. Did you mean 'shifts.md'?
+INFO    -  Doc file 'applications/index.md' contains an absolute link '/applications/pai-dashboard/', it was left as is.
+INFO    -  Doc file 'applications/index.md' contains an absolute link '/applications/pastebin/', it was left as is.
+INFO    -  Doc file 'applications/index.md' contains an absolute link '/architecture/', it was left as is. Did you mean '../architecture/index.md'?
+INFO    -  Doc file 'applications/index.md' contains an absolute link '/operations/', it was left as is.
+INFO    -  Doc file 'applications/index.md' contains an absolute link '/api/', it was left as is. Did you mean '../api/index.md'?
+INFO    -  Doc file 'applications/index.md' contains an absolute link '/guides/', it was left as is. Did you mean '../guides/index.md'?
+INFO    -  Doc file 'applications/jtools-testing-toolkit.md' contains an absolute link '/guides/jtools-testing/', it was left as is. Did you mean '../guides/jtools-testing.md'?
+INFO    -  Doc file 'applications/jtools-testing-toolkit.md' contains an absolute link '/specs/jtools-testing-toolkit/', it was left as is. Did you mean '../specs/jtools-testing-toolkit.md'?
+INFO    -  Doc file 'applications/jtools-testing-toolkit.md' contains an absolute link '/guides/browser-testing/', it was left as is. Did you mean '../guides/browser-testing.md'?
+INFO    -  Doc file 'applications/jtools-testing-toolkit.md' contains an absolute link '/guides/ci-cd-setup/', it was left as is.
+INFO    -  Doc file 'applications/shifts.md' contains an absolute link '/api/shifts/', it was left as is. Did you mean '../api/shifts.md'?
+INFO    -  Doc file 'applications/shifts.md' contains an absolute link '/guides/github-workflow/', it was left as is. Did you mean '../guides/github-workflow.md'?
+INFO    -  Doc file 'applications/shifts.md' contains an absolute link '/guides/development-standards/', it was left as is.
+INFO    -  Doc file 'applications/shifts.md' contains an absolute link '/guides/testing/', it was left as is.
+WARNING:root:First revision timestamp is older than last revision timestamp for page applications/slack-bot.md. This can be due to a quirk in `git` follow behaviour. You can try to set `enable_git_follow: false` in the plugin configuration.
+WARNING -  Doc file 'applications/slack-bot.md' contains a link '../architecture/intelligence-stack.md', but the target 'architecture/intelligence-stack.md' is not found among documentation files.
 WARNING -  Doc file 'architecture/index.md' contains a link 'dai-system.md', but the target 'architecture/dai-system.md' is not found among documentation files.
 WARNING -  Doc file 'architecture/index.md' contains a link 'pai-system.md', but the target 'architecture/pai-system.md' is not found among documentation files.
 WARNING -  Doc file 'architecture/index.md' contains a link 'infrastructure.md', but the target 'architecture/infrastructure.md' is not found among documentation files.
 WARNING -  Doc file 'architecture/index.md' contains a link 'security.md', but the target 'architecture/security.md' is not found among documentation files.
-WARNING -  Doc file 'context/index.md' contains a link '../api/index.md', but the target 'api/index.md' is not found among documentation files.
+INFO    -  Doc file 'context/index.md' contains an absolute link '/srv/context/development/github-issue-driven-workflow.md', it was left as is.
+INFO    -  Doc file 'guides/index.md' contains an absolute link '/reference/commands/', it was left as is.
+INFO    -  Doc file 'guides/index.md' contains an absolute link '/api/', it was left as is. Did you mean '../api/index.md'?
+INFO    -  Doc file 'guides/index.md' contains an absolute link '/reference/configs/', it was left as is.
+INFO    -  Doc file 'guides/index.md' contains an absolute link '/reference/env-vars/', it was left as is.
+INFO    -  Doc file 'guides/ai-agent-collaboration.md' contains an absolute link '/guides/ai-agent-onboarding/', it was left as is. Did you mean 'ai-agent-onboarding.md'?
+INFO    -  Doc file 'guides/ai-agent-collaboration.md' contains an absolute link '/guides/ai-agent-development/', it was left as is. Did you mean 'ai-agent-development.md'?
+INFO    -  Doc file 'guides/ai-agent-collaboration.md' contains an absolute link '/guides/jtools-testing/', it was left as is. Did you mean 'jtools-testing.md'?
+INFO    -  Doc file 'guides/ai-agent-development.md' contains an absolute link '/guides/jtools-testing/', it was left as is. Did you mean 'jtools-testing.md'?
+WARNING:root:First revision timestamp is older than last revision timestamp for page guides/claude-cli-advanced.md. This can be due to a quirk in `git` follow behaviour. You can try to set `enable_git_follow: false` in the plugin configuration.
+WARNING -  Doc file 'guides/claude-cli-advanced.md' contains a link '../architecture/intelligence-stack.md', but the target 'architecture/intelligence-stack.md' is not found among documentation files.
+INFO    -  Doc file 'guides/claude-cli-advanced.md' contains an unrecognized relative link '../operations/', it was left as is.
 INFO    -  Doc file 'guides/getting-started.md' contains an absolute link '/quickstart.md', it was left as is. Did you mean '../quickstart.md'?
 WARNING -  Doc file 'guides/getting-started.md' contains a link 'development-setup.md', but the target 'guides/development-setup.md' is not found among documentation files.
 WARNING -  Doc file 'guides/getting-started.md' contains a link 'authentication.md', but the target 'guides/authentication.md' is not found among documentation files.
-WARNING -  Doc file 'guides/getting-started.md' contains a link '../api/index.md', but the target 'api/index.md' is not found among documentation files.
+WARNING:root:First revision timestamp is older than last revision timestamp for page guides/github-workflow.md. This can be due to a quirk in `git` follow behaviour. You can try to set `enable_git_follow: false` in the plugin configuration.
+INFO    -  Doc file 'guides/github-workflow.md' contains an absolute link '/srv/docs/git-workflow.md', it was left as is.
+WARNING -  Doc file 'guides/github-workflow.md' contains a link './development-standards.md', but the target 'guides/development-standards.md' is not found among documentation files.
+INFO    -  Doc file 'guides/jtools-testing.md' contains an absolute link '/specs/jtools-testing-toolkit/', it was left as is. Did you mean '../specs/jtools-testing-toolkit.md'?
+INFO    -  Doc file 'guides/jtools-testing.md' contains an absolute link '/guides/ci-cd-setup/', it was left as is.
+INFO    -  Doc file 'guides/jtools-testing.md' contains an absolute link '/guides/performance-testing/', it was left as is.
+WARNING:root:First revision timestamp is older than last revision timestamp for page guides/slack-webhooks.md. This can be due to a quirk in `git` follow behaviour. You can try to set `enable_git_follow: false` in the plugin configuration.
+WARNING -  Doc file 'guides/slack-webhooks.md' contains a link '../operations/monitoring-alerts.md', but the target 'operations/monitoring-alerts.md' is not found among documentation files.
+WARNING -  Doc file 'guides/slack-webhooks.md' contains a link '../architecture/intelligence-stack.md', but the target 'architecture/intelligence-stack.md' is not found among documentation files.
 WARNING -  Doc file 'operations/claude-sessions.md' contains a link './common-issues.md', but the target 'operations/common-issues.md' is not found among documentation files.
 WARNING -  Doc file 'operations/claude-sessions.md' contains a link './monitoring-alerts.md', but the target 'operations/monitoring-alerts.md' is not found among documentation files.
 WARNING -  Doc file 'operations/monitoring.md' contains a link './slack-bot-recovery.md', but the target 'operations/slack-bot-recovery.md' is not found among documentation files.
 WARNING -  Doc file 'operations/monitoring.md' contains a link './token-refresh.md', but the target 'operations/token-refresh.md' is not found among documentation files.
 WARNING -  Doc file 'operations/monitoring.md' contains a link './incident-response.md', but the target 'operations/incident-response.md' is not found among documentation files.
-WARNING -  Doc file 'operations/slack-recovery.md' contains a link './incident-response.md', but the target 'operations/incident-response.md' is not found among documentation files.
-WARNING -  Doc file 'operations/slack-recovery.md' contains a link './monitoring-alerts.md', but the target 'operations/monitoring-alerts.md' is not found among documentation files.
-WARNING -  Doc file 'operations/slack-recovery.md' contains a link './common-issues.md', but the target 'operations/common-issues.md' is not found among documentation files.
 WARNING -  Doc file 'specs/active.md' contains a link 'kaut-mcp-server.md', but the target 'specs/kaut-mcp-server.md' is not found among documentation files.
 WARNING -  Doc file 'specs/active.md' contains a link 'ai-self-documenting.md', but the target 'specs/ai-self-documenting.md' is not found among documentation files.
 WARNING -  Doc file 'specs/active.md' contains a link 'jtools-api-architecture.md', but the target 'specs/jtools-api-architecture.md' is not found among documentation files.
@@ -71,225 +144,859 @@ WARNING -  Doc file 'specs/implementation.md' contains a link 'context-library.m
 WARNING -  Doc file 'specs/implementation.md' contains a link '../guides/development-setup.md', but the target 'guides/development-setup.md' is not found among documentation files.
 WARNING -  Doc file 'specs/implementation.md' contains a link '../guides/testing.md', but the target 'guides/testing.md' is not found among documentation files.
 WARNING -  Doc file 'specs/implementation.md' contains a link '../guides/deployment.md', but the target 'guides/deployment.md' is not found among documentation files.
-INFO    -  Documentation built in 4.27 seconds
-[Fri Jul 18 06:03:27 AM UTC 2025] Build completed successfully
-[Fri Jul 18 06:03:27 AM UTC 2025] Site updated at https://docs.kaut.to
-[Fri Jul 18 06:03:27 AM UTC 2025] Disk usage: 4.5M
-[Fri Jul 18 06:03:27 AM UTC 2025] Build script completed
+WARNING:root:First revision timestamp is older than last revision timestamp for page updates/2025-06-17-slack-documentation.md. This can be due to a quirk in `git` follow behaviour. You can try to set `enable_git_follow: false` in the plugin configuration.
+INFO    -  Doc file 'updates/2025-06-17-slack-documentation.md' contains an absolute link '/applications/slack-bot/', it was left as is. Did you mean '../applications/slack-bot.md'?
+INFO    -  Doc file 'updates/2025-06-17-slack-documentation.md' contains an absolute link '/guides/claude-cli-advanced/', it was left as is. Did you mean '../guides/claude-cli-advanced.md'?
+INFO    -  Doc file 'updates/2025-06-17-slack-documentation.md' contains an absolute link '/guides/slack-webhooks/', it was left as is. Did you mean '../guides/slack-webhooks.md'?
+INFO    -  Doc file 'updates/2025-06-17-slack-documentation.md' contains an absolute link '/operations/slack-recovery/', it was left as is. Did you mean '../operations/slack-recovery.md'?
+INFO    -  Documentation built in 9.31 seconds
+[Mon Jul 21 05:25:12 PM UTC 2025] Build completed successfully
+[Mon Jul 21 05:25:12 PM UTC 2025] Site updated at https://docs.kaut.to
+[Mon Jul 21 05:25:12 PM UTC 2025] Disk usage: 6.3M
+[Mon Jul 21 05:25:12 PM UTC 2025] Build script completed
 ----------------------------------------
-[Fri Jul 18 06:10:01 AM UTC 2025] Starting MkDocs build...
-[Fri Jul 18 06:10:01 AM UTC 2025] Pulling latest changes from git...
+[Mon Jul 21 05:30:01 PM UTC 2025] Starting MkDocs build...
+[Mon Jul 21 05:30:01 PM UTC 2025] Pulling latest changes from git...
 From https://github.com/jkautto/docs
  * branch              main       -> FETCH_HEAD
 Already up to date.
-[Fri Jul 18 06:10:01 AM UTC 2025] Building documentation...
-/srv/docs/build.sh: line 48: mkdocs: command not found
-[Fri Jul 18 06:10:01 AM UTC 2025] Build FAILED - check errors above
-[Fri Jul 18 06:15:01 AM UTC 2025] Starting MkDocs build...
-[Fri Jul 18 06:15:01 AM UTC 2025] Pulling latest changes from git...
+[Mon Jul 21 05:30:02 PM UTC 2025] Building documentation...
+INFO    -  Cleaning site directory
+INFO    -  Building documentation to directory: /srv/docs/site
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/api/shifts.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/api/index.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/applications/shifts.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/applications/slack-bot.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/guides/claude-cli-advanced.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/guides/github-workflow.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/guides/slack-webhooks.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/updates/2025-06-17-slack-documentation.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/api/index.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/api/shifts.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/applications/shifts.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/applications/slack-bot.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/guides/claude-cli-advanced.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/guides/github-workflow.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/guides/slack-webhooks.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/updates/2025-06-17-slack-documentation.md' has no git logs, using current timestamp
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - api/github-cli-graphql-research.md
+  - api/shifts.md
+  - guides/github-workflow.md
+  - operations/claude-sessions.md
+  - operations/ssl-troubleshooting.md
+  - operations/token-optimization.md
+  - specs/browser-testing-toolkit.md
+  - specs/documentation-consolidation.md
+  - specs/documentation-optimization.md
+  - specs/jtools-testing-toolkit.md
+  - specs/kaut-apps-repository.md
+  - specs/kaut-pastebin.md
+  - specs/mkdocs-migration-plan.md
+  - specs/pai-web-dashboard.md
+  - specs/task-v2.md
+  - specs/universal-setup.md
+  - updates/2025-06-17-slack-documentation.md
+WARNING -  A reference to 'architecture/dai-system.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  A reference to 'architecture/pai-system.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  A reference to 'architecture/infrastructure.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  A reference to 'architecture/security.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  A reference to 'guides/development-setup.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  A reference to 'guides/authentication.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  A reference to 'guides/google-services.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  A reference to 'guides/deployment.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  A reference to 'api/tools.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  A reference to 'api/task.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  A reference to 'api/pai-web.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  A reference to 'applications/pastebin.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  A reference to 'applications/auth.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  A reference to 'applications/browser-test.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  Doc file 'index.md' contains a link 'operations/index.md', but the target is not found among documentation files.
+WARNING -  Doc file 'api/index.md' contains a link './tools.md', but the target 'api/tools.md' is not found among documentation files.
+WARNING -  Doc file 'api/index.md' contains a link './task.md', but the target 'api/task.md' is not found among documentation files.
+WARNING -  Doc file 'api/index.md' contains a link './pai-web.md', but the target 'api/pai-web.md' is not found among documentation files.
+INFO    -  Doc file 'api/index.md' contains an absolute link '/architecture/', it was left as is. Did you mean '../architecture/index.md'?
+INFO    -  Doc file 'api/index.md' contains an absolute link '/guides/authentication/', it was left as is.
+INFO    -  Doc file 'api/index.md' contains an absolute link '/guides/development-setup/', it was left as is.
+INFO    -  Doc file 'api/index.md' contains an absolute link '/architecture/security/', it was left as is.
+INFO    -  Doc file 'api/shifts.md' contains an absolute link '/applications/shifts/', it was left as is. Did you mean '../applications/shifts.md'?
+INFO    -  Doc file 'api/shifts.md' contains an absolute link '/guides/authentication/', it was left as is.
+INFO    -  Doc file 'api/shifts.md' contains an absolute link '/api/', it was left as is. Did you mean 'index.md'?
+INFO    -  Doc file 'applications/index.md' contains an absolute link '/applications/shifts/', it was left as is. Did you mean 'shifts.md'?
+INFO    -  Doc file 'applications/index.md' contains an absolute link '/applications/pai-dashboard/', it was left as is.
+INFO    -  Doc file 'applications/index.md' contains an absolute link '/applications/pastebin/', it was left as is.
+INFO    -  Doc file 'applications/index.md' contains an absolute link '/architecture/', it was left as is. Did you mean '../architecture/index.md'?
+INFO    -  Doc file 'applications/index.md' contains an absolute link '/operations/', it was left as is.
+INFO    -  Doc file 'applications/index.md' contains an absolute link '/api/', it was left as is. Did you mean '../api/index.md'?
+INFO    -  Doc file 'applications/index.md' contains an absolute link '/guides/', it was left as is. Did you mean '../guides/index.md'?
+INFO    -  Doc file 'applications/jtools-testing-toolkit.md' contains an absolute link '/guides/jtools-testing/', it was left as is. Did you mean '../guides/jtools-testing.md'?
+INFO    -  Doc file 'applications/jtools-testing-toolkit.md' contains an absolute link '/specs/jtools-testing-toolkit/', it was left as is. Did you mean '../specs/jtools-testing-toolkit.md'?
+INFO    -  Doc file 'applications/jtools-testing-toolkit.md' contains an absolute link '/guides/browser-testing/', it was left as is. Did you mean '../guides/browser-testing.md'?
+INFO    -  Doc file 'applications/jtools-testing-toolkit.md' contains an absolute link '/guides/ci-cd-setup/', it was left as is.
+INFO    -  Doc file 'applications/shifts.md' contains an absolute link '/api/shifts/', it was left as is. Did you mean '../api/shifts.md'?
+INFO    -  Doc file 'applications/shifts.md' contains an absolute link '/guides/github-workflow/', it was left as is. Did you mean '../guides/github-workflow.md'?
+INFO    -  Doc file 'applications/shifts.md' contains an absolute link '/guides/development-standards/', it was left as is.
+INFO    -  Doc file 'applications/shifts.md' contains an absolute link '/guides/testing/', it was left as is.
+WARNING -  Doc file 'applications/slack-bot.md' contains a link '../architecture/intelligence-stack.md', but the target 'architecture/intelligence-stack.md' is not found among documentation files.
+WARNING -  Doc file 'architecture/index.md' contains a link 'dai-system.md', but the target 'architecture/dai-system.md' is not found among documentation files.
+WARNING -  Doc file 'architecture/index.md' contains a link 'pai-system.md', but the target 'architecture/pai-system.md' is not found among documentation files.
+WARNING -  Doc file 'architecture/index.md' contains a link 'infrastructure.md', but the target 'architecture/infrastructure.md' is not found among documentation files.
+WARNING -  Doc file 'architecture/index.md' contains a link 'security.md', but the target 'architecture/security.md' is not found among documentation files.
+INFO    -  Doc file 'context/index.md' contains an absolute link '/srv/context/development/github-issue-driven-workflow.md', it was left as is.
+INFO    -  Doc file 'guides/index.md' contains an absolute link '/reference/commands/', it was left as is.
+INFO    -  Doc file 'guides/index.md' contains an absolute link '/api/', it was left as is. Did you mean '../api/index.md'?
+INFO    -  Doc file 'guides/index.md' contains an absolute link '/reference/configs/', it was left as is.
+INFO    -  Doc file 'guides/index.md' contains an absolute link '/reference/env-vars/', it was left as is.
+INFO    -  Doc file 'guides/ai-agent-collaboration.md' contains an absolute link '/guides/ai-agent-onboarding/', it was left as is. Did you mean 'ai-agent-onboarding.md'?
+INFO    -  Doc file 'guides/ai-agent-collaboration.md' contains an absolute link '/guides/ai-agent-development/', it was left as is. Did you mean 'ai-agent-development.md'?
+INFO    -  Doc file 'guides/ai-agent-collaboration.md' contains an absolute link '/guides/jtools-testing/', it was left as is. Did you mean 'jtools-testing.md'?
+INFO    -  Doc file 'guides/ai-agent-development.md' contains an absolute link '/guides/jtools-testing/', it was left as is. Did you mean 'jtools-testing.md'?
+WARNING -  Doc file 'guides/claude-cli-advanced.md' contains a link '../architecture/intelligence-stack.md', but the target 'architecture/intelligence-stack.md' is not found among documentation files.
+INFO    -  Doc file 'guides/claude-cli-advanced.md' contains an unrecognized relative link '../operations/', it was left as is.
+INFO    -  Doc file 'guides/getting-started.md' contains an absolute link '/quickstart.md', it was left as is. Did you mean '../quickstart.md'?
+WARNING -  Doc file 'guides/getting-started.md' contains a link 'development-setup.md', but the target 'guides/development-setup.md' is not found among documentation files.
+WARNING -  Doc file 'guides/getting-started.md' contains a link 'authentication.md', but the target 'guides/authentication.md' is not found among documentation files.
+WARNING:root:First revision timestamp is older than last revision timestamp for page guides/github-workflow.md. This can be due to a quirk in `git` follow behaviour. You can try to set `enable_git_follow: false` in the plugin configuration.
+INFO    -  Doc file 'guides/github-workflow.md' contains an absolute link '/srv/docs/git-workflow.md', it was left as is.
+WARNING -  Doc file 'guides/github-workflow.md' contains a link './development-standards.md', but the target 'guides/development-standards.md' is not found among documentation files.
+INFO    -  Doc file 'guides/jtools-testing.md' contains an absolute link '/specs/jtools-testing-toolkit/', it was left as is. Did you mean '../specs/jtools-testing-toolkit.md'?
+INFO    -  Doc file 'guides/jtools-testing.md' contains an absolute link '/guides/ci-cd-setup/', it was left as is.
+INFO    -  Doc file 'guides/jtools-testing.md' contains an absolute link '/guides/performance-testing/', it was left as is.
+WARNING:root:First revision timestamp is older than last revision timestamp for page guides/slack-webhooks.md. This can be due to a quirk in `git` follow behaviour. You can try to set `enable_git_follow: false` in the plugin configuration.
+WARNING -  Doc file 'guides/slack-webhooks.md' contains a link '../operations/monitoring-alerts.md', but the target 'operations/monitoring-alerts.md' is not found among documentation files.
+WARNING -  Doc file 'guides/slack-webhooks.md' contains a link '../architecture/intelligence-stack.md', but the target 'architecture/intelligence-stack.md' is not found among documentation files.
+WARNING -  Doc file 'operations/claude-sessions.md' contains a link './common-issues.md', but the target 'operations/common-issues.md' is not found among documentation files.
+WARNING -  Doc file 'operations/claude-sessions.md' contains a link './monitoring-alerts.md', but the target 'operations/monitoring-alerts.md' is not found among documentation files.
+WARNING -  Doc file 'operations/monitoring.md' contains a link './slack-bot-recovery.md', but the target 'operations/slack-bot-recovery.md' is not found among documentation files.
+WARNING -  Doc file 'operations/monitoring.md' contains a link './token-refresh.md', but the target 'operations/token-refresh.md' is not found among documentation files.
+WARNING -  Doc file 'operations/monitoring.md' contains a link './incident-response.md', but the target 'operations/incident-response.md' is not found among documentation files.
+WARNING -  Doc file 'specs/active.md' contains a link 'kaut-mcp-server.md', but the target 'specs/kaut-mcp-server.md' is not found among documentation files.
+WARNING -  Doc file 'specs/active.md' contains a link 'ai-self-documenting.md', but the target 'specs/ai-self-documenting.md' is not found among documentation files.
+WARNING -  Doc file 'specs/active.md' contains a link 'jtools-api-architecture.md', but the target 'specs/jtools-api-architecture.md' is not found among documentation files.
+WARNING -  Doc file 'specs/active.md' contains a link 'jtools-reorganization.md', but the target 'specs/jtools-reorganization.md' is not found among documentation files.
+WARNING -  Doc file 'specs/active.md' contains a link 'jtools-unified-structure.md', but the target 'specs/jtools-unified-structure.md' is not found among documentation files.
+WARNING -  Doc file 'specs/active.md' contains a link 'context-library.md', but the target 'specs/context-library.md' is not found among documentation files.
+WARNING -  Doc file 'specs/active.md' contains a link 'context-optimization.md', but the target 'specs/context-optimization.md' is not found among documentation files.
+WARNING -  Doc file 'specs/active.md' contains a link 'specialized-agents.md', but the target 'specs/specialized-agents.md' is not found among documentation files.
+WARNING -  Doc file 'specs/documentation-optimization.md' contains a link '../path/to/doc.md', but the target 'path/to/doc.md' is not found among documentation files.
+WARNING -  Doc file 'specs/implementation.md' contains a link 'context-library.md', but the target 'specs/context-library.md' is not found among documentation files.
+WARNING -  Doc file 'specs/implementation.md' contains a link '../guides/development-setup.md', but the target 'guides/development-setup.md' is not found among documentation files.
+WARNING -  Doc file 'specs/implementation.md' contains a link '../guides/testing.md', but the target 'guides/testing.md' is not found among documentation files.
+WARNING -  Doc file 'specs/implementation.md' contains a link '../guides/deployment.md', but the target 'guides/deployment.md' is not found among documentation files.
+WARNING:root:First revision timestamp is older than last revision timestamp for page updates/2025-06-17-slack-documentation.md. This can be due to a quirk in `git` follow behaviour. You can try to set `enable_git_follow: false` in the plugin configuration.
+INFO    -  Doc file 'updates/2025-06-17-slack-documentation.md' contains an absolute link '/applications/slack-bot/', it was left as is. Did you mean '../applications/slack-bot.md'?
+INFO    -  Doc file 'updates/2025-06-17-slack-documentation.md' contains an absolute link '/guides/claude-cli-advanced/', it was left as is. Did you mean '../guides/claude-cli-advanced.md'?
+INFO    -  Doc file 'updates/2025-06-17-slack-documentation.md' contains an absolute link '/guides/slack-webhooks/', it was left as is. Did you mean '../guides/slack-webhooks.md'?
+INFO    -  Doc file 'updates/2025-06-17-slack-documentation.md' contains an absolute link '/operations/slack-recovery/', it was left as is. Did you mean '../operations/slack-recovery.md'?
+INFO    -  Documentation built in 9.80 seconds
+[Mon Jul 21 05:30:12 PM UTC 2025] Build completed successfully
+[Mon Jul 21 05:30:12 PM UTC 2025] Site updated at https://docs.kaut.to
+[Mon Jul 21 05:30:12 PM UTC 2025] Disk usage: 6.3M
+[Mon Jul 21 05:30:12 PM UTC 2025] Build script completed
+----------------------------------------
+[Mon Jul 21 05:35:02 PM UTC 2025] Starting MkDocs build...
+[Mon Jul 21 05:35:02 PM UTC 2025] Pulling latest changes from git...
 From https://github.com/jkautto/docs
  * branch              main       -> FETCH_HEAD
 Already up to date.
-[Fri Jul 18 06:15:02 AM UTC 2025] Building documentation...
-/srv/docs/build.sh: line 48: mkdocs: command not found
-[Fri Jul 18 06:15:02 AM UTC 2025] Build FAILED - check errors above
-[Fri Jul 18 06:20:01 AM UTC 2025] Starting MkDocs build...
-[Fri Jul 18 06:20:01 AM UTC 2025] Pulling latest changes from git...
+[Mon Jul 21 05:35:02 PM UTC 2025] Building documentation...
+INFO    -  Cleaning site directory
+INFO    -  Building documentation to directory: /srv/docs/site
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/api/index.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/applications/slack-bot.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/applications/shifts.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/api/shifts.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/guides/claude-cli-advanced.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/guides/github-workflow.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/guides/slack-webhooks.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/updates/2025-06-17-slack-documentation.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/api/index.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/api/shifts.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/applications/slack-bot.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/applications/shifts.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/guides/claude-cli-advanced.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/guides/github-workflow.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/guides/slack-webhooks.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/updates/2025-06-17-slack-documentation.md' has no git logs, using current timestamp
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - api/github-cli-graphql-research.md
+  - api/shifts.md
+  - guides/github-workflow.md
+  - operations/claude-sessions.md
+  - operations/ssl-troubleshooting.md
+  - operations/token-optimization.md
+  - specs/browser-testing-toolkit.md
+  - specs/documentation-consolidation.md
+  - specs/documentation-optimization.md
+  - specs/jtools-testing-toolkit.md
+  - specs/kaut-apps-repository.md
+  - specs/kaut-pastebin.md
+  - specs/mkdocs-migration-plan.md
+  - specs/pai-web-dashboard.md
+  - specs/task-v2.md
+  - specs/universal-setup.md
+  - updates/2025-06-17-slack-documentation.md
+WARNING -  A reference to 'architecture/dai-system.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  A reference to 'architecture/pai-system.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  A reference to 'architecture/infrastructure.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  A reference to 'architecture/security.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  A reference to 'guides/development-setup.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  A reference to 'guides/authentication.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  A reference to 'guides/google-services.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  A reference to 'guides/deployment.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  A reference to 'api/tools.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  A reference to 'api/task.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  A reference to 'api/pai-web.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  A reference to 'applications/pastebin.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  A reference to 'applications/auth.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  A reference to 'applications/browser-test.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  Doc file 'index.md' contains a link 'operations/index.md', but the target is not found among documentation files.
+WARNING:root:First revision timestamp is older than last revision timestamp for page api/index.md. This can be due to a quirk in `git` follow behaviour. You can try to set `enable_git_follow: false` in the plugin configuration.
+WARNING -  Doc file 'api/index.md' contains a link './tools.md', but the target 'api/tools.md' is not found among documentation files.
+WARNING -  Doc file 'api/index.md' contains a link './task.md', but the target 'api/task.md' is not found among documentation files.
+WARNING -  Doc file 'api/index.md' contains a link './pai-web.md', but the target 'api/pai-web.md' is not found among documentation files.
+INFO    -  Doc file 'api/index.md' contains an absolute link '/architecture/', it was left as is. Did you mean '../architecture/index.md'?
+INFO    -  Doc file 'api/index.md' contains an absolute link '/guides/authentication/', it was left as is.
+INFO    -  Doc file 'api/index.md' contains an absolute link '/guides/development-setup/', it was left as is.
+INFO    -  Doc file 'api/index.md' contains an absolute link '/architecture/security/', it was left as is.
+WARNING:root:First revision timestamp is older than last revision timestamp for page api/shifts.md. This can be due to a quirk in `git` follow behaviour. You can try to set `enable_git_follow: false` in the plugin configuration.
+INFO    -  Doc file 'api/shifts.md' contains an absolute link '/applications/shifts/', it was left as is. Did you mean '../applications/shifts.md'?
+INFO    -  Doc file 'api/shifts.md' contains an absolute link '/guides/authentication/', it was left as is.
+INFO    -  Doc file 'api/shifts.md' contains an absolute link '/api/', it was left as is. Did you mean 'index.md'?
+INFO    -  Doc file 'applications/index.md' contains an absolute link '/applications/shifts/', it was left as is. Did you mean 'shifts.md'?
+INFO    -  Doc file 'applications/index.md' contains an absolute link '/applications/pai-dashboard/', it was left as is.
+INFO    -  Doc file 'applications/index.md' contains an absolute link '/applications/pastebin/', it was left as is.
+INFO    -  Doc file 'applications/index.md' contains an absolute link '/architecture/', it was left as is. Did you mean '../architecture/index.md'?
+INFO    -  Doc file 'applications/index.md' contains an absolute link '/operations/', it was left as is.
+INFO    -  Doc file 'applications/index.md' contains an absolute link '/api/', it was left as is. Did you mean '../api/index.md'?
+INFO    -  Doc file 'applications/index.md' contains an absolute link '/guides/', it was left as is. Did you mean '../guides/index.md'?
+INFO    -  Doc file 'applications/jtools-testing-toolkit.md' contains an absolute link '/guides/jtools-testing/', it was left as is. Did you mean '../guides/jtools-testing.md'?
+INFO    -  Doc file 'applications/jtools-testing-toolkit.md' contains an absolute link '/specs/jtools-testing-toolkit/', it was left as is. Did you mean '../specs/jtools-testing-toolkit.md'?
+INFO    -  Doc file 'applications/jtools-testing-toolkit.md' contains an absolute link '/guides/browser-testing/', it was left as is. Did you mean '../guides/browser-testing.md'?
+INFO    -  Doc file 'applications/jtools-testing-toolkit.md' contains an absolute link '/guides/ci-cd-setup/', it was left as is.
+WARNING:root:First revision timestamp is older than last revision timestamp for page applications/shifts.md. This can be due to a quirk in `git` follow behaviour. You can try to set `enable_git_follow: false` in the plugin configuration.
+INFO    -  Doc file 'applications/shifts.md' contains an absolute link '/api/shifts/', it was left as is. Did you mean '../api/shifts.md'?
+INFO    -  Doc file 'applications/shifts.md' contains an absolute link '/guides/github-workflow/', it was left as is. Did you mean '../guides/github-workflow.md'?
+INFO    -  Doc file 'applications/shifts.md' contains an absolute link '/guides/development-standards/', it was left as is.
+INFO    -  Doc file 'applications/shifts.md' contains an absolute link '/guides/testing/', it was left as is.
+WARNING:root:First revision timestamp is older than last revision timestamp for page applications/slack-bot.md. This can be due to a quirk in `git` follow behaviour. You can try to set `enable_git_follow: false` in the plugin configuration.
+WARNING -  Doc file 'applications/slack-bot.md' contains a link '../architecture/intelligence-stack.md', but the target 'architecture/intelligence-stack.md' is not found among documentation files.
+WARNING -  Doc file 'architecture/index.md' contains a link 'dai-system.md', but the target 'architecture/dai-system.md' is not found among documentation files.
+WARNING -  Doc file 'architecture/index.md' contains a link 'pai-system.md', but the target 'architecture/pai-system.md' is not found among documentation files.
+WARNING -  Doc file 'architecture/index.md' contains a link 'infrastructure.md', but the target 'architecture/infrastructure.md' is not found among documentation files.
+WARNING -  Doc file 'architecture/index.md' contains a link 'security.md', but the target 'architecture/security.md' is not found among documentation files.
+INFO    -  Doc file 'context/index.md' contains an absolute link '/srv/context/development/github-issue-driven-workflow.md', it was left as is.
+INFO    -  Doc file 'guides/index.md' contains an absolute link '/reference/commands/', it was left as is.
+INFO    -  Doc file 'guides/index.md' contains an absolute link '/api/', it was left as is. Did you mean '../api/index.md'?
+INFO    -  Doc file 'guides/index.md' contains an absolute link '/reference/configs/', it was left as is.
+INFO    -  Doc file 'guides/index.md' contains an absolute link '/reference/env-vars/', it was left as is.
+INFO    -  Doc file 'guides/ai-agent-collaboration.md' contains an absolute link '/guides/ai-agent-onboarding/', it was left as is. Did you mean 'ai-agent-onboarding.md'?
+INFO    -  Doc file 'guides/ai-agent-collaboration.md' contains an absolute link '/guides/ai-agent-development/', it was left as is. Did you mean 'ai-agent-development.md'?
+INFO    -  Doc file 'guides/ai-agent-collaboration.md' contains an absolute link '/guides/jtools-testing/', it was left as is. Did you mean 'jtools-testing.md'?
+INFO    -  Doc file 'guides/ai-agent-development.md' contains an absolute link '/guides/jtools-testing/', it was left as is. Did you mean 'jtools-testing.md'?
+WARNING:root:First revision timestamp is older than last revision timestamp for page guides/claude-cli-advanced.md. This can be due to a quirk in `git` follow behaviour. You can try to set `enable_git_follow: false` in the plugin configuration.
+WARNING -  Doc file 'guides/claude-cli-advanced.md' contains a link '../architecture/intelligence-stack.md', but the target 'architecture/intelligence-stack.md' is not found among documentation files.
+INFO    -  Doc file 'guides/claude-cli-advanced.md' contains an unrecognized relative link '../operations/', it was left as is.
+INFO    -  Doc file 'guides/getting-started.md' contains an absolute link '/quickstart.md', it was left as is. Did you mean '../quickstart.md'?
+WARNING -  Doc file 'guides/getting-started.md' contains a link 'development-setup.md', but the target 'guides/development-setup.md' is not found among documentation files.
+WARNING -  Doc file 'guides/getting-started.md' contains a link 'authentication.md', but the target 'guides/authentication.md' is not found among documentation files.
+WARNING:root:First revision timestamp is older than last revision timestamp for page guides/github-workflow.md. This can be due to a quirk in `git` follow behaviour. You can try to set `enable_git_follow: false` in the plugin configuration.
+INFO    -  Doc file 'guides/github-workflow.md' contains an absolute link '/srv/docs/git-workflow.md', it was left as is.
+WARNING -  Doc file 'guides/github-workflow.md' contains a link './development-standards.md', but the target 'guides/development-standards.md' is not found among documentation files.
+INFO    -  Doc file 'guides/jtools-testing.md' contains an absolute link '/specs/jtools-testing-toolkit/', it was left as is. Did you mean '../specs/jtools-testing-toolkit.md'?
+INFO    -  Doc file 'guides/jtools-testing.md' contains an absolute link '/guides/ci-cd-setup/', it was left as is.
+INFO    -  Doc file 'guides/jtools-testing.md' contains an absolute link '/guides/performance-testing/', it was left as is.
+WARNING:root:First revision timestamp is older than last revision timestamp for page guides/slack-webhooks.md. This can be due to a quirk in `git` follow behaviour. You can try to set `enable_git_follow: false` in the plugin configuration.
+WARNING -  Doc file 'guides/slack-webhooks.md' contains a link '../operations/monitoring-alerts.md', but the target 'operations/monitoring-alerts.md' is not found among documentation files.
+WARNING -  Doc file 'guides/slack-webhooks.md' contains a link '../architecture/intelligence-stack.md', but the target 'architecture/intelligence-stack.md' is not found among documentation files.
+WARNING -  Doc file 'operations/claude-sessions.md' contains a link './common-issues.md', but the target 'operations/common-issues.md' is not found among documentation files.
+WARNING -  Doc file 'operations/claude-sessions.md' contains a link './monitoring-alerts.md', but the target 'operations/monitoring-alerts.md' is not found among documentation files.
+WARNING -  Doc file 'operations/monitoring.md' contains a link './slack-bot-recovery.md', but the target 'operations/slack-bot-recovery.md' is not found among documentation files.
+WARNING -  Doc file 'operations/monitoring.md' contains a link './token-refresh.md', but the target 'operations/token-refresh.md' is not found among documentation files.
+WARNING -  Doc file 'operations/monitoring.md' contains a link './incident-response.md', but the target 'operations/incident-response.md' is not found among documentation files.
+WARNING -  Doc file 'specs/active.md' contains a link 'kaut-mcp-server.md', but the target 'specs/kaut-mcp-server.md' is not found among documentation files.
+WARNING -  Doc file 'specs/active.md' contains a link 'ai-self-documenting.md', but the target 'specs/ai-self-documenting.md' is not found among documentation files.
+WARNING -  Doc file 'specs/active.md' contains a link 'jtools-api-architecture.md', but the target 'specs/jtools-api-architecture.md' is not found among documentation files.
+WARNING -  Doc file 'specs/active.md' contains a link 'jtools-reorganization.md', but the target 'specs/jtools-reorganization.md' is not found among documentation files.
+WARNING -  Doc file 'specs/active.md' contains a link 'jtools-unified-structure.md', but the target 'specs/jtools-unified-structure.md' is not found among documentation files.
+WARNING -  Doc file 'specs/active.md' contains a link 'context-library.md', but the target 'specs/context-library.md' is not found among documentation files.
+WARNING -  Doc file 'specs/active.md' contains a link 'context-optimization.md', but the target 'specs/context-optimization.md' is not found among documentation files.
+WARNING -  Doc file 'specs/active.md' contains a link 'specialized-agents.md', but the target 'specs/specialized-agents.md' is not found among documentation files.
+WARNING -  Doc file 'specs/documentation-optimization.md' contains a link '../path/to/doc.md', but the target 'path/to/doc.md' is not found among documentation files.
+WARNING -  Doc file 'specs/implementation.md' contains a link 'context-library.md', but the target 'specs/context-library.md' is not found among documentation files.
+WARNING -  Doc file 'specs/implementation.md' contains a link '../guides/development-setup.md', but the target 'guides/development-setup.md' is not found among documentation files.
+WARNING -  Doc file 'specs/implementation.md' contains a link '../guides/testing.md', but the target 'guides/testing.md' is not found among documentation files.
+WARNING -  Doc file 'specs/implementation.md' contains a link '../guides/deployment.md', but the target 'guides/deployment.md' is not found among documentation files.
+INFO    -  Doc file 'updates/2025-06-17-slack-documentation.md' contains an absolute link '/applications/slack-bot/', it was left as is. Did you mean '../applications/slack-bot.md'?
+INFO    -  Doc file 'updates/2025-06-17-slack-documentation.md' contains an absolute link '/guides/claude-cli-advanced/', it was left as is. Did you mean '../guides/claude-cli-advanced.md'?
+INFO    -  Doc file 'updates/2025-06-17-slack-documentation.md' contains an absolute link '/guides/slack-webhooks/', it was left as is. Did you mean '../guides/slack-webhooks.md'?
+INFO    -  Doc file 'updates/2025-06-17-slack-documentation.md' contains an absolute link '/operations/slack-recovery/', it was left as is. Did you mean '../operations/slack-recovery.md'?
+INFO    -  Documentation built in 10.24 seconds
+[Mon Jul 21 05:35:13 PM UTC 2025] Build completed successfully
+[Mon Jul 21 05:35:13 PM UTC 2025] Site updated at https://docs.kaut.to
+[Mon Jul 21 05:35:13 PM UTC 2025] Disk usage: 6.3M
+[Mon Jul 21 05:35:13 PM UTC 2025] Build script completed
+----------------------------------------
+[Mon Jul 21 05:40:01 PM UTC 2025] Starting MkDocs build...
+[Mon Jul 21 05:40:01 PM UTC 2025] Pulling latest changes from git...
 From https://github.com/jkautto/docs
  * branch              main       -> FETCH_HEAD
 Already up to date.
-[Fri Jul 18 06:20:02 AM UTC 2025] Building documentation...
-/srv/docs/build.sh: line 48: mkdocs: command not found
-[Fri Jul 18 06:20:02 AM UTC 2025] Build FAILED - check errors above
-[Fri Jul 18 06:25:01 AM UTC 2025] Starting MkDocs build...
-[Fri Jul 18 06:25:01 AM UTC 2025] Pulling latest changes from git...
+[Mon Jul 21 05:40:02 PM UTC 2025] Building documentation...
+INFO    -  Cleaning site directory
+INFO    -  Building documentation to directory: /srv/docs/site
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/api/index.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/api/shifts.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/applications/shifts.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/applications/slack-bot.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/guides/claude-cli-advanced.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/guides/github-workflow.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/guides/slack-webhooks.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/updates/2025-06-17-slack-documentation.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/api/index.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/api/shifts.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/applications/shifts.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/applications/slack-bot.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/guides/claude-cli-advanced.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/guides/github-workflow.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/guides/slack-webhooks.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/updates/2025-06-17-slack-documentation.md' has no git logs, using current timestamp
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - api/github-cli-graphql-research.md
+  - api/shifts.md
+  - guides/github-workflow.md
+  - operations/claude-sessions.md
+  - operations/ssl-troubleshooting.md
+  - operations/token-optimization.md
+  - specs/browser-testing-toolkit.md
+  - specs/documentation-consolidation.md
+  - specs/documentation-optimization.md
+  - specs/jtools-testing-toolkit.md
+  - specs/kaut-apps-repository.md
+  - specs/kaut-pastebin.md
+  - specs/mkdocs-migration-plan.md
+  - specs/pai-web-dashboard.md
+  - specs/task-v2.md
+  - specs/universal-setup.md
+  - updates/2025-06-17-slack-documentation.md
+WARNING -  A reference to 'architecture/dai-system.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  A reference to 'architecture/pai-system.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  A reference to 'architecture/infrastructure.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  A reference to 'architecture/security.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  A reference to 'guides/development-setup.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  A reference to 'guides/authentication.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  A reference to 'guides/google-services.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  A reference to 'guides/deployment.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  A reference to 'api/tools.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  A reference to 'api/task.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  A reference to 'api/pai-web.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  A reference to 'applications/pastebin.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  A reference to 'applications/auth.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  A reference to 'applications/browser-test.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  Doc file 'index.md' contains a link 'operations/index.md', but the target is not found among documentation files.
+WARNING:root:First revision timestamp is older than last revision timestamp for page api/index.md. This can be due to a quirk in `git` follow behaviour. You can try to set `enable_git_follow: false` in the plugin configuration.
+WARNING -  Doc file 'api/index.md' contains a link './tools.md', but the target 'api/tools.md' is not found among documentation files.
+WARNING -  Doc file 'api/index.md' contains a link './task.md', but the target 'api/task.md' is not found among documentation files.
+WARNING -  Doc file 'api/index.md' contains a link './pai-web.md', but the target 'api/pai-web.md' is not found among documentation files.
+INFO    -  Doc file 'api/index.md' contains an absolute link '/architecture/', it was left as is. Did you mean '../architecture/index.md'?
+INFO    -  Doc file 'api/index.md' contains an absolute link '/guides/authentication/', it was left as is.
+INFO    -  Doc file 'api/index.md' contains an absolute link '/guides/development-setup/', it was left as is.
+INFO    -  Doc file 'api/index.md' contains an absolute link '/architecture/security/', it was left as is.
+WARNING:root:First revision timestamp is older than last revision timestamp for page api/shifts.md. This can be due to a quirk in `git` follow behaviour. You can try to set `enable_git_follow: false` in the plugin configuration.
+INFO    -  Doc file 'api/shifts.md' contains an absolute link '/applications/shifts/', it was left as is. Did you mean '../applications/shifts.md'?
+INFO    -  Doc file 'api/shifts.md' contains an absolute link '/guides/authentication/', it was left as is.
+INFO    -  Doc file 'api/shifts.md' contains an absolute link '/api/', it was left as is. Did you mean 'index.md'?
+INFO    -  Doc file 'applications/index.md' contains an absolute link '/applications/shifts/', it was left as is. Did you mean 'shifts.md'?
+INFO    -  Doc file 'applications/index.md' contains an absolute link '/applications/pai-dashboard/', it was left as is.
+INFO    -  Doc file 'applications/index.md' contains an absolute link '/applications/pastebin/', it was left as is.
+INFO    -  Doc file 'applications/index.md' contains an absolute link '/architecture/', it was left as is. Did you mean '../architecture/index.md'?
+INFO    -  Doc file 'applications/index.md' contains an absolute link '/operations/', it was left as is.
+INFO    -  Doc file 'applications/index.md' contains an absolute link '/api/', it was left as is. Did you mean '../api/index.md'?
+INFO    -  Doc file 'applications/index.md' contains an absolute link '/guides/', it was left as is. Did you mean '../guides/index.md'?
+INFO    -  Doc file 'applications/jtools-testing-toolkit.md' contains an absolute link '/guides/jtools-testing/', it was left as is. Did you mean '../guides/jtools-testing.md'?
+INFO    -  Doc file 'applications/jtools-testing-toolkit.md' contains an absolute link '/specs/jtools-testing-toolkit/', it was left as is. Did you mean '../specs/jtools-testing-toolkit.md'?
+INFO    -  Doc file 'applications/jtools-testing-toolkit.md' contains an absolute link '/guides/browser-testing/', it was left as is. Did you mean '../guides/browser-testing.md'?
+INFO    -  Doc file 'applications/jtools-testing-toolkit.md' contains an absolute link '/guides/ci-cd-setup/', it was left as is.
+WARNING:root:First revision timestamp is older than last revision timestamp for page applications/shifts.md. This can be due to a quirk in `git` follow behaviour. You can try to set `enable_git_follow: false` in the plugin configuration.
+INFO    -  Doc file 'applications/shifts.md' contains an absolute link '/api/shifts/', it was left as is. Did you mean '../api/shifts.md'?
+INFO    -  Doc file 'applications/shifts.md' contains an absolute link '/guides/github-workflow/', it was left as is. Did you mean '../guides/github-workflow.md'?
+INFO    -  Doc file 'applications/shifts.md' contains an absolute link '/guides/development-standards/', it was left as is.
+INFO    -  Doc file 'applications/shifts.md' contains an absolute link '/guides/testing/', it was left as is.
+WARNING:root:First revision timestamp is older than last revision timestamp for page applications/slack-bot.md. This can be due to a quirk in `git` follow behaviour. You can try to set `enable_git_follow: false` in the plugin configuration.
+WARNING -  Doc file 'applications/slack-bot.md' contains a link '../architecture/intelligence-stack.md', but the target 'architecture/intelligence-stack.md' is not found among documentation files.
+WARNING -  Doc file 'architecture/index.md' contains a link 'dai-system.md', but the target 'architecture/dai-system.md' is not found among documentation files.
+WARNING -  Doc file 'architecture/index.md' contains a link 'pai-system.md', but the target 'architecture/pai-system.md' is not found among documentation files.
+WARNING -  Doc file 'architecture/index.md' contains a link 'infrastructure.md', but the target 'architecture/infrastructure.md' is not found among documentation files.
+WARNING -  Doc file 'architecture/index.md' contains a link 'security.md', but the target 'architecture/security.md' is not found among documentation files.
+INFO    -  Doc file 'context/index.md' contains an absolute link '/srv/context/development/github-issue-driven-workflow.md', it was left as is.
+INFO    -  Doc file 'guides/index.md' contains an absolute link '/reference/commands/', it was left as is.
+INFO    -  Doc file 'guides/index.md' contains an absolute link '/api/', it was left as is. Did you mean '../api/index.md'?
+INFO    -  Doc file 'guides/index.md' contains an absolute link '/reference/configs/', it was left as is.
+INFO    -  Doc file 'guides/index.md' contains an absolute link '/reference/env-vars/', it was left as is.
+INFO    -  Doc file 'guides/ai-agent-collaboration.md' contains an absolute link '/guides/ai-agent-onboarding/', it was left as is. Did you mean 'ai-agent-onboarding.md'?
+INFO    -  Doc file 'guides/ai-agent-collaboration.md' contains an absolute link '/guides/ai-agent-development/', it was left as is. Did you mean 'ai-agent-development.md'?
+INFO    -  Doc file 'guides/ai-agent-collaboration.md' contains an absolute link '/guides/jtools-testing/', it was left as is. Did you mean 'jtools-testing.md'?
+INFO    -  Doc file 'guides/ai-agent-development.md' contains an absolute link '/guides/jtools-testing/', it was left as is. Did you mean 'jtools-testing.md'?
+WARNING:root:First revision timestamp is older than last revision timestamp for page guides/claude-cli-advanced.md. This can be due to a quirk in `git` follow behaviour. You can try to set `enable_git_follow: false` in the plugin configuration.
+WARNING -  Doc file 'guides/claude-cli-advanced.md' contains a link '../architecture/intelligence-stack.md', but the target 'architecture/intelligence-stack.md' is not found among documentation files.
+INFO    -  Doc file 'guides/claude-cli-advanced.md' contains an unrecognized relative link '../operations/', it was left as is.
+INFO    -  Doc file 'guides/getting-started.md' contains an absolute link '/quickstart.md', it was left as is. Did you mean '../quickstart.md'?
+WARNING -  Doc file 'guides/getting-started.md' contains a link 'development-setup.md', but the target 'guides/development-setup.md' is not found among documentation files.
+WARNING -  Doc file 'guides/getting-started.md' contains a link 'authentication.md', but the target 'guides/authentication.md' is not found among documentation files.
+WARNING:root:First revision timestamp is older than last revision timestamp for page guides/github-workflow.md. This can be due to a quirk in `git` follow behaviour. You can try to set `enable_git_follow: false` in the plugin configuration.
+INFO    -  Doc file 'guides/github-workflow.md' contains an absolute link '/srv/docs/git-workflow.md', it was left as is.
+WARNING -  Doc file 'guides/github-workflow.md' contains a link './development-standards.md', but the target 'guides/development-standards.md' is not found among documentation files.
+INFO    -  Doc file 'guides/jtools-testing.md' contains an absolute link '/specs/jtools-testing-toolkit/', it was left as is. Did you mean '../specs/jtools-testing-toolkit.md'?
+INFO    -  Doc file 'guides/jtools-testing.md' contains an absolute link '/guides/ci-cd-setup/', it was left as is.
+INFO    -  Doc file 'guides/jtools-testing.md' contains an absolute link '/guides/performance-testing/', it was left as is.
+WARNING:root:First revision timestamp is older than last revision timestamp for page guides/slack-webhooks.md. This can be due to a quirk in `git` follow behaviour. You can try to set `enable_git_follow: false` in the plugin configuration.
+WARNING -  Doc file 'guides/slack-webhooks.md' contains a link '../operations/monitoring-alerts.md', but the target 'operations/monitoring-alerts.md' is not found among documentation files.
+WARNING -  Doc file 'guides/slack-webhooks.md' contains a link '../architecture/intelligence-stack.md', but the target 'architecture/intelligence-stack.md' is not found among documentation files.
+WARNING -  Doc file 'operations/claude-sessions.md' contains a link './common-issues.md', but the target 'operations/common-issues.md' is not found among documentation files.
+WARNING -  Doc file 'operations/claude-sessions.md' contains a link './monitoring-alerts.md', but the target 'operations/monitoring-alerts.md' is not found among documentation files.
+WARNING -  Doc file 'operations/monitoring.md' contains a link './slack-bot-recovery.md', but the target 'operations/slack-bot-recovery.md' is not found among documentation files.
+WARNING -  Doc file 'operations/monitoring.md' contains a link './token-refresh.md', but the target 'operations/token-refresh.md' is not found among documentation files.
+WARNING -  Doc file 'operations/monitoring.md' contains a link './incident-response.md', but the target 'operations/incident-response.md' is not found among documentation files.
+WARNING -  Doc file 'specs/active.md' contains a link 'kaut-mcp-server.md', but the target 'specs/kaut-mcp-server.md' is not found among documentation files.
+WARNING -  Doc file 'specs/active.md' contains a link 'ai-self-documenting.md', but the target 'specs/ai-self-documenting.md' is not found among documentation files.
+WARNING -  Doc file 'specs/active.md' contains a link 'jtools-api-architecture.md', but the target 'specs/jtools-api-architecture.md' is not found among documentation files.
+WARNING -  Doc file 'specs/active.md' contains a link 'jtools-reorganization.md', but the target 'specs/jtools-reorganization.md' is not found among documentation files.
+WARNING -  Doc file 'specs/active.md' contains a link 'jtools-unified-structure.md', but the target 'specs/jtools-unified-structure.md' is not found among documentation files.
+WARNING -  Doc file 'specs/active.md' contains a link 'context-library.md', but the target 'specs/context-library.md' is not found among documentation files.
+WARNING -  Doc file 'specs/active.md' contains a link 'context-optimization.md', but the target 'specs/context-optimization.md' is not found among documentation files.
+WARNING -  Doc file 'specs/active.md' contains a link 'specialized-agents.md', but the target 'specs/specialized-agents.md' is not found among documentation files.
+WARNING -  Doc file 'specs/documentation-optimization.md' contains a link '../path/to/doc.md', but the target 'path/to/doc.md' is not found among documentation files.
+WARNING -  Doc file 'specs/implementation.md' contains a link 'context-library.md', but the target 'specs/context-library.md' is not found among documentation files.
+WARNING -  Doc file 'specs/implementation.md' contains a link '../guides/development-setup.md', but the target 'guides/development-setup.md' is not found among documentation files.
+WARNING -  Doc file 'specs/implementation.md' contains a link '../guides/testing.md', but the target 'guides/testing.md' is not found among documentation files.
+WARNING -  Doc file 'specs/implementation.md' contains a link '../guides/deployment.md', but the target 'guides/deployment.md' is not found among documentation files.
+INFO    -  Doc file 'updates/2025-06-17-slack-documentation.md' contains an absolute link '/applications/slack-bot/', it was left as is. Did you mean '../applications/slack-bot.md'?
+INFO    -  Doc file 'updates/2025-06-17-slack-documentation.md' contains an absolute link '/guides/claude-cli-advanced/', it was left as is. Did you mean '../guides/claude-cli-advanced.md'?
+INFO    -  Doc file 'updates/2025-06-17-slack-documentation.md' contains an absolute link '/guides/slack-webhooks/', it was left as is. Did you mean '../guides/slack-webhooks.md'?
+INFO    -  Doc file 'updates/2025-06-17-slack-documentation.md' contains an absolute link '/operations/slack-recovery/', it was left as is. Did you mean '../operations/slack-recovery.md'?
+INFO    -  Documentation built in 10.16 seconds
+[Mon Jul 21 05:40:13 PM UTC 2025] Build completed successfully
+[Mon Jul 21 05:40:13 PM UTC 2025] Site updated at https://docs.kaut.to
+[Mon Jul 21 05:40:13 PM UTC 2025] Disk usage: 6.3M
+[Mon Jul 21 05:40:13 PM UTC 2025] Build script completed
+----------------------------------------
+[Mon Jul 21 05:45:01 PM UTC 2025] Starting MkDocs build...
+[Mon Jul 21 05:45:01 PM UTC 2025] Pulling latest changes from git...
 From https://github.com/jkautto/docs
  * branch              main       -> FETCH_HEAD
 Already up to date.
-[Fri Jul 18 06:25:01 AM UTC 2025] Building documentation...
-/srv/docs/build.sh: line 48: mkdocs: command not found
-[Fri Jul 18 06:25:01 AM UTC 2025] Build FAILED - check errors above
-[Fri Jul 18 06:30:01 AM UTC 2025] Starting MkDocs build...
-[Fri Jul 18 06:30:01 AM UTC 2025] Pulling latest changes from git...
+[Mon Jul 21 05:45:02 PM UTC 2025] Building documentation...
+INFO    -  Cleaning site directory
+INFO    -  Building documentation to directory: /srv/docs/site
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/api/shifts.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/api/index.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/applications/shifts.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/applications/slack-bot.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/guides/claude-cli-advanced.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/guides/github-workflow.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/guides/slack-webhooks.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/updates/2025-06-17-slack-documentation.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/api/index.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/api/shifts.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/applications/shifts.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/applications/slack-bot.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/guides/claude-cli-advanced.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/guides/github-workflow.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/guides/slack-webhooks.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/updates/2025-06-17-slack-documentation.md' has no git logs, using current timestamp
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - api/github-cli-graphql-research.md
+  - api/shifts.md
+  - guides/github-workflow.md
+  - operations/claude-sessions.md
+  - operations/ssl-troubleshooting.md
+  - operations/token-optimization.md
+  - specs/browser-testing-toolkit.md
+  - specs/documentation-consolidation.md
+  - specs/documentation-optimization.md
+  - specs/jtools-testing-toolkit.md
+  - specs/kaut-apps-repository.md
+  - specs/kaut-pastebin.md
+  - specs/mkdocs-migration-plan.md
+  - specs/pai-web-dashboard.md
+  - specs/task-v2.md
+  - specs/universal-setup.md
+  - updates/2025-06-17-slack-documentation.md
+WARNING -  A reference to 'architecture/dai-system.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  A reference to 'architecture/pai-system.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  A reference to 'architecture/infrastructure.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  A reference to 'architecture/security.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  A reference to 'guides/development-setup.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  A reference to 'guides/authentication.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  A reference to 'guides/google-services.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  A reference to 'guides/deployment.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  A reference to 'api/tools.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  A reference to 'api/task.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  A reference to 'api/pai-web.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  A reference to 'applications/pastebin.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  A reference to 'applications/auth.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  A reference to 'applications/browser-test.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  Doc file 'index.md' contains a link 'operations/index.md', but the target is not found among documentation files.
+WARNING -  Doc file 'api/index.md' contains a link './tools.md', but the target 'api/tools.md' is not found among documentation files.
+WARNING -  Doc file 'api/index.md' contains a link './task.md', but the target 'api/task.md' is not found among documentation files.
+WARNING -  Doc file 'api/index.md' contains a link './pai-web.md', but the target 'api/pai-web.md' is not found among documentation files.
+INFO    -  Doc file 'api/index.md' contains an absolute link '/architecture/', it was left as is. Did you mean '../architecture/index.md'?
+INFO    -  Doc file 'api/index.md' contains an absolute link '/guides/authentication/', it was left as is.
+INFO    -  Doc file 'api/index.md' contains an absolute link '/guides/development-setup/', it was left as is.
+INFO    -  Doc file 'api/index.md' contains an absolute link '/architecture/security/', it was left as is.
+INFO    -  Doc file 'api/shifts.md' contains an absolute link '/applications/shifts/', it was left as is. Did you mean '../applications/shifts.md'?
+INFO    -  Doc file 'api/shifts.md' contains an absolute link '/guides/authentication/', it was left as is.
+INFO    -  Doc file 'api/shifts.md' contains an absolute link '/api/', it was left as is. Did you mean 'index.md'?
+INFO    -  Doc file 'applications/index.md' contains an absolute link '/applications/shifts/', it was left as is. Did you mean 'shifts.md'?
+INFO    -  Doc file 'applications/index.md' contains an absolute link '/applications/pai-dashboard/', it was left as is.
+INFO    -  Doc file 'applications/index.md' contains an absolute link '/applications/pastebin/', it was left as is.
+INFO    -  Doc file 'applications/index.md' contains an absolute link '/architecture/', it was left as is. Did you mean '../architecture/index.md'?
+INFO    -  Doc file 'applications/index.md' contains an absolute link '/operations/', it was left as is.
+INFO    -  Doc file 'applications/index.md' contains an absolute link '/api/', it was left as is. Did you mean '../api/index.md'?
+INFO    -  Doc file 'applications/index.md' contains an absolute link '/guides/', it was left as is. Did you mean '../guides/index.md'?
+INFO    -  Doc file 'applications/jtools-testing-toolkit.md' contains an absolute link '/guides/jtools-testing/', it was left as is. Did you mean '../guides/jtools-testing.md'?
+INFO    -  Doc file 'applications/jtools-testing-toolkit.md' contains an absolute link '/specs/jtools-testing-toolkit/', it was left as is. Did you mean '../specs/jtools-testing-toolkit.md'?
+INFO    -  Doc file 'applications/jtools-testing-toolkit.md' contains an absolute link '/guides/browser-testing/', it was left as is. Did you mean '../guides/browser-testing.md'?
+INFO    -  Doc file 'applications/jtools-testing-toolkit.md' contains an absolute link '/guides/ci-cd-setup/', it was left as is.
+INFO    -  Doc file 'applications/shifts.md' contains an absolute link '/api/shifts/', it was left as is. Did you mean '../api/shifts.md'?
+INFO    -  Doc file 'applications/shifts.md' contains an absolute link '/guides/github-workflow/', it was left as is. Did you mean '../guides/github-workflow.md'?
+INFO    -  Doc file 'applications/shifts.md' contains an absolute link '/guides/development-standards/', it was left as is.
+INFO    -  Doc file 'applications/shifts.md' contains an absolute link '/guides/testing/', it was left as is.
+WARNING:root:First revision timestamp is older than last revision timestamp for page applications/slack-bot.md. This can be due to a quirk in `git` follow behaviour. You can try to set `enable_git_follow: false` in the plugin configuration.
+WARNING -  Doc file 'applications/slack-bot.md' contains a link '../architecture/intelligence-stack.md', but the target 'architecture/intelligence-stack.md' is not found among documentation files.
+WARNING -  Doc file 'architecture/index.md' contains a link 'dai-system.md', but the target 'architecture/dai-system.md' is not found among documentation files.
+WARNING -  Doc file 'architecture/index.md' contains a link 'pai-system.md', but the target 'architecture/pai-system.md' is not found among documentation files.
+WARNING -  Doc file 'architecture/index.md' contains a link 'infrastructure.md', but the target 'architecture/infrastructure.md' is not found among documentation files.
+WARNING -  Doc file 'architecture/index.md' contains a link 'security.md', but the target 'architecture/security.md' is not found among documentation files.
+INFO    -  Doc file 'context/index.md' contains an absolute link '/srv/context/development/github-issue-driven-workflow.md', it was left as is.
+INFO    -  Doc file 'guides/index.md' contains an absolute link '/reference/commands/', it was left as is.
+INFO    -  Doc file 'guides/index.md' contains an absolute link '/api/', it was left as is. Did you mean '../api/index.md'?
+INFO    -  Doc file 'guides/index.md' contains an absolute link '/reference/configs/', it was left as is.
+INFO    -  Doc file 'guides/index.md' contains an absolute link '/reference/env-vars/', it was left as is.
+INFO    -  Doc file 'guides/ai-agent-collaboration.md' contains an absolute link '/guides/ai-agent-onboarding/', it was left as is. Did you mean 'ai-agent-onboarding.md'?
+INFO    -  Doc file 'guides/ai-agent-collaboration.md' contains an absolute link '/guides/ai-agent-development/', it was left as is. Did you mean 'ai-agent-development.md'?
+INFO    -  Doc file 'guides/ai-agent-collaboration.md' contains an absolute link '/guides/jtools-testing/', it was left as is. Did you mean 'jtools-testing.md'?
+INFO    -  Doc file 'guides/ai-agent-development.md' contains an absolute link '/guides/jtools-testing/', it was left as is. Did you mean 'jtools-testing.md'?
+WARNING:root:First revision timestamp is older than last revision timestamp for page guides/claude-cli-advanced.md. This can be due to a quirk in `git` follow behaviour. You can try to set `enable_git_follow: false` in the plugin configuration.
+WARNING -  Doc file 'guides/claude-cli-advanced.md' contains a link '../architecture/intelligence-stack.md', but the target 'architecture/intelligence-stack.md' is not found among documentation files.
+INFO    -  Doc file 'guides/claude-cli-advanced.md' contains an unrecognized relative link '../operations/', it was left as is.
+INFO    -  Doc file 'guides/getting-started.md' contains an absolute link '/quickstart.md', it was left as is. Did you mean '../quickstart.md'?
+WARNING -  Doc file 'guides/getting-started.md' contains a link 'development-setup.md', but the target 'guides/development-setup.md' is not found among documentation files.
+WARNING -  Doc file 'guides/getting-started.md' contains a link 'authentication.md', but the target 'guides/authentication.md' is not found among documentation files.
+WARNING:root:First revision timestamp is older than last revision timestamp for page guides/github-workflow.md. This can be due to a quirk in `git` follow behaviour. You can try to set `enable_git_follow: false` in the plugin configuration.
+INFO    -  Doc file 'guides/github-workflow.md' contains an absolute link '/srv/docs/git-workflow.md', it was left as is.
+WARNING -  Doc file 'guides/github-workflow.md' contains a link './development-standards.md', but the target 'guides/development-standards.md' is not found among documentation files.
+INFO    -  Doc file 'guides/jtools-testing.md' contains an absolute link '/specs/jtools-testing-toolkit/', it was left as is. Did you mean '../specs/jtools-testing-toolkit.md'?
+INFO    -  Doc file 'guides/jtools-testing.md' contains an absolute link '/guides/ci-cd-setup/', it was left as is.
+INFO    -  Doc file 'guides/jtools-testing.md' contains an absolute link '/guides/performance-testing/', it was left as is.
+WARNING:root:First revision timestamp is older than last revision timestamp for page guides/slack-webhooks.md. This can be due to a quirk in `git` follow behaviour. You can try to set `enable_git_follow: false` in the plugin configuration.
+WARNING -  Doc file 'guides/slack-webhooks.md' contains a link '../operations/monitoring-alerts.md', but the target 'operations/monitoring-alerts.md' is not found among documentation files.
+WARNING -  Doc file 'guides/slack-webhooks.md' contains a link '../architecture/intelligence-stack.md', but the target 'architecture/intelligence-stack.md' is not found among documentation files.
+WARNING -  Doc file 'operations/claude-sessions.md' contains a link './common-issues.md', but the target 'operations/common-issues.md' is not found among documentation files.
+WARNING -  Doc file 'operations/claude-sessions.md' contains a link './monitoring-alerts.md', but the target 'operations/monitoring-alerts.md' is not found among documentation files.
+WARNING -  Doc file 'operations/monitoring.md' contains a link './slack-bot-recovery.md', but the target 'operations/slack-bot-recovery.md' is not found among documentation files.
+WARNING -  Doc file 'operations/monitoring.md' contains a link './token-refresh.md', but the target 'operations/token-refresh.md' is not found among documentation files.
+WARNING -  Doc file 'operations/monitoring.md' contains a link './incident-response.md', but the target 'operations/incident-response.md' is not found among documentation files.
+WARNING -  Doc file 'specs/active.md' contains a link 'kaut-mcp-server.md', but the target 'specs/kaut-mcp-server.md' is not found among documentation files.
+WARNING -  Doc file 'specs/active.md' contains a link 'ai-self-documenting.md', but the target 'specs/ai-self-documenting.md' is not found among documentation files.
+WARNING -  Doc file 'specs/active.md' contains a link 'jtools-api-architecture.md', but the target 'specs/jtools-api-architecture.md' is not found among documentation files.
+WARNING -  Doc file 'specs/active.md' contains a link 'jtools-reorganization.md', but the target 'specs/jtools-reorganization.md' is not found among documentation files.
+WARNING -  Doc file 'specs/active.md' contains a link 'jtools-unified-structure.md', but the target 'specs/jtools-unified-structure.md' is not found among documentation files.
+WARNING -  Doc file 'specs/active.md' contains a link 'context-library.md', but the target 'specs/context-library.md' is not found among documentation files.
+WARNING -  Doc file 'specs/active.md' contains a link 'context-optimization.md', but the target 'specs/context-optimization.md' is not found among documentation files.
+WARNING -  Doc file 'specs/active.md' contains a link 'specialized-agents.md', but the target 'specs/specialized-agents.md' is not found among documentation files.
+WARNING -  Doc file 'specs/documentation-optimization.md' contains a link '../path/to/doc.md', but the target 'path/to/doc.md' is not found among documentation files.
+WARNING -  Doc file 'specs/implementation.md' contains a link 'context-library.md', but the target 'specs/context-library.md' is not found among documentation files.
+WARNING -  Doc file 'specs/implementation.md' contains a link '../guides/development-setup.md', but the target 'guides/development-setup.md' is not found among documentation files.
+WARNING -  Doc file 'specs/implementation.md' contains a link '../guides/testing.md', but the target 'guides/testing.md' is not found among documentation files.
+WARNING -  Doc file 'specs/implementation.md' contains a link '../guides/deployment.md', but the target 'guides/deployment.md' is not found among documentation files.
+WARNING:root:First revision timestamp is older than last revision timestamp for page updates/2025-06-17-slack-documentation.md. This can be due to a quirk in `git` follow behaviour. You can try to set `enable_git_follow: false` in the plugin configuration.
+INFO    -  Doc file 'updates/2025-06-17-slack-documentation.md' contains an absolute link '/applications/slack-bot/', it was left as is. Did you mean '../applications/slack-bot.md'?
+INFO    -  Doc file 'updates/2025-06-17-slack-documentation.md' contains an absolute link '/guides/claude-cli-advanced/', it was left as is. Did you mean '../guides/claude-cli-advanced.md'?
+INFO    -  Doc file 'updates/2025-06-17-slack-documentation.md' contains an absolute link '/guides/slack-webhooks/', it was left as is. Did you mean '../guides/slack-webhooks.md'?
+INFO    -  Doc file 'updates/2025-06-17-slack-documentation.md' contains an absolute link '/operations/slack-recovery/', it was left as is. Did you mean '../operations/slack-recovery.md'?
+INFO    -  Documentation built in 9.48 seconds
+[Mon Jul 21 05:45:12 PM UTC 2025] Build completed successfully
+[Mon Jul 21 05:45:12 PM UTC 2025] Site updated at https://docs.kaut.to
+[Mon Jul 21 05:45:12 PM UTC 2025] Disk usage: 6.3M
+[Mon Jul 21 05:45:12 PM UTC 2025] Build script completed
+----------------------------------------
+[Mon Jul 21 05:50:01 PM UTC 2025] Starting MkDocs build...
+[Mon Jul 21 05:50:01 PM UTC 2025] Pulling latest changes from git...
 From https://github.com/jkautto/docs
  * branch              main       -> FETCH_HEAD
 Already up to date.
-[Fri Jul 18 06:30:02 AM UTC 2025] Building documentation...
-/srv/docs/build.sh: line 48: mkdocs: command not found
-[Fri Jul 18 06:30:02 AM UTC 2025] Build FAILED - check errors above
-[Fri Jul 18 06:35:01 AM UTC 2025] Starting MkDocs build...
-[Fri Jul 18 06:35:01 AM UTC 2025] Pulling latest changes from git...
+[Mon Jul 21 05:50:02 PM UTC 2025] Building documentation...
+INFO    -  Cleaning site directory
+INFO    -  Building documentation to directory: /srv/docs/site
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/api/shifts.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/api/index.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/applications/slack-bot.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/applications/shifts.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/guides/claude-cli-advanced.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/guides/github-workflow.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/guides/slack-webhooks.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/updates/2025-06-17-slack-documentation.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/api/shifts.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/api/index.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/applications/shifts.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/applications/slack-bot.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/guides/claude-cli-advanced.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/guides/github-workflow.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/guides/slack-webhooks.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/updates/2025-06-17-slack-documentation.md' has no git logs, using current timestamp
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - api/github-cli-graphql-research.md
+  - api/shifts.md
+  - guides/github-workflow.md
+  - operations/claude-sessions.md
+  - operations/ssl-troubleshooting.md
+  - operations/token-optimization.md
+  - specs/browser-testing-toolkit.md
+  - specs/documentation-consolidation.md
+  - specs/documentation-optimization.md
+  - specs/jtools-testing-toolkit.md
+  - specs/kaut-apps-repository.md
+  - specs/kaut-pastebin.md
+  - specs/mkdocs-migration-plan.md
+  - specs/pai-web-dashboard.md
+  - specs/task-v2.md
+  - specs/universal-setup.md
+  - updates/2025-06-17-slack-documentation.md
+WARNING -  A reference to 'architecture/dai-system.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  A reference to 'architecture/pai-system.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  A reference to 'architecture/infrastructure.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  A reference to 'architecture/security.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  A reference to 'guides/development-setup.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  A reference to 'guides/authentication.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  A reference to 'guides/google-services.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  A reference to 'guides/deployment.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  A reference to 'api/tools.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  A reference to 'api/task.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  A reference to 'api/pai-web.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  A reference to 'applications/pastebin.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  A reference to 'applications/auth.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  A reference to 'applications/browser-test.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  Doc file 'index.md' contains a link 'operations/index.md', but the target is not found among documentation files.
+WARNING -  Doc file 'api/index.md' contains a link './tools.md', but the target 'api/tools.md' is not found among documentation files.
+WARNING -  Doc file 'api/index.md' contains a link './task.md', but the target 'api/task.md' is not found among documentation files.
+WARNING -  Doc file 'api/index.md' contains a link './pai-web.md', but the target 'api/pai-web.md' is not found among documentation files.
+INFO    -  Doc file 'api/index.md' contains an absolute link '/architecture/', it was left as is. Did you mean '../architecture/index.md'?
+INFO    -  Doc file 'api/index.md' contains an absolute link '/guides/authentication/', it was left as is.
+INFO    -  Doc file 'api/index.md' contains an absolute link '/guides/development-setup/', it was left as is.
+INFO    -  Doc file 'api/index.md' contains an absolute link '/architecture/security/', it was left as is.
+INFO    -  Doc file 'api/shifts.md' contains an absolute link '/applications/shifts/', it was left as is. Did you mean '../applications/shifts.md'?
+INFO    -  Doc file 'api/shifts.md' contains an absolute link '/guides/authentication/', it was left as is.
+INFO    -  Doc file 'api/shifts.md' contains an absolute link '/api/', it was left as is. Did you mean 'index.md'?
+INFO    -  Doc file 'applications/index.md' contains an absolute link '/applications/shifts/', it was left as is. Did you mean 'shifts.md'?
+INFO    -  Doc file 'applications/index.md' contains an absolute link '/applications/pai-dashboard/', it was left as is.
+INFO    -  Doc file 'applications/index.md' contains an absolute link '/applications/pastebin/', it was left as is.
+INFO    -  Doc file 'applications/index.md' contains an absolute link '/architecture/', it was left as is. Did you mean '../architecture/index.md'?
+INFO    -  Doc file 'applications/index.md' contains an absolute link '/operations/', it was left as is.
+INFO    -  Doc file 'applications/index.md' contains an absolute link '/api/', it was left as is. Did you mean '../api/index.md'?
+INFO    -  Doc file 'applications/index.md' contains an absolute link '/guides/', it was left as is. Did you mean '../guides/index.md'?
+INFO    -  Doc file 'applications/jtools-testing-toolkit.md' contains an absolute link '/guides/jtools-testing/', it was left as is. Did you mean '../guides/jtools-testing.md'?
+INFO    -  Doc file 'applications/jtools-testing-toolkit.md' contains an absolute link '/specs/jtools-testing-toolkit/', it was left as is. Did you mean '../specs/jtools-testing-toolkit.md'?
+INFO    -  Doc file 'applications/jtools-testing-toolkit.md' contains an absolute link '/guides/browser-testing/', it was left as is. Did you mean '../guides/browser-testing.md'?
+INFO    -  Doc file 'applications/jtools-testing-toolkit.md' contains an absolute link '/guides/ci-cd-setup/', it was left as is.
+INFO    -  Doc file 'applications/shifts.md' contains an absolute link '/api/shifts/', it was left as is. Did you mean '../api/shifts.md'?
+INFO    -  Doc file 'applications/shifts.md' contains an absolute link '/guides/github-workflow/', it was left as is. Did you mean '../guides/github-workflow.md'?
+INFO    -  Doc file 'applications/shifts.md' contains an absolute link '/guides/development-standards/', it was left as is.
+INFO    -  Doc file 'applications/shifts.md' contains an absolute link '/guides/testing/', it was left as is.
+WARNING -  Doc file 'applications/slack-bot.md' contains a link '../architecture/intelligence-stack.md', but the target 'architecture/intelligence-stack.md' is not found among documentation files.
+WARNING -  Doc file 'architecture/index.md' contains a link 'dai-system.md', but the target 'architecture/dai-system.md' is not found among documentation files.
+WARNING -  Doc file 'architecture/index.md' contains a link 'pai-system.md', but the target 'architecture/pai-system.md' is not found among documentation files.
+WARNING -  Doc file 'architecture/index.md' contains a link 'infrastructure.md', but the target 'architecture/infrastructure.md' is not found among documentation files.
+WARNING -  Doc file 'architecture/index.md' contains a link 'security.md', but the target 'architecture/security.md' is not found among documentation files.
+INFO    -  Doc file 'context/index.md' contains an absolute link '/srv/context/development/github-issue-driven-workflow.md', it was left as is.
+INFO    -  Doc file 'guides/index.md' contains an absolute link '/reference/commands/', it was left as is.
+INFO    -  Doc file 'guides/index.md' contains an absolute link '/api/', it was left as is. Did you mean '../api/index.md'?
+INFO    -  Doc file 'guides/index.md' contains an absolute link '/reference/configs/', it was left as is.
+INFO    -  Doc file 'guides/index.md' contains an absolute link '/reference/env-vars/', it was left as is.
+INFO    -  Doc file 'guides/ai-agent-collaboration.md' contains an absolute link '/guides/ai-agent-onboarding/', it was left as is. Did you mean 'ai-agent-onboarding.md'?
+INFO    -  Doc file 'guides/ai-agent-collaboration.md' contains an absolute link '/guides/ai-agent-development/', it was left as is. Did you mean 'ai-agent-development.md'?
+INFO    -  Doc file 'guides/ai-agent-collaboration.md' contains an absolute link '/guides/jtools-testing/', it was left as is. Did you mean 'jtools-testing.md'?
+INFO    -  Doc file 'guides/ai-agent-development.md' contains an absolute link '/guides/jtools-testing/', it was left as is. Did you mean 'jtools-testing.md'?
+WARNING:root:First revision timestamp is older than last revision timestamp for page guides/claude-cli-advanced.md. This can be due to a quirk in `git` follow behaviour. You can try to set `enable_git_follow: false` in the plugin configuration.
+WARNING -  Doc file 'guides/claude-cli-advanced.md' contains a link '../architecture/intelligence-stack.md', but the target 'architecture/intelligence-stack.md' is not found among documentation files.
+INFO    -  Doc file 'guides/claude-cli-advanced.md' contains an unrecognized relative link '../operations/', it was left as is.
+INFO    -  Doc file 'guides/getting-started.md' contains an absolute link '/quickstart.md', it was left as is. Did you mean '../quickstart.md'?
+WARNING -  Doc file 'guides/getting-started.md' contains a link 'development-setup.md', but the target 'guides/development-setup.md' is not found among documentation files.
+WARNING -  Doc file 'guides/getting-started.md' contains a link 'authentication.md', but the target 'guides/authentication.md' is not found among documentation files.
+WARNING:root:First revision timestamp is older than last revision timestamp for page guides/github-workflow.md. This can be due to a quirk in `git` follow behaviour. You can try to set `enable_git_follow: false` in the plugin configuration.
+INFO    -  Doc file 'guides/github-workflow.md' contains an absolute link '/srv/docs/git-workflow.md', it was left as is.
+WARNING -  Doc file 'guides/github-workflow.md' contains a link './development-standards.md', but the target 'guides/development-standards.md' is not found among documentation files.
+INFO    -  Doc file 'guides/jtools-testing.md' contains an absolute link '/specs/jtools-testing-toolkit/', it was left as is. Did you mean '../specs/jtools-testing-toolkit.md'?
+INFO    -  Doc file 'guides/jtools-testing.md' contains an absolute link '/guides/ci-cd-setup/', it was left as is.
+INFO    -  Doc file 'guides/jtools-testing.md' contains an absolute link '/guides/performance-testing/', it was left as is.
+WARNING:root:First revision timestamp is older than last revision timestamp for page guides/slack-webhooks.md. This can be due to a quirk in `git` follow behaviour. You can try to set `enable_git_follow: false` in the plugin configuration.
+WARNING -  Doc file 'guides/slack-webhooks.md' contains a link '../operations/monitoring-alerts.md', but the target 'operations/monitoring-alerts.md' is not found among documentation files.
+WARNING -  Doc file 'guides/slack-webhooks.md' contains a link '../architecture/intelligence-stack.md', but the target 'architecture/intelligence-stack.md' is not found among documentation files.
+WARNING -  Doc file 'operations/claude-sessions.md' contains a link './common-issues.md', but the target 'operations/common-issues.md' is not found among documentation files.
+WARNING -  Doc file 'operations/claude-sessions.md' contains a link './monitoring-alerts.md', but the target 'operations/monitoring-alerts.md' is not found among documentation files.
+WARNING -  Doc file 'operations/monitoring.md' contains a link './slack-bot-recovery.md', but the target 'operations/slack-bot-recovery.md' is not found among documentation files.
+WARNING -  Doc file 'operations/monitoring.md' contains a link './token-refresh.md', but the target 'operations/token-refresh.md' is not found among documentation files.
+WARNING -  Doc file 'operations/monitoring.md' contains a link './incident-response.md', but the target 'operations/incident-response.md' is not found among documentation files.
+WARNING -  Doc file 'specs/active.md' contains a link 'kaut-mcp-server.md', but the target 'specs/kaut-mcp-server.md' is not found among documentation files.
+WARNING -  Doc file 'specs/active.md' contains a link 'ai-self-documenting.md', but the target 'specs/ai-self-documenting.md' is not found among documentation files.
+WARNING -  Doc file 'specs/active.md' contains a link 'jtools-api-architecture.md', but the target 'specs/jtools-api-architecture.md' is not found among documentation files.
+WARNING -  Doc file 'specs/active.md' contains a link 'jtools-reorganization.md', but the target 'specs/jtools-reorganization.md' is not found among documentation files.
+WARNING -  Doc file 'specs/active.md' contains a link 'jtools-unified-structure.md', but the target 'specs/jtools-unified-structure.md' is not found among documentation files.
+WARNING -  Doc file 'specs/active.md' contains a link 'context-library.md', but the target 'specs/context-library.md' is not found among documentation files.
+WARNING -  Doc file 'specs/active.md' contains a link 'context-optimization.md', but the target 'specs/context-optimization.md' is not found among documentation files.
+WARNING -  Doc file 'specs/active.md' contains a link 'specialized-agents.md', but the target 'specs/specialized-agents.md' is not found among documentation files.
+WARNING -  Doc file 'specs/documentation-optimization.md' contains a link '../path/to/doc.md', but the target 'path/to/doc.md' is not found among documentation files.
+WARNING -  Doc file 'specs/implementation.md' contains a link 'context-library.md', but the target 'specs/context-library.md' is not found among documentation files.
+WARNING -  Doc file 'specs/implementation.md' contains a link '../guides/development-setup.md', but the target 'guides/development-setup.md' is not found among documentation files.
+WARNING -  Doc file 'specs/implementation.md' contains a link '../guides/testing.md', but the target 'guides/testing.md' is not found among documentation files.
+WARNING -  Doc file 'specs/implementation.md' contains a link '../guides/deployment.md', but the target 'guides/deployment.md' is not found among documentation files.
+WARNING:root:First revision timestamp is older than last revision timestamp for page updates/2025-06-17-slack-documentation.md. This can be due to a quirk in `git` follow behaviour. You can try to set `enable_git_follow: false` in the plugin configuration.
+INFO    -  Doc file 'updates/2025-06-17-slack-documentation.md' contains an absolute link '/applications/slack-bot/', it was left as is. Did you mean '../applications/slack-bot.md'?
+INFO    -  Doc file 'updates/2025-06-17-slack-documentation.md' contains an absolute link '/guides/claude-cli-advanced/', it was left as is. Did you mean '../guides/claude-cli-advanced.md'?
+INFO    -  Doc file 'updates/2025-06-17-slack-documentation.md' contains an absolute link '/guides/slack-webhooks/', it was left as is. Did you mean '../guides/slack-webhooks.md'?
+INFO    -  Doc file 'updates/2025-06-17-slack-documentation.md' contains an absolute link '/operations/slack-recovery/', it was left as is. Did you mean '../operations/slack-recovery.md'?
+INFO    -  Documentation built in 9.40 seconds
+[Mon Jul 21 05:50:12 PM UTC 2025] Build completed successfully
+[Mon Jul 21 05:50:12 PM UTC 2025] Site updated at https://docs.kaut.to
+[Mon Jul 21 05:50:12 PM UTC 2025] Disk usage: 6.3M
+[Mon Jul 21 05:50:12 PM UTC 2025] Build script completed
+----------------------------------------
+[Mon Jul 21 05:55:01 PM UTC 2025] Starting MkDocs build...
+[Mon Jul 21 05:55:01 PM UTC 2025] Pulling latest changes from git...
 From https://github.com/jkautto/docs
  * branch              main       -> FETCH_HEAD
 Already up to date.
-[Fri Jul 18 06:35:01 AM UTC 2025] Building documentation...
-/srv/docs/build.sh: line 48: mkdocs: command not found
-[Fri Jul 18 06:35:01 AM UTC 2025] Build FAILED - check errors above
-[Fri Jul 18 06:40:01 AM UTC 2025] Starting MkDocs build...
-[Fri Jul 18 06:40:01 AM UTC 2025] Pulling latest changes from git...
-From https://github.com/jkautto/docs
- * branch              main       -> FETCH_HEAD
-Already up to date.
-[Fri Jul 18 06:40:02 AM UTC 2025] Building documentation...
-/srv/docs/build.sh: line 48: mkdocs: command not found
-[Fri Jul 18 06:40:02 AM UTC 2025] Build FAILED - check errors above
-[Fri Jul 18 06:45:01 AM UTC 2025] Starting MkDocs build...
-[Fri Jul 18 06:45:01 AM UTC 2025] Pulling latest changes from git...
-From https://github.com/jkautto/docs
- * branch              main       -> FETCH_HEAD
-Already up to date.
-[Fri Jul 18 06:45:01 AM UTC 2025] Building documentation...
-/srv/docs/build.sh: line 48: mkdocs: command not found
-[Fri Jul 18 06:45:01 AM UTC 2025] Build FAILED - check errors above
-[Fri Jul 18 06:50:01 AM UTC 2025] Starting MkDocs build...
-[Fri Jul 18 06:50:01 AM UTC 2025] Pulling latest changes from git...
-From https://github.com/jkautto/docs
- * branch              main       -> FETCH_HEAD
-Already up to date.
-[Fri Jul 18 06:50:02 AM UTC 2025] Building documentation...
-/srv/docs/build.sh: line 48: mkdocs: command not found
-[Fri Jul 18 06:50:02 AM UTC 2025] Build FAILED - check errors above
-[Fri Jul 18 06:55:01 AM UTC 2025] Starting MkDocs build...
-[Fri Jul 18 06:55:01 AM UTC 2025] Pulling latest changes from git...
-From https://github.com/jkautto/docs
- * branch              main       -> FETCH_HEAD
-Already up to date.
-[Fri Jul 18 06:55:02 AM UTC 2025] Building documentation...
-/srv/docs/build.sh: line 48: mkdocs: command not found
-[Fri Jul 18 06:55:02 AM UTC 2025] Build FAILED - check errors above
-[Fri Jul 18 07:00:01 AM UTC 2025] Starting MkDocs build...
-[Fri Jul 18 07:00:01 AM UTC 2025] Pulling latest changes from git...
-From https://github.com/jkautto/docs
- * branch              main       -> FETCH_HEAD
-Already up to date.
-[Fri Jul 18 07:00:01 AM UTC 2025] Building documentation...
-/srv/docs/build.sh: line 48: mkdocs: command not found
-[Fri Jul 18 07:00:01 AM UTC 2025] Build FAILED - check errors above
-[Fri Jul 18 07:05:01 AM UTC 2025] Starting MkDocs build...
-[Fri Jul 18 07:05:01 AM UTC 2025] Pulling latest changes from git...
-From https://github.com/jkautto/docs
- * branch              main       -> FETCH_HEAD
-Already up to date.
-[Fri Jul 18 07:05:02 AM UTC 2025] Building documentation...
-/srv/docs/build.sh: line 48: mkdocs: command not found
-[Fri Jul 18 07:05:02 AM UTC 2025] Build FAILED - check errors above
-[Fri Jul 18 07:10:01 AM UTC 2025] Starting MkDocs build...
-[Fri Jul 18 07:10:01 AM UTC 2025] Pulling latest changes from git...
-From https://github.com/jkautto/docs
- * branch              main       -> FETCH_HEAD
-Already up to date.
-[Fri Jul 18 07:10:01 AM UTC 2025] Building documentation...
-/srv/docs/build.sh: line 48: mkdocs: command not found
-[Fri Jul 18 07:10:01 AM UTC 2025] Build FAILED - check errors above
-[Fri Jul 18 07:15:01 AM UTC 2025] Starting MkDocs build...
-[Fri Jul 18 07:15:01 AM UTC 2025] Pulling latest changes from git...
-From https://github.com/jkautto/docs
- * branch              main       -> FETCH_HEAD
-Already up to date.
-[Fri Jul 18 07:15:02 AM UTC 2025] Building documentation...
-/srv/docs/build.sh: line 48: mkdocs: command not found
-[Fri Jul 18 07:15:02 AM UTC 2025] Build FAILED - check errors above
-[Fri Jul 18 07:20:01 AM UTC 2025] Starting MkDocs build...
-[Fri Jul 18 07:20:01 AM UTC 2025] Pulling latest changes from git...
-From https://github.com/jkautto/docs
- * branch              main       -> FETCH_HEAD
-Already up to date.
-[Fri Jul 18 07:20:01 AM UTC 2025] Building documentation...
-/srv/docs/build.sh: line 48: mkdocs: command not found
-[Fri Jul 18 07:20:02 AM UTC 2025] Build FAILED - check errors above
-[Fri Jul 18 07:25:01 AM UTC 2025] Starting MkDocs build...
-[Fri Jul 18 07:25:01 AM UTC 2025] Pulling latest changes from git...
-From https://github.com/jkautto/docs
- * branch              main       -> FETCH_HEAD
-Already up to date.
-[Fri Jul 18 07:25:01 AM UTC 2025] Building documentation...
-/srv/docs/build.sh: line 48: mkdocs: command not found
-[Fri Jul 18 07:25:01 AM UTC 2025] Build FAILED - check errors above
-[Fri Jul 18 07:28:57 AM UTC 2025] Starting MkDocs build...
-[Fri Jul 18 07:28:57 AM UTC 2025] Pulling latest changes from git...
-From https://github.com/jkautto/docs
- * branch              main       -> FETCH_HEAD
-Already up to date.
-[Fri Jul 18 07:28:58 AM UTC 2025] Building documentation...
-./build.sh: line 48: mkdocs: command not found
-[Fri Jul 18 07:28:58 AM UTC 2025] Build FAILED - check errors above
-[Fri Jul 18 07:29:13 AM UTC 2025] Starting MkDocs build...
-[Fri Jul 18 07:29:13 AM UTC 2025] Pulling latest changes from git...
-From https://github.com/jkautto/docs
- * branch              main       -> FETCH_HEAD
-Already up to date.
-[Fri Jul 18 07:29:13 AM UTC 2025] Building documentation...
-./build: line 48: mkdocs: command not found
-[Fri Jul 18 07:29:13 AM UTC 2025] Build FAILED - check errors above
-[Fri Jul 18 07:30:01 AM UTC 2025] Starting MkDocs build...
-[Fri Jul 18 07:30:01 AM UTC 2025] Pulling latest changes from git...
-From https://github.com/jkautto/docs
- * branch              main       -> FETCH_HEAD
-Already up to date.
-[Fri Jul 18 07:30:02 AM UTC 2025] Building documentation...
-/srv/docs/build.sh: line 48: mkdocs: command not found
-[Fri Jul 18 07:30:02 AM UTC 2025] Build FAILED - check errors above
-[Fri Jul 18 07:35:01 AM UTC 2025] Starting MkDocs build...
-[Fri Jul 18 07:35:01 AM UTC 2025] Pulling latest changes from git...
-From https://github.com/jkautto/docs
- * branch              main       -> FETCH_HEAD
-Already up to date.
-[Fri Jul 18 07:35:02 AM UTC 2025] Building documentation...
-/srv/docs/build.sh: line 48: mkdocs: command not found
-[Fri Jul 18 07:35:02 AM UTC 2025] Build FAILED - check errors above
-[Fri Jul 18 07:40:01 AM UTC 2025] Starting MkDocs build...
-[Fri Jul 18 07:40:01 AM UTC 2025] Pulling latest changes from git...
-From https://github.com/jkautto/docs
- * branch              main       -> FETCH_HEAD
-Already up to date.
-[Fri Jul 18 07:40:01 AM UTC 2025] Building documentation...
-/srv/docs/build.sh: line 48: mkdocs: command not found
-[Fri Jul 18 07:40:01 AM UTC 2025] Build FAILED - check errors above
-[Fri Jul 18 07:45:01 AM UTC 2025] Starting MkDocs build...
-[Fri Jul 18 07:45:01 AM UTC 2025] Pulling latest changes from git...
-From https://github.com/jkautto/docs
- * branch              main       -> FETCH_HEAD
-Already up to date.
-[Fri Jul 18 07:45:02 AM UTC 2025] Building documentation...
-/srv/docs/build.sh: line 48: mkdocs: command not found
-[Fri Jul 18 07:45:02 AM UTC 2025] Build FAILED - check errors above
-[Fri Jul 18 07:46:19 AM UTC 2025] Starting MkDocs build...
-[Fri Jul 18 07:46:19 AM UTC 2025] Pulling latest changes from git...
-From https://github.com/jkautto/docs
- * branch              main       -> FETCH_HEAD
-Already up to date.
-[Fri Jul 18 07:46:19 AM UTC 2025] Building documentation...
-./build: line 48: mkdocs: command not found
-[Fri Jul 18 07:46:19 AM UTC 2025] Build FAILED - check errors above
-[Fri Jul 18 07:46:40 AM UTC 2025] Starting MkDocs build...
-[Fri Jul 18 07:46:40 AM UTC 2025] Pulling latest changes from git...
-From https://github.com/jkautto/docs
- * branch              main       -> FETCH_HEAD
-Already up to date.
-[Fri Jul 18 07:46:41 AM UTC 2025] Building documentation...
-/srv/docs/build.sh: line 48: mkdocs: command not found
-[Fri Jul 18 07:46:41 AM UTC 2025] Build FAILED - check errors above
-[Fri Jul 18 07:50:01 AM UTC 2025] Starting MkDocs build...
-[Fri Jul 18 07:50:01 AM UTC 2025] Pulling latest changes from git...
-From https://github.com/jkautto/docs
- * branch              main       -> FETCH_HEAD
-Already up to date.
-[Fri Jul 18 07:50:01 AM UTC 2025] Building documentation...
-/srv/docs/build.sh: line 48: mkdocs: command not found
-[Fri Jul 18 07:50:01 AM UTC 2025] Build FAILED - check errors above
-[Fri Jul 18 07:55:01 AM UTC 2025] Starting MkDocs build...
-[Fri Jul 18 07:55:01 AM UTC 2025] Pulling latest changes from git...
-From https://github.com/jkautto/docs
- * branch              main       -> FETCH_HEAD
-Already up to date.
-[Fri Jul 18 07:55:02 AM UTC 2025] Building documentation...
-/srv/docs/build.sh: line 48: mkdocs: command not found
-[Fri Jul 18 07:55:02 AM UTC 2025] Build FAILED - check errors above
-[Fri Jul 18 08:00:01 AM UTC 2025] Starting MkDocs build...
-[Fri Jul 18 08:00:01 AM UTC 2025] Pulling latest changes from git...
-From https://github.com/jkautto/docs
- * branch              main       -> FETCH_HEAD
-Already up to date.
-[Fri Jul 18 08:00:03 AM UTC 2025] Building documentation...
-/srv/docs/build.sh: line 48: mkdocs: command not found
-[Fri Jul 18 08:00:03 AM UTC 2025] Build FAILED - check errors above
+[Mon Jul 21 05:55:02 PM UTC 2025] Building documentation...
+INFO    -  Cleaning site directory
+INFO    -  Building documentation to directory: /srv/docs/site
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/api/shifts.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/api/index.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/applications/slack-bot.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/applications/shifts.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/guides/claude-cli-advanced.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/guides/github-workflow.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/guides/slack-webhooks.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/updates/2025-06-17-slack-documentation.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/api/index.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/api/shifts.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/applications/shifts.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/applications/slack-bot.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/guides/claude-cli-advanced.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/guides/github-workflow.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/guides/slack-webhooks.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/updates/2025-06-17-slack-documentation.md' has no git logs, using current timestamp
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - api/github-cli-graphql-research.md
+  - api/shifts.md
+  - guides/github-workflow.md
+  - operations/claude-sessions.md
+  - operations/ssl-troubleshooting.md
+  - operations/token-optimization.md
+  - specs/browser-testing-toolkit.md
+  - specs/documentation-consolidation.md
+  - specs/documentation-optimization.md
+  - specs/jtools-testing-toolkit.md
+  - specs/kaut-apps-repository.md
+  - specs/kaut-pastebin.md
+  - specs/mkdocs-migration-plan.md
+  - specs/pai-web-dashboard.md
+  - specs/task-v2.md
+  - specs/universal-setup.md
+  - updates/2025-06-17-slack-documentation.md
+WARNING -  A reference to 'architecture/dai-system.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  A reference to 'architecture/pai-system.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  A reference to 'architecture/infrastructure.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  A reference to 'architecture/security.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  A reference to 'guides/development-setup.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  A reference to 'guides/authentication.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  A reference to 'guides/google-services.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  A reference to 'guides/deployment.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  A reference to 'api/tools.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  A reference to 'api/task.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  A reference to 'api/pai-web.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  A reference to 'applications/pastebin.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  A reference to 'applications/auth.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  A reference to 'applications/browser-test.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  Doc file 'index.md' contains a link 'operations/index.md', but the target is not found among documentation files.
+WARNING -  Doc file 'api/index.md' contains a link './tools.md', but the target 'api/tools.md' is not found among documentation files.
+WARNING -  Doc file 'api/index.md' contains a link './task.md', but the target 'api/task.md' is not found among documentation files.
+WARNING -  Doc file 'api/index.md' contains a link './pai-web.md', but the target 'api/pai-web.md' is not found among documentation files.
+INFO    -  Doc file 'api/index.md' contains an absolute link '/architecture/', it was left as is. Did you mean '../architecture/index.md'?
+INFO    -  Doc file 'api/index.md' contains an absolute link '/guides/authentication/', it was left as is.
+INFO    -  Doc file 'api/index.md' contains an absolute link '/guides/development-setup/', it was left as is.
+INFO    -  Doc file 'api/index.md' contains an absolute link '/architecture/security/', it was left as is.
+INFO    -  Doc file 'api/shifts.md' contains an absolute link '/applications/shifts/', it was left as is. Did you mean '../applications/shifts.md'?
+INFO    -  Doc file 'api/shifts.md' contains an absolute link '/guides/authentication/', it was left as is.
+INFO    -  Doc file 'api/shifts.md' contains an absolute link '/api/', it was left as is. Did you mean 'index.md'?
+INFO    -  Doc file 'applications/index.md' contains an absolute link '/applications/shifts/', it was left as is. Did you mean 'shifts.md'?
+INFO    -  Doc file 'applications/index.md' contains an absolute link '/applications/pai-dashboard/', it was left as is.
+INFO    -  Doc file 'applications/index.md' contains an absolute link '/applications/pastebin/', it was left as is.
+INFO    -  Doc file 'applications/index.md' contains an absolute link '/architecture/', it was left as is. Did you mean '../architecture/index.md'?
+INFO    -  Doc file 'applications/index.md' contains an absolute link '/operations/', it was left as is.
+INFO    -  Doc file 'applications/index.md' contains an absolute link '/api/', it was left as is. Did you mean '../api/index.md'?
+INFO    -  Doc file 'applications/index.md' contains an absolute link '/guides/', it was left as is. Did you mean '../guides/index.md'?
+INFO    -  Doc file 'applications/jtools-testing-toolkit.md' contains an absolute link '/guides/jtools-testing/', it was left as is. Did you mean '../guides/jtools-testing.md'?
+INFO    -  Doc file 'applications/jtools-testing-toolkit.md' contains an absolute link '/specs/jtools-testing-toolkit/', it was left as is. Did you mean '../specs/jtools-testing-toolkit.md'?
+INFO    -  Doc file 'applications/jtools-testing-toolkit.md' contains an absolute link '/guides/browser-testing/', it was left as is. Did you mean '../guides/browser-testing.md'?
+INFO    -  Doc file 'applications/jtools-testing-toolkit.md' contains an absolute link '/guides/ci-cd-setup/', it was left as is.
+INFO    -  Doc file 'applications/shifts.md' contains an absolute link '/api/shifts/', it was left as is. Did you mean '../api/shifts.md'?
+INFO    -  Doc file 'applications/shifts.md' contains an absolute link '/guides/github-workflow/', it was left as is. Did you mean '../guides/github-workflow.md'?
+INFO    -  Doc file 'applications/shifts.md' contains an absolute link '/guides/development-standards/', it was left as is.
+INFO    -  Doc file 'applications/shifts.md' contains an absolute link '/guides/testing/', it was left as is.
+WARNING -  Doc file 'applications/slack-bot.md' contains a link '../architecture/intelligence-stack.md', but the target 'architecture/intelligence-stack.md' is not found among documentation files.
+WARNING -  Doc file 'architecture/index.md' contains a link 'dai-system.md', but the target 'architecture/dai-system.md' is not found among documentation files.
+WARNING -  Doc file 'architecture/index.md' contains a link 'pai-system.md', but the target 'architecture/pai-system.md' is not found among documentation files.
+WARNING -  Doc file 'architecture/index.md' contains a link 'infrastructure.md', but the target 'architecture/infrastructure.md' is not found among documentation files.
+WARNING -  Doc file 'architecture/index.md' contains a link 'security.md', but the target 'architecture/security.md' is not found among documentation files.
+INFO    -  Doc file 'context/index.md' contains an absolute link '/srv/context/development/github-issue-driven-workflow.md', it was left as is.
+INFO    -  Doc file 'guides/index.md' contains an absolute link '/reference/commands/', it was left as is.
+INFO    -  Doc file 'guides/index.md' contains an absolute link '/api/', it was left as is. Did you mean '../api/index.md'?
+INFO    -  Doc file 'guides/index.md' contains an absolute link '/reference/configs/', it was left as is.
+INFO    -  Doc file 'guides/index.md' contains an absolute link '/reference/env-vars/', it was left as is.
+INFO    -  Doc file 'guides/ai-agent-collaboration.md' contains an absolute link '/guides/ai-agent-onboarding/', it was left as is. Did you mean 'ai-agent-onboarding.md'?
+INFO    -  Doc file 'guides/ai-agent-collaboration.md' contains an absolute link '/guides/ai-agent-development/', it was left as is. Did you mean 'ai-agent-development.md'?
+INFO    -  Doc file 'guides/ai-agent-collaboration.md' contains an absolute link '/guides/jtools-testing/', it was left as is. Did you mean 'jtools-testing.md'?
+INFO    -  Doc file 'guides/ai-agent-development.md' contains an absolute link '/guides/jtools-testing/', it was left as is. Did you mean 'jtools-testing.md'?
+WARNING -  Doc file 'guides/claude-cli-advanced.md' contains a link '../architecture/intelligence-stack.md', but the target 'architecture/intelligence-stack.md' is not found among documentation files.
+INFO    -  Doc file 'guides/claude-cli-advanced.md' contains an unrecognized relative link '../operations/', it was left as is.
+INFO    -  Doc file 'guides/getting-started.md' contains an absolute link '/quickstart.md', it was left as is. Did you mean '../quickstart.md'?
+WARNING -  Doc file 'guides/getting-started.md' contains a link 'development-setup.md', but the target 'guides/development-setup.md' is not found among documentation files.
+WARNING -  Doc file 'guides/getting-started.md' contains a link 'authentication.md', but the target 'guides/authentication.md' is not found among documentation files.
+WARNING:root:First revision timestamp is older than last revision timestamp for page guides/github-workflow.md. This can be due to a quirk in `git` follow behaviour. You can try to set `enable_git_follow: false` in the plugin configuration.
+INFO    -  Doc file 'guides/github-workflow.md' contains an absolute link '/srv/docs/git-workflow.md', it was left as is.
+WARNING -  Doc file 'guides/github-workflow.md' contains a link './development-standards.md', but the target 'guides/development-standards.md' is not found among documentation files.
+INFO    -  Doc file 'guides/jtools-testing.md' contains an absolute link '/specs/jtools-testing-toolkit/', it was left as is. Did you mean '../specs/jtools-testing-toolkit.md'?
+INFO    -  Doc file 'guides/jtools-testing.md' contains an absolute link '/guides/ci-cd-setup/', it was left as is.
+INFO    -  Doc file 'guides/jtools-testing.md' contains an absolute link '/guides/performance-testing/', it was left as is.
+WARNING:root:First revision timestamp is older than last revision timestamp for page guides/slack-webhooks.md. This can be due to a quirk in `git` follow behaviour. You can try to set `enable_git_follow: false` in the plugin configuration.
+WARNING -  Doc file 'guides/slack-webhooks.md' contains a link '../operations/monitoring-alerts.md', but the target 'operations/monitoring-alerts.md' is not found among documentation files.
+WARNING -  Doc file 'guides/slack-webhooks.md' contains a link '../architecture/intelligence-stack.md', but the target 'architecture/intelligence-stack.md' is not found among documentation files.
+WARNING -  Doc file 'operations/claude-sessions.md' contains a link './common-issues.md', but the target 'operations/common-issues.md' is not found among documentation files.
+WARNING -  Doc file 'operations/claude-sessions.md' contains a link './monitoring-alerts.md', but the target 'operations/monitoring-alerts.md' is not found among documentation files.
+WARNING -  Doc file 'operations/monitoring.md' contains a link './slack-bot-recovery.md', but the target 'operations/slack-bot-recovery.md' is not found among documentation files.
+WARNING -  Doc file 'operations/monitoring.md' contains a link './token-refresh.md', but the target 'operations/token-refresh.md' is not found among documentation files.
+WARNING -  Doc file 'operations/monitoring.md' contains a link './incident-response.md', but the target 'operations/incident-response.md' is not found among documentation files.
+WARNING -  Doc file 'specs/active.md' contains a link 'kaut-mcp-server.md', but the target 'specs/kaut-mcp-server.md' is not found among documentation files.
+WARNING -  Doc file 'specs/active.md' contains a link 'ai-self-documenting.md', but the target 'specs/ai-self-documenting.md' is not found among documentation files.
+WARNING -  Doc file 'specs/active.md' contains a link 'jtools-api-architecture.md', but the target 'specs/jtools-api-architecture.md' is not found among documentation files.
+WARNING -  Doc file 'specs/active.md' contains a link 'jtools-reorganization.md', but the target 'specs/jtools-reorganization.md' is not found among documentation files.
+WARNING -  Doc file 'specs/active.md' contains a link 'jtools-unified-structure.md', but the target 'specs/jtools-unified-structure.md' is not found among documentation files.
+WARNING -  Doc file 'specs/active.md' contains a link 'context-library.md', but the target 'specs/context-library.md' is not found among documentation files.
+WARNING -  Doc file 'specs/active.md' contains a link 'context-optimization.md', but the target 'specs/context-optimization.md' is not found among documentation files.
+WARNING -  Doc file 'specs/active.md' contains a link 'specialized-agents.md', but the target 'specs/specialized-agents.md' is not found among documentation files.
+WARNING -  Doc file 'specs/documentation-optimization.md' contains a link '../path/to/doc.md', but the target 'path/to/doc.md' is not found among documentation files.
+WARNING -  Doc file 'specs/implementation.md' contains a link 'context-library.md', but the target 'specs/context-library.md' is not found among documentation files.
+WARNING -  Doc file 'specs/implementation.md' contains a link '../guides/development-setup.md', but the target 'guides/development-setup.md' is not found among documentation files.
+WARNING -  Doc file 'specs/implementation.md' contains a link '../guides/testing.md', but the target 'guides/testing.md' is not found among documentation files.
+WARNING -  Doc file 'specs/implementation.md' contains a link '../guides/deployment.md', but the target 'guides/deployment.md' is not found among documentation files.
+WARNING:root:First revision timestamp is older than last revision timestamp for page updates/2025-06-17-slack-documentation.md. This can be due to a quirk in `git` follow behaviour. You can try to set `enable_git_follow: false` in the plugin configuration.
+INFO    -  Doc file 'updates/2025-06-17-slack-documentation.md' contains an absolute link '/applications/slack-bot/', it was left as is. Did you mean '../applications/slack-bot.md'?
+INFO    -  Doc file 'updates/2025-06-17-slack-documentation.md' contains an absolute link '/guides/claude-cli-advanced/', it was left as is. Did you mean '../guides/claude-cli-advanced.md'?
+INFO    -  Doc file 'updates/2025-06-17-slack-documentation.md' contains an absolute link '/guides/slack-webhooks/', it was left as is. Did you mean '../guides/slack-webhooks.md'?
+INFO    -  Doc file 'updates/2025-06-17-slack-documentation.md' contains an absolute link '/operations/slack-recovery/', it was left as is. Did you mean '../operations/slack-recovery.md'?
+INFO    -  Documentation built in 8.66 seconds
+[Mon Jul 21 05:55:11 PM UTC 2025] Build completed successfully
+[Mon Jul 21 05:55:11 PM UTC 2025] Site updated at https://docs.kaut.to
+[Mon Jul 21 05:55:11 PM UTC 2025] Disk usage: 6.3M
+[Mon Jul 21 05:55:11 PM UTC 2025] Build script completed
+----------------------------------------

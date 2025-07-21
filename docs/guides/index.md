@@ -21,6 +21,9 @@ Team collaboration guidelines for multiple AI agents working together. Covers co
 ### [GitHub CLI Guide](github-cli-guide.md)
 Comprehensive guide to using GitHub CLI for AI agents. Includes examples for discussions, project boards, issues, and common troubleshooting.
 
+### [GitHub Issue-Driven Workflow](github-workflow.md)
+Systematic approach to development using GitHub issues as the primary driver. Covers planning, testing, documentation, and release processes with real examples.
+
 ## Testing
 
 ### [JTools Testing Guide](jtools-testing.md)
@@ -78,6 +81,13 @@ Integrating with Google services:
 - API usage
 
 ### Slack Integration
+
+#### [Claude CLI Advanced Features](claude-cli-advanced.md)
+Dynamic system prompt customization for context-aware responses.
+
+#### [Slack Webhooks Guide](slack-webhooks.md)
+Comprehensive guide to webhook configuration and usage.
+
 Setting up Slack notifications:
 - Bot configuration
 - Channel management

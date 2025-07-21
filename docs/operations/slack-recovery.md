@@ -1,9 +1,12 @@
 # Slack Bot Recovery Playbook
 
-**Purpose**: Restore Slack bot functionality when it crashes or stops responding.
+**Purpose**: Restore PAI Slack bot functionality when it crashes or stops responding.
+
+**Current Implementation**: Unified bot at `/srv/pai/slack.py` (v0.3.1)
 
 **Symptoms**:
-- No messages in Slack channels
+- Bot not responding in #pai channel
+- No interactive menu on "help" command
 - Process not running
 - Event loop errors in logs
 
@@ -11,74 +14,80 @@
 
 ```bash
 cd /srv/pai
-./start_slack_bot.sh
+./slack.sh --daemon --verbose
 ```
 
-If successful, verify in #pai-verbose channel.
+The script automatically kills old processes and starts fresh. Check #pai-verbose for startup message.
 
 ## Detailed Recovery Steps
 
 ### 1. Check Current Status
 ```bash
 # Check if process exists
-ps aux | grep -E "slack|pai" | grep -v grep
+ps aux | grep "python3.*slack.py" | grep -v grep
 
 # Check PID file
-cat /srv/pai/slack_v2.pid
-ps -p $(cat /srv/pai/slack_v2.pid)
+cat /srv/pai/slack.pid
+ps -p $(cat /srv/pai/slack.pid) 2>/dev/null
 
 # Check logs for errors
-tail -50 /srv/pai/logs/slack_bot.log
+tail -50 /srv/pai/logs/slack.log
 ```
 
-### 2. Stop Any Stuck Processes
+### 2. Use the Smart Startup Script
+
+The `slack.sh` script handles all cleanup automatically:
+
 ```bash
-# Kill by PID file
-kill $(cat /srv/pai/slack_v2.pid) 2>/dev/null
-
-# Kill any slack.py processes
-pkill -f slack.py
-
-# Kill any slack_bot processes
-pkill -f slack_bot
-
-# Wait for cleanup
-sleep 3
+cd /srv/pai
+./slack.sh --daemon --verbose
 ```
 
-### 3. Clear Stale Files
-```bash
-# Remove PID file if process is dead
-rm -f /srv/pai/slack_v2.pid
+What it does:
+- Kills existing `slack.py` processes
+- Kills old `slack_v2*` processes
+- Cleans up PID file
+- Starts fresh instance
+- Verifies single instance running
 
-# Clear any lock files
-rm -f /tmp/slack_bot.lock
+### 3. Manual Process Cleanup (if needed)
+```bash
+# Kill all Slack-related processes
+pkill -f "python.*slack"
+
+# Remove PID file
+rm -f /srv/pai/slack.pid
+
+# Kill specific PID
+kill $(cat /srv/pai/slack.pid) 2>/dev/null
 ```
 
 ### 4. Start Fresh Instance
 ```bash
 cd /srv/pai
 
-# Try the wrapper script first
-./start_slack_bot.sh
+# Recommended: Use wrapper script
+./slack.sh --daemon --verbose
 
-# If that fails, start directly
-nohup python3 slack.py > logs/slack_bot.log 2>&1 &
-echo $! > slack_v2.pid
+# Alternative: Direct start
+nohup python3 slack.py --verbose > logs/slack.log 2>&1 &
+echo $! > slack.pid
 ```
 
 ### 5. Verify Operation
 ```bash
-# Check process started
-ps -p $(cat /srv/pai/slack_v2.pid)
+# Check process running
+ps -p $(cat /srv/pai/slack.pid)
 
-# Monitor logs for startup
-tail -f /srv/pai/logs/slack_bot.log
-# (Ctrl+C to exit)
+# Monitor startup logs
+tail -f /srv/pai/logs/slack.log
 
-# Send test message
-echo "Slack bot restarted at $(date)" | \
-  python3 /srv/pai/toolkit/slack_sender_multichannel.py --channel verbose
+# Test in Slack
+# Type "help" or "menu" in #pai channel
+# Should see interactive button menu
+
+# Check verbose logging
+# Look for messages in #pai-verbose channel
 ```
 
 ## Common Issues and Solutions
@@ -173,6 +182,7 @@ If bot repeatedly fails:
 - [ ] Bot responds to monitoring events
 
 ## Related Documentation
-- [`incident-response.md`](./incident-response.md) - General incident handling
-- [`monitoring-alerts.md`](./monitoring-alerts.md) - Understanding bot alerts
-- [`common-issues.md`](./common-issues.md) - Other common problems
+- [PAI Slack Bot](../applications/slack-bot.md) - Full bot documentation
+- [Claude CLI Advanced](../guides/claude-cli-advanced.md) - System prompt features
+- [Slack Webhooks](../guides/slack-webhooks.md) - Webhook configuration
+- [Troubleshooting](./troubleshooting.md) - General troubleshooting guide

@@ -128,11 +128,14 @@ nav:
     - Development Setup: guides/development-setup.md
     - Authentication: guides/authentication.md
     - Google Services: guides/google-services.md
+    - Claude CLI Advanced: guides/claude-cli-advanced.md
+    - Slack Webhooks: guides/slack-webhooks.md
     - Deployment: guides/deployment.md
   - Operations:
     - Daily Maintenance: operations/daily-maintenance.md
     - Monitoring: operations/monitoring.md
     - Backup & Recovery: operations/backup-recovery.md
+    - Slack Bot Recovery: operations/slack-recovery.md
     - Troubleshooting: operations/troubleshooting.md
     - Emergency Procedures: operations/emergency-procedures.md
   - API Reference:
@@ -142,6 +145,7 @@ nav:
     - PAI Web API: api/pai-web.md
   - Applications:
     - Overview: applications/index.md
+    - PAI Slack Bot: applications/slack-bot.md
     - JTools Testing Toolkit: applications/jtools-testing-toolkit.md
     - Pastebin: applications/pastebin.md
     - Authentication: applications/auth.md

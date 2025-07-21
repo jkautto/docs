@@ -109,11 +109,13 @@ OAuth token management:
 
 ## Integration Points
 
-### Slack Integration
-Multi-channel notifications:
-- General updates
-- Email alerts
-- System monitoring
+### [PAI Slack Bot](slack-bot.md)
+Unified Slack bot with interactive UI:
+- Socket Mode real-time communication
+- Block Kit buttons and modals
+- Multi-channel logging
+- Claude CLI integration
+- Perplexity search
 
 ### Google Workspace
 Deep integration with Google services:

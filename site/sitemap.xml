@@ -2,166 +2,206 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://docs.kaut.to/</loc>
-         <lastmod>2025-07-18</lastmod>
+         <lastmod>2025-07-21</lastmod>
     </url>
     <url>
          <loc>https://docs.kaut.to/quickstart/</loc>
-         <lastmod>2025-07-18</lastmod>
+         <lastmod>2025-07-21</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.kaut.to/api/</loc>
+         <lastmod>2025-07-21</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.kaut.to/api/github-cli-graphql-research/</loc>
+         <lastmod>2025-07-21</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.kaut.to/api/shifts/</loc>
+         <lastmod>2025-07-21</lastmod>
     </url>
     <url>
          <loc>https://docs.kaut.to/applications/</loc>
-         <lastmod>2025-07-18</lastmod>
+         <lastmod>2025-07-21</lastmod>
     </url>
     <url>
          <loc>https://docs.kaut.to/applications/jtools-testing-toolkit/</loc>
-         <lastmod>2025-07-18</lastmod>
+         <lastmod>2025-07-21</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.kaut.to/applications/shifts/</loc>
+         <lastmod>2025-07-21</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.kaut.to/applications/slack-bot/</loc>
+         <lastmod>2025-07-21</lastmod>
     </url>
     <url>
          <loc>https://docs.kaut.to/architecture/</loc>
-         <lastmod>2025-07-18</lastmod>
+         <lastmod>2025-07-21</lastmod>
     </url>
     <url>
          <loc>https://docs.kaut.to/context/</loc>
-         <lastmod>2025-07-18</lastmod>
+         <lastmod>2025-07-21</lastmod>
     </url>
     <url>
          <loc>https://docs.kaut.to/context/archives/</loc>
-         <lastmod>2025-07-18</lastmod>
+         <lastmod>2025-07-21</lastmod>
     </url>
     <url>
          <loc>https://docs.kaut.to/context/current/</loc>
-         <lastmod>2025-07-18</lastmod>
+         <lastmod>2025-07-21</lastmod>
     </url>
     <url>
          <loc>https://docs.kaut.to/context/cag/cag-architecture/</loc>
-         <lastmod>2025-07-18</lastmod>
+         <lastmod>2025-07-21</lastmod>
     </url>
     <url>
          <loc>https://docs.kaut.to/context/cag/cag-index/</loc>
-         <lastmod>2025-07-18</lastmod>
+         <lastmod>2025-07-21</lastmod>
     </url>
     <url>
          <loc>https://docs.kaut.to/context/cag/cag-learnings/</loc>
-         <lastmod>2025-07-18</lastmod>
+         <lastmod>2025-07-21</lastmod>
     </url>
     <url>
          <loc>https://docs.kaut.to/context/cag/cag-operations/</loc>
-         <lastmod>2025-07-18</lastmod>
+         <lastmod>2025-07-21</lastmod>
     </url>
     <url>
          <loc>https://docs.kaut.to/guides/</loc>
-         <lastmod>2025-07-18</lastmod>
+         <lastmod>2025-07-21</lastmod>
     </url>
     <url>
          <loc>https://docs.kaut.to/guides/ai-agent-collaboration/</loc>
-         <lastmod>2025-07-18</lastmod>
+         <lastmod>2025-07-21</lastmod>
     </url>
     <url>
          <loc>https://docs.kaut.to/guides/ai-agent-development/</loc>
-         <lastmod>2025-07-18</lastmod>
+         <lastmod>2025-07-21</lastmod>
     </url>
     <url>
          <loc>https://docs.kaut.to/guides/ai-agent-onboarding/</loc>
-         <lastmod>2025-07-18</lastmod>
+         <lastmod>2025-07-21</lastmod>
     </url>
     <url>
          <loc>https://docs.kaut.to/guides/browser-testing/</loc>
-         <lastmod>2025-07-18</lastmod>
+         <lastmod>2025-07-21</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.kaut.to/guides/claude-cli-advanced/</loc>
+         <lastmod>2025-07-21</lastmod>
     </url>
     <url>
          <loc>https://docs.kaut.to/guides/getting-started/</loc>
-         <lastmod>2025-07-18</lastmod>
+         <lastmod>2025-07-21</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.kaut.to/guides/github-cli-guide/</loc>
+         <lastmod>2025-07-21</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.kaut.to/guides/github-workflow/</loc>
+         <lastmod>2025-07-21</lastmod>
     </url>
     <url>
          <loc>https://docs.kaut.to/guides/jtools-testing/</loc>
-         <lastmod>2025-07-18</lastmod>
+         <lastmod>2025-07-21</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.kaut.to/guides/slack-webhooks/</loc>
+         <lastmod>2025-07-21</lastmod>
     </url>
     <url>
          <loc>https://docs.kaut.to/operations/backup-recovery/</loc>
-         <lastmod>2025-07-18</lastmod>
+         <lastmod>2025-07-21</lastmod>
     </url>
     <url>
          <loc>https://docs.kaut.to/operations/claude-sessions/</loc>
-         <lastmod>2025-07-18</lastmod>
+         <lastmod>2025-07-21</lastmod>
     </url>
     <url>
          <loc>https://docs.kaut.to/operations/daily-maintenance/</loc>
-         <lastmod>2025-07-18</lastmod>
+         <lastmod>2025-07-21</lastmod>
     </url>
     <url>
          <loc>https://docs.kaut.to/operations/emergency-procedures/</loc>
-         <lastmod>2025-07-18</lastmod>
+         <lastmod>2025-07-21</lastmod>
     </url>
     <url>
          <loc>https://docs.kaut.to/operations/monitoring/</loc>
-         <lastmod>2025-07-18</lastmod>
+         <lastmod>2025-07-21</lastmod>
     </url>
     <url>
          <loc>https://docs.kaut.to/operations/slack-recovery/</loc>
-         <lastmod>2025-07-18</lastmod>
+         <lastmod>2025-07-21</lastmod>
     </url>
     <url>
          <loc>https://docs.kaut.to/operations/ssl-troubleshooting/</loc>
-         <lastmod>2025-07-18</lastmod>
+         <lastmod>2025-07-21</lastmod>
     </url>
     <url>
          <loc>https://docs.kaut.to/operations/token-optimization/</loc>
-         <lastmod>2025-07-18</lastmod>
+         <lastmod>2025-07-21</lastmod>
     </url>
     <url>
          <loc>https://docs.kaut.to/operations/troubleshooting/</loc>
-         <lastmod>2025-07-18</lastmod>
+         <lastmod>2025-07-21</lastmod>
     </url>
     <url>
          <loc>https://docs.kaut.to/specs/active/</loc>
-         <lastmod>2025-07-18</lastmod>
+         <lastmod>2025-07-21</lastmod>
     </url>
     <url>
          <loc>https://docs.kaut.to/specs/archives/</loc>
-         <lastmod>2025-07-18</lastmod>
+         <lastmod>2025-07-21</lastmod>
     </url>
     <url>
          <loc>https://docs.kaut.to/specs/browser-testing-toolkit/</loc>
-         <lastmod>2025-07-18</lastmod>
+         <lastmod>2025-07-21</lastmod>
     </url>
     <url>
          <loc>https://docs.kaut.to/specs/documentation-consolidation/</loc>
-         <lastmod>2025-07-18</lastmod>
+         <lastmod>2025-07-21</lastmod>
     </url>
     <url>
          <loc>https://docs.kaut.to/specs/documentation-optimization/</loc>
-         <lastmod>2025-07-18</lastmod>
+         <lastmod>2025-07-21</lastmod>
     </url>
     <url>
          <loc>https://docs.kaut.to/specs/implementation/</loc>
-         <lastmod>2025-07-18</lastmod>
+         <lastmod>2025-07-21</lastmod>
     </url>
     <url>
          <loc>https://docs.kaut.to/specs/jtools-testing-toolkit/</loc>
-         <lastmod>2025-07-18</lastmod>
+         <lastmod>2025-07-21</lastmod>
     </url>
     <url>
          <loc>https://docs.kaut.to/specs/kaut-apps-repository/</loc>
-         <lastmod>2025-07-18</lastmod>
+         <lastmod>2025-07-21</lastmod>
     </url>
     <url>
          <loc>https://docs.kaut.to/specs/kaut-pastebin/</loc>
-         <lastmod>2025-07-18</lastmod>
+         <lastmod>2025-07-21</lastmod>
     </url>
     <url>
          <loc>https://docs.kaut.to/specs/mkdocs-migration-plan/</loc>
-         <lastmod>2025-07-18</lastmod>
+         <lastmod>2025-07-21</lastmod>
     </url>
     <url>
          <loc>https://docs.kaut.to/specs/pai-web-dashboard/</loc>
-         <lastmod>2025-07-18</lastmod>
+         <lastmod>2025-07-21</lastmod>
     </url>
     <url>
          <loc>https://docs.kaut.to/specs/task-v2/</loc>
-         <lastmod>2025-07-18</lastmod>
+         <lastmod>2025-07-21</lastmod>
     </url>
     <url>
          <loc>https://docs.kaut.to/specs/universal-setup/</loc>
-         <lastmod>2025-07-18</lastmod>
+         <lastmod>2025-07-21</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.kaut.to/updates/2025-06-17-slack-documentation/</loc>
+         <lastmod>2025-07-21</lastmod>
     </url>
 </urlset>
