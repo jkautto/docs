@@ -123,6 +123,8 @@ nav:
       - Development: guides/ai-agent-development.md
       - Collaboration: guides/ai-agent-collaboration.md
       - GitHub CLI: guides/github-cli-guide.md
+      - Claude Code PM: guides/claude-code-pm-guide.md
+      - Debugging Philosophy: guides/ai-agent-debugging-philosophy.md
     - Development Setup: guides/development-setup.md
     - Git Workflow: guides/git-workflow.md
     - Authentication: guides/authentication.md

@@ -2,6 +2,13 @@
 
 Practical guides and tutorials for working with the kaut.to ecosystem.
 
+## Quick Navigation
+- **New to the project?** → [Getting Started](getting-started.md)
+- **AI agent onboarding?** → [AI Agent Onboarding](ai-agent-onboarding.md)
+- **Need Git help?** → [Git Workflow Guide](git-workflow.md)
+- **GitHub issues?** → [GitHub Quick Reference](github-quick-reference.md)
+- **Working with other AIs?** → [Working with AI Agents](working-with-ai-agents.md)
+
 ## Getting Started
 
 ### [Getting Started Guide](getting-started.md)

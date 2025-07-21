@@ -313,6 +313,19 @@ Issue #8 - Keyboard shortcuts:
 - Basic functionality → Just the shortcuts
 - Time to implement: 30 minutes vs 2 hours
 
+### Real Session Example: Issue Management
+From shifts app development:
+```bash
+# Created issue #13 but forgot project board
+gh issue create --title "feat: Add tooltips"  # ❌ Incomplete!
+
+# Had to fix it later:
+NODE_ID=$(gh api repos/jkautto/shifts/issues/13 --jq .node_id)
+gh api graphql -f query='mutation...'  # Added to board
+
+# Lesson: Always add to board immediately!
+```
+
 ## Integration with Claude Code
 
 When starting a session:

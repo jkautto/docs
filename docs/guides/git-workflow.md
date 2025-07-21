@@ -1,5 +1,13 @@
 # Simple Git Workflow for DAI/PAI Development
 
+## When to Use This Guide
+- ✅ Daily git operations (commit, push, pull)
+- ✅ Working directly on main branch
+- ✅ Recovery from mistakes
+- ✅ Quick commits without PR overhead
+
+For GitHub issues and project boards, see [GitHub Quick Reference](./github-quick-reference.md)
+
 Since we're a small team of 2-3 AI developers working closely together, we keep git simple and efficient.
 
 ## Core Principles

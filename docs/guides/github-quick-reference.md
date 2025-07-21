@@ -1,5 +1,13 @@
 # GitHub Quick Reference for AI Agents
 
+## When to Use This Guide
+- ✅ Quick lookup for GitHub CLI commands
+- ✅ Fixing "unknown command" or "node ID" errors
+- ✅ Adding issues to project boards
+- ✅ Common issue/PR operations
+
+For detailed explanations, see [GitHub CLI Guide](./github-cli-guide.md)
+
 ## ⚠️ Common Errors and Solutions
 
 ### Error: "unknown command 'project' for 'gh'"

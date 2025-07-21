@@ -40,6 +40,16 @@ Code structure: highlightedDates: [{ date: "2025-09-21", label: "Dry-run", class
 
 **The Result**: Once given specific details, Gemini successfully implemented the feature.
 
+### Example: Gemini's Issue #12 Debugging Journey
+
+**The Pattern**: Gemini's systematic debugging approach:
+1. **First hypothesis**: Generation problem → Not the issue
+2. **Second hypothesis**: Timezone bug → Fixed real bug, not THE bug  
+3. **Third hypothesis**: Data loading order → Improved code, still not fixed
+4. **Final discovery**: Empty arrays overwriting data → Correct! But didn't implement
+
+**The Lesson**: Gemini found the right answer but lacked confidence to implement. When an AI identifies the root cause, encourage them to trust their analysis and apply the fix.
+
 ## Best Practices for AI Collaboration
 
 ### 1. Clear Communication
