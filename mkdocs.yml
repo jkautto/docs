@@ -123,12 +123,12 @@ nav:
       - Development: guides/ai-agent-development.md
       - Collaboration: guides/ai-agent-collaboration.md
       - GitHub CLI: guides/github-cli-guide.md
-    - JTools Testing: guides/jtools-testing.md
-    - Browser Testing: guides/browser-testing.md
     - Development Setup: guides/development-setup.md
+    - Git Workflow: guides/git-workflow.md
     - Authentication: guides/authentication.md
     - Google Services: guides/google-services.md
     - Claude CLI Advanced: guides/claude-cli-advanced.md
+    - Documentation Optimization: specs/documentation-optimization.md
     - Slack Webhooks: guides/slack-webhooks.md
     - Deployment: guides/deployment.md
   - Operations:
@@ -136,20 +136,30 @@ nav:
     - Monitoring: operations/monitoring.md
     - Backup & Recovery: operations/backup-recovery.md
     - Slack Bot Recovery: operations/slack-recovery.md
+    - Claude Sessions: operations/claude-sessions.md
+    - SSL Troubleshooting: operations/ssl-troubleshooting.md
+    - Token Optimization: operations/token-optimization.md
     - Troubleshooting: operations/troubleshooting.md
     - Emergency Procedures: operations/emergency-procedures.md
   - API Reference:
     - Overview: api/index.md
+    - Shifts API: api/shifts.md
     - Tools API: api/tools.md
     - Task API: api/task.md
     - PAI Web API: api/pai-web.md
   - Applications:
     - Overview: applications/index.md
     - PAI Slack Bot: applications/slack-bot.md
-    - JTools Testing Toolkit: applications/jtools-testing-toolkit.md
+    - JTools Testing Toolkit:
+      - Overview: applications/jtools-testing-toolkit/index.md
+      - Guide: applications/jtools-testing-toolkit/guide.md
+      - Specification: applications/jtools-testing-toolkit/specification.md
     - Pastebin: applications/pastebin.md
     - Authentication: applications/auth.md
-    - Browser Testing: applications/browser-test.md
+    - Browser Testing:
+      - Overview: applications/browser-testing/index.md
+      - Guide: applications/browser-testing/guide.md
+      - Specification: applications/browser-testing/specification.md
     - Shifts: applications/shifts.md
   - Context Library:
     - Overview: context/index.md
@@ -162,8 +172,19 @@ nav:
     - Archives: context/archives.md
   - Specifications:
     - Active Specs: specs/active.md
+    - Browser Testing Toolkit: specs/browser-testing-toolkit.md
+    - Documentation Consolidation: specs/documentation-consolidation.md
+    - JTools Testing Toolkit: specs/jtools-testing-toolkit.md
+    - Kaut Apps Repository: specs/kaut-apps-repository.md
+    - Kaut Pastebin: specs/kaut-pastebin.md
+    - MkDocs Migration Plan: specs/mkdocs-migration-plan.md
+    - PAI Web Dashboard: specs/pai-web-dashboard.md
+    - Task v2: specs/task-v2.md
+    - Universal Setup: specs/universal-setup.md
     - Implementation Guides: specs/implementation.md
     - Archives: specs/archives.md
+  - Updates:
+    - Slack Documentation: updates/2025-06-17-slack-documentation.md
 
 # Extra configuration
 extra:
