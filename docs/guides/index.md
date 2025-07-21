@@ -18,6 +18,9 @@ Technical reference for AI agents. Includes modular architecture patterns, debug
 ### [AI Agent Collaboration](ai-agent-collaboration.md)
 Team collaboration guidelines for multiple AI agents working together. Covers communication channels, handoff procedures, and conflict resolution.
 
+### [GitHub Quick Reference](github-quick-reference.md) ⭐ NEW
+AI-optimized quick reference for common GitHub operations. Includes error solutions, project board management, and essential commands.
+
 ### [GitHub CLI Guide](github-cli-guide.md)
 Comprehensive guide to using GitHub CLI for AI agents. Includes examples for discussions, project boards, issues, and common troubleshooting.
 

@@ -32,13 +32,32 @@ This guide is optimized for Claude Code CLI to maintain clean codebases and prop
 
 ## GitHub Issue Workflow
 
-### 1. Issue Creation
-```bash
-# Create a new issue
-gh issue create --title "feat: New Feature Title" --body "Detailed description..."
+### ⚠️ CRITICAL RESPONSIBILITY: Project Board Management
+**You MUST add every new issue to the project board immediately!**
 
-# IMPORTANT: Add the new issue to the project board
-# This is a manual step using the GitHub UI or a more advanced script
+### 1. Issue Creation & Project Board Addition
+```bash
+# Step 1: Create a new issue
+gh issue create --title "feat: New Feature Title" --body "Detailed description..."
+# Returns: https://github.com/jkautto/shifts/issues/13
+
+# Step 2: Get the issue's node ID
+gh api repos/jkautto/shifts/issues/13 --jq .node_id
+# Returns: I_kwDOPOIQDs7BsXP8
+
+# Step 3: Add to project board (REQUIRED!)
+gh api graphql -f query='
+mutation {
+  addProjectV2ItemById(input: {
+    projectId: "PVT_kwHOBx09m84A-Is0"  # Shifts Tool project
+    contentId: "I_kwDOPOIQDs7BsXP8"     # Issue node ID
+  }) {
+    item { id }
+  }
+}'
+
+# Step 4: Verify it appears on the board
+# https://github.com/users/jkautto/projects/1/views/1
 ```
 
 ### 2. Before Starting Work
