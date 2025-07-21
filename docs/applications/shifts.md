@@ -161,6 +161,11 @@ backend/
 
 ### Common Issues
 
+**Blank screen in production**:
+- CSS not imported in JavaScript (Vite requirement)
+- Solution: Import all CSS in `src/main.js`
+- Ensure nginx serves from `/dist/` directory
+
 **Schedule not saving**:
 - Check backend is running (port 8003)
 - Verify authentication credentials

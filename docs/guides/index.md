@@ -43,6 +43,9 @@ Optimized project management guide specifically for Claude Code CLI. Covers Git 
 ### [Working with AI Agents](working-with-ai-agents.md) ⭐ NEW
 Practical lessons from collaborating with various AI agents. Includes common behaviors, review processes, and coordination tips.
 
+### [Vite Deployment Guide](vite-deployment-guide.md) ⭐ NEW
+Quick fixes for common Vite app deployment issues. Covers blank screens, CSS problems, and nginx configuration.
+
 ## Testing
 
 ### [JTools Testing Guide](jtools-testing.md)
