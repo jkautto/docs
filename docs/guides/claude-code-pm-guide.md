@@ -38,30 +38,53 @@ This guide is optimized for Claude Code CLI to maintain clean codebases and prop
 ### ⚠️ CRITICAL RESPONSIBILITY: Project Board Management
 **You MUST add every new issue to the project board immediately!**
 
-### 1. Issue Creation & Project Board Addition
+### 1. Issue Creation & Project Board Integration
+
+Creating an issue is a multi-step process. It is not complete until it is visible on the project board.
+
+**Step 1: Create the Issue**
 ```bash
-# Step 1: Create a new issue
-gh issue create --title "feat: New Feature Title" --body "Detailed description..."
-# Returns: https://github.com/jkautto/shifts/issues/13
-
-# Step 2: Get the issue's node ID
-gh api repos/jkautto/shifts/issues/13 --jq .node_id
-# Returns: I_kwDOPOIQDs7BsXP8
-
-# Step 3: Add to project board (REQUIRED!)
-gh api graphql -f query='
-mutation {
-  addProjectV2ItemById(input: {
-    projectId: "PVT_kwHOBx09m84A-Is0"  # Shifts Tool project
-    contentId: "I_kwDOPOIQDs7BsXP8"     # Issue node ID
-  }) {
-    item { id }
-  }
-}'
-
-# Step 4: Verify it appears on the board
-# https://github.com/users/jkautto/projects/1/views/1
+# Create the issue and take note of the issue number from the URL it returns
+gh issue create --repo jkautto/shifts --title "feat: New Feature Title" --body "Detailed description..."
 ```
+
+**Step 2: Add the Issue to the Project Board**
+This requires getting the GraphQL IDs for the project and the new issue, then linking them.
+
+```bash
+# First, get the Project ID. You only need to do this once per project.
+# Find the project number from the URL: https://github.com/users/jkautto/projects/1 -> number is 1
+PROJECT_ID=$(gh api graphql -f query='
+  query($user: String!, $number: Int!) {
+    user(login: $user){
+      projectV2(number: $number){
+        id
+      }
+    }
+  }' -f user='jkautto' -F number=1 --jq '.data.user.projectV2.id')
+
+# Second, get the Node ID of the new issue (e.g., for issue #14)
+ISSUE_ID=$(gh api graphql -f query='
+  query($owner: String!, $repo: String!, $number: Int!) {
+    repository(owner: $owner, name: $repo) {
+      issue(number: $number) {
+        id
+      }
+    }
+  }' -f owner='jkautto' -f repo='shifts' -F number=14 --jq '.data.repository.issue.id')
+
+# Finally, link the issue to the project
+gh api graphql -f query='
+  mutation($project:ID!, $issue:ID!) {
+    addProjectV2ItemById(input: {projectId: $project, contentId: $issue}) {
+      item {
+        id
+      }
+    }
+  }' -f project=$PROJECT_ID -f issue=$ISSUE_ID
+```
+**Verification:** After running these commands, you must verify that the issue is visible on the project board.
+
 
 ### 2. Before Starting Work
 ```bash
