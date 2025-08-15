@@ -7,6 +7,9 @@ Complete technical guide for implementing production-ready MCP servers with Clau
 
 ## Production Server Template
 
+!!! danger "CRITICAL: Root Mount Required"
+    **MUST USE `Mount("/", app=handle_mcp)`** - Using `Mount("/mcp", app=handle_mcp)` causes 307 redirects that break Claude.ai connections. This is the #1 failure cause.
+
 ```python
 #!/usr/bin/env python3
 import logging
@@ -60,7 +63,8 @@ def create_app():
         async with session_manager.run():
             yield
     
-    return Starlette(routes=[Mount("/mcp", app=handle_mcp)], lifespan=lifespan)
+    # CRITICAL: Use root mount to avoid 307 redirects that break Claude.ai
+    return Starlette(routes=[Mount("/", app=handle_mcp)], lifespan=lifespan)
 
 if __name__ == "__main__":
     import uvicorn

@@ -2,10 +2,41 @@
 
 Common issues and their solutions when implementing MCP servers with Claude.ai.
 
+!!! danger "CRITICAL: #1 Connection Failure Cause"
+    **307 Redirect Bug** - Claude.ai accesses `/mcp` but Starlette `Mount("/mcp")` only handles `/mcp/`, causing 307 redirects. This is the most common failure cause. **ALWAYS use `Mount("/", app=handle_mcp)`**.
+
 !!! warning "Debug First"
     Always check logs first: `sudo journalctl -u your-mcp-service -f`
 
 ## Connection Issues
+
+### 307 Redirect Error (MOST COMMON)
+
+**Symptom**: Claude.ai can't connect, nginx logs show:
+```
+"POST /mcp HTTP/1.1" 307 0 "-" "Claude-User"
+```
+
+**Root Cause**: Starlette `Mount("/mcp", app=handle_mcp)` only handles `/mcp/` (with trailing slash), but Claude.ai accesses `/mcp` (without slash), causing automatic 307 redirect that breaks the connection.
+
+**Solution**: 
+```python
+# WRONG - Causes 307 redirects
+return Starlette(routes=[Mount("/mcp", app=handle_mcp)], lifespan=lifespan)
+
+# CORRECT - Handles all paths
+return Starlette(routes=[Mount("/", app=handle_mcp)], lifespan=lifespan)
+```
+
+**Verification**:
+```bash
+# Check nginx logs for Claude-User 307 errors
+sudo grep "Claude-User.*307" /var/log/nginx/access.log
+
+# Test both paths manually
+curl -I https://mcp.yourdomain.com/mcp   # Should NOT return 307
+curl -I https://mcp.yourdomain.com/mcp/  # Should also work
+```
 
 ### "Error connecting to MCP server" in Claude.ai
 

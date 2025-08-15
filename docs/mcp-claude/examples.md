@@ -2,8 +2,14 @@
 
 Complete, copy-paste ready examples for MCP server implementations.
 
+!!! danger "CRITICAL: 307 Redirect Fix Required"
+    **ALL EXAMPLES UPDATED** - The critical 307 redirect bug has been fixed in all examples below. Claude.ai accesses `/mcp` but Starlette `Mount("/mcp")` only handles `/mcp/`, causing 307 redirects. **ALWAYS use `Mount("/", app=handle_mcp)`**.
+
 !!! success "Verified Working"
-    All examples are based on our verified working implementation at `mcp.kaut.to` and have been tested with Claude.ai.
+    All examples are based on our verified working implementation and have been tested with Claude.ai.
+
+!!! info "Hello World Backup Available"
+    The original Hello World MCP server is backed up at `/srv/mcp-backups/hello-world-20250815/` and contains the minimal working implementation that was successfully tested with Claude.ai.
 
 ## Minimal Hello World Server
 
@@ -48,7 +54,8 @@ def create_app():
     async def lifespan(app):
         async with session_manager.run():
             yield
-    return Starlette(routes=[Mount("/mcp", app=handle_mcp)], lifespan=lifespan)
+    # CRITICAL: Use root mount to avoid 307 redirects that break Claude.ai
+    return Starlette(routes=[Mount("/", app=handle_mcp)], lifespan=lifespan)
 
 if __name__ == "__main__":
     import uvicorn
@@ -121,7 +128,8 @@ def create_app():
         async with session_manager.run():
             yield
     
-    return Starlette(routes=[Mount("/mcp", app=handle_mcp)], lifespan=lifespan)
+    # CRITICAL: Use root mount to avoid 307 redirects that break Claude.ai
+    return Starlette(routes=[Mount("/", app=handle_mcp)], lifespan=lifespan)
 
 if __name__ == "__main__":
     import uvicorn
@@ -161,5 +169,21 @@ server {
     }
 }
 ```
+
+## Troubleshooting 307 Redirects
+
+If Claude.ai can't connect to your MCP server, check for this in nginx logs:
+
+```bash
+# Check for Claude-User 307 errors (indicates the bug)
+sudo grep "Claude-User.*307" /var/log/nginx/access.log
+
+# Example of what you'll see if the bug is present:
+# "POST /mcp HTTP/1.1" 307 0 "-" "Claude-User"
+```
+
+**Fix**: Always use `Mount("/", app=handle_mcp)` instead of `Mount("/mcp", app=handle_mcp)` in your Starlette routes.
+
+**Why**: Claude.ai accesses `/mcp` (without trailing slash) but Starlette `Mount("/mcp")` only handles `/mcp/` (with trailing slash), causing automatic 307 redirects that break the connection.
 
 For more examples, see the [Deep Guide](deep-guide.md).

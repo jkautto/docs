@@ -20,6 +20,9 @@ pip3 install mcp fastmcp starlette uvicorn
 
 ## Step 2: Create Minimal Server
 
+!!! danger "CRITICAL: Avoid 307 Redirect Bug"
+    **MUST USE ROOT MOUNT** - Claude.ai accesses `/mcp` but Starlette `Mount("/mcp")` only handles `/mcp/`, causing 307 redirects that break the connection. Always use `Mount("/", app=handle_mcp)`.
+
 Create `/srv/mcp-hello/server.py`:
 
 ```python
@@ -53,7 +56,8 @@ def create_app():
     async def lifespan(app):
         async with session_manager.run():
             yield
-    return Starlette(routes=[Mount("/mcp", app=handle_mcp)], lifespan=lifespan)
+    # CRITICAL: Use root mount, not "/mcp" mount to avoid 307 redirects
+    return Starlette(routes=[Mount("/", app=handle_mcp)], lifespan=lifespan)
 
 if __name__ == "__main__":
     import uvicorn
@@ -67,5 +71,8 @@ if __name__ == "__main__":
    - **URL**: `https://mcp.yourdomain.com/mcp/`
    - **Authentication**: None
 3. Test with: "Use the hello tool to greet John"
+
+!!! warning "Troubleshooting 307 Redirects"
+    If Claude.ai can't connect, check nginx logs for `"POST /mcp HTTP/1.1" 307 0 "-" "Claude-User"`. This indicates the 307 redirect bug - ensure you're using `Mount("/", app=handle_mcp)` not `Mount("/mcp", app=handle_mcp)`.
 
 For complete setup instructions, see the [Deep Guide](deep-guide.md).
