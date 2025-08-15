@@ -143,6 +143,7 @@ nav:
     - Token Optimization: operations/token-optimization.md
     - Troubleshooting: operations/troubleshooting.md
     - Emergency Procedures: operations/emergency-procedures.md
+    - MCP Deployment Rules: operations/mcp-deployment-rules.md
   - MCP & Claude.ai:
     - Overview: mcp-claude/index.md
     - Quick Start: mcp-claude/quick-start.md
@@ -150,6 +151,7 @@ nav:
     - Examples: mcp-claude/examples.md
     - Architecture: mcp-claude/architecture.md
     - Troubleshooting: mcp-claude/troubleshooting.md
+  - AI Access: ai-access.md
   - API Reference:
     - Overview: api/index.md
     - Shifts API: api/shifts.md
