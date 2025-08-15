@@ -161,5 +161,6 @@ graph TB
 
 - [DAI System Architecture](dai-system.md)
 - [PAI System Architecture](pai-system.md)
+- [PAI Sub-Agent System](pai-subagent-system.md)
 - [Infrastructure Details](infrastructure.md)
 - [Security Model](security.md)

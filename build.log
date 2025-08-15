@@ -1,58 +1,3 @@
-INFO    -  Doc file 'applications/index.md' contains an absolute link '/architecture/', it was left as is. Did you mean '../architecture/index.md'?
-INFO    -  Doc file 'applications/index.md' contains an absolute link '/operations/', it was left as is.
-INFO    -  Doc file 'applications/index.md' contains an absolute link '/api/', it was left as is. Did you mean '../api/index.md'?
-INFO    -  Doc file 'applications/index.md' contains an absolute link '/guides/', it was left as is. Did you mean '../guides/index.md'?
-INFO    -  Doc file 'applications/shifts.md' contains an absolute link '/api/shifts/', it was left as is. Did you mean '../api/shifts.md'?
-INFO    -  Doc file 'applications/shifts.md' contains an absolute link '/guides/github-workflow/', it was left as is.
-INFO    -  Doc file 'applications/shifts.md' contains an absolute link '/guides/development-standards/', it was left as is.
-INFO    -  Doc file 'applications/shifts.md' contains an absolute link '/guides/testing/', it was left as is.
-WARNING -  Doc file 'applications/slack-bot.md' contains a link '../architecture/intelligence-stack.md', but the target 'architecture/intelligence-stack.md' is not found among documentation files.
-INFO    -  Doc file 'applications/jtools-testing-toolkit/index.md' contains an absolute link '/guides/jtools-testing/', it was left as is.
-INFO    -  Doc file 'applications/jtools-testing-toolkit/index.md' contains an absolute link '/specs/jtools-testing-toolkit/', it was left as is.
-INFO    -  Doc file 'applications/jtools-testing-toolkit/index.md' contains an absolute link '/guides/browser-testing/', it was left as is.
-INFO    -  Doc file 'applications/jtools-testing-toolkit/index.md' contains an absolute link '/guides/ci-cd-setup/', it was left as is.
-INFO    -  Doc file 'applications/jtools-testing-toolkit/guide.md' contains an absolute link '/specs/jtools-testing-toolkit/', it was left as is.
-INFO    -  Doc file 'applications/jtools-testing-toolkit/guide.md' contains an absolute link '/guides/ci-cd-setup/', it was left as is.
-INFO    -  Doc file 'applications/jtools-testing-toolkit/guide.md' contains an absolute link '/guides/performance-testing/', it was left as is.
-WARNING -  Doc file 'architecture/index.md' contains a link 'dai-system.md', but the target 'architecture/dai-system.md' is not found among documentation files.
-WARNING -  Doc file 'architecture/index.md' contains a link 'pai-system.md', but the target 'architecture/pai-system.md' is not found among documentation files.
-WARNING -  Doc file 'architecture/index.md' contains a link 'infrastructure.md', but the target 'architecture/infrastructure.md' is not found among documentation files.
-WARNING -  Doc file 'architecture/index.md' contains a link 'security.md', but the target 'architecture/security.md' is not found among documentation files.
-WARNING -  Doc file 'archive/github-workflow.md' contains a link './github-cli-guide.md', but the target 'archive/github-cli-guide.md' is not found among documentation files.
-INFO    -  Doc file 'archive/github-workflow.md' contains an absolute link '/srv/docs/git-workflow.md', it was left as is.
-WARNING -  Doc file 'archive/github-workflow.md' contains a link './ai-agent-onboarding.md', but the target 'archive/ai-agent-onboarding.md' is not found among documentation files.
-WARNING -  Doc file 'archive/github-workflow.md' contains a link './development-standards.md', but the target 'archive/development-standards.md' is not found among documentation files.
-INFO    -  Doc file 'context/index.md' contains an absolute link '/srv/context/development/github-issue-driven-workflow.md', it was left as is.
-WARNING -  Doc file 'guides/index.md' contains a link 'jtools-testing.md', but the target 'guides/jtools-testing.md' is not found among documentation files.
-WARNING -  Doc file 'guides/index.md' contains a link 'browser-testing.md', but the target 'guides/browser-testing.md' is not found among documentation files.
-INFO    -  Doc file 'guides/index.md' contains an absolute link '/reference/commands/', it was left as is.
-INFO    -  Doc file 'guides/index.md' contains an absolute link '/api/', it was left as is. Did you mean '../api/index.md'?
-INFO    -  Doc file 'guides/index.md' contains an absolute link '/reference/configs/', it was left as is.
-INFO    -  Doc file 'guides/index.md' contains an absolute link '/reference/env-vars/', it was left as is.
-INFO    -  Doc file 'guides/ai-agent-collaboration.md' contains an absolute link '/guides/ai-agent-onboarding/', it was left as is. Did you mean 'ai-agent-onboarding.md'?
-INFO    -  Doc file 'guides/ai-agent-collaboration.md' contains an absolute link '/guides/ai-agent-development/', it was left as is. Did you mean 'ai-agent-development.md'?
-INFO    -  Doc file 'guides/ai-agent-collaboration.md' contains an absolute link '/guides/jtools-testing/', it was left as is.
-WARNING:root:First revision timestamp is older than last revision timestamp for page guides/ai-agent-debugging-philosophy.md. This can be due to a quirk in `git` follow behaviour. You can try to set `enable_git_follow: false` in the plugin configuration.
-INFO    -  Doc file 'guides/ai-agent-development.md' contains an absolute link '/guides/jtools-testing/', it was left as is.
-WARNING -  Doc file 'guides/claude-cli-advanced.md' contains a link '../architecture/intelligence-stack.md', but the target 'architecture/intelligence-stack.md' is not found among documentation files.
-INFO    -  Doc file 'guides/claude-cli-advanced.md' contains an unrecognized relative link '../operations/', it was left as is.
-INFO    -  Doc file 'guides/getting-started.md' contains an absolute link '/quickstart.md', it was left as is. Did you mean '../quickstart.md'?
-WARNING -  Doc file 'guides/getting-started.md' contains a link 'development-setup.md', but the target 'guides/development-setup.md' is not found among documentation files.
-WARNING -  Doc file 'guides/getting-started.md' contains a link 'authentication.md', but the target 'guides/authentication.md' is not found among documentation files.
-WARNING -  Doc file 'guides/slack-webhooks.md' contains a link '../operations/monitoring-alerts.md', but the target 'operations/monitoring-alerts.md' is not found among documentation files.
-WARNING -  Doc file 'guides/slack-webhooks.md' contains a link '../architecture/intelligence-stack.md', but the target 'architecture/intelligence-stack.md' is not found among documentation files.
-WARNING -  Doc file 'operations/claude-sessions.md' contains a link './common-issues.md', but the target 'operations/common-issues.md' is not found among documentation files.
-WARNING -  Doc file 'operations/claude-sessions.md' contains a link './monitoring-alerts.md', but the target 'operations/monitoring-alerts.md' is not found among documentation files.
-WARNING -  Doc file 'operations/monitoring.md' contains a link './slack-bot-recovery.md', but the target 'operations/slack-bot-recovery.md' is not found among documentation files.
-WARNING -  Doc file 'operations/monitoring.md' contains a link './token-refresh.md', but the target 'operations/token-refresh.md' is not found among documentation files.
-WARNING -  Doc file 'operations/monitoring.md' contains a link './incident-response.md', but the target 'operations/incident-response.md' is not found among documentation files.
-WARNING -  Doc file 'specs/active.md' contains a link 'browser-testing-toolkit.md', but the target 'specs/browser-testing-toolkit.md' is not found among documentation files.
-WARNING -  Doc file 'specs/active.md' contains a link 'kaut-mcp-server.md', but the target 'specs/kaut-mcp-server.md' is not found among documentation files.
-WARNING -  Doc file 'specs/active.md' contains a link 'ai-self-documenting.md', but the target 'specs/ai-self-documenting.md' is not found among documentation files.
-WARNING -  Doc file 'specs/active.md' contains a link 'jtools-api-architecture.md', but the target 'specs/jtools-api-architecture.md' is not found among documentation files.
-WARNING -  Doc file 'specs/active.md' contains a link 'jtools-reorganization.md', but the target 'specs/jtools-reorganization.md' is not found among documentation files.
-WARNING -  Doc file 'specs/active.md' contains a link 'jtools-unified-structure.md', but the target 'specs/jtools-unified-structure.md' is not found among documentation files.
-WARNING -  Doc file 'specs/active.md' contains a link 'jtools-testing-toolkit.md', but the target 'specs/jtools-testing-toolkit.md' is not found among documentation files.
 WARNING -  Doc file 'specs/active.md' contains a link 'context-library.md', but the target 'specs/context-library.md' is not found among documentation files.
 WARNING -  Doc file 'specs/active.md' contains a link 'context-optimization.md', but the target 'specs/context-optimization.md' is not found among documentation files.
 WARNING -  Doc file 'specs/active.md' contains a link 'specialized-agents.md', but the target 'specs/specialized-agents.md' is not found among documentation files.
@@ -66,24 +11,43 @@ INFO    -  Doc file 'updates/2025-06-17-slack-documentation.md' contains an abso
 INFO    -  Doc file 'updates/2025-06-17-slack-documentation.md' contains an absolute link '/guides/claude-cli-advanced/', it was left as is. Did you mean '../guides/claude-cli-advanced.md'?
 INFO    -  Doc file 'updates/2025-06-17-slack-documentation.md' contains an absolute link '/guides/slack-webhooks/', it was left as is. Did you mean '../guides/slack-webhooks.md'?
 INFO    -  Doc file 'updates/2025-06-17-slack-documentation.md' contains an absolute link '/operations/slack-recovery/', it was left as is. Did you mean '../operations/slack-recovery.md'?
-INFO    -  Documentation built in 11.99 seconds
-[Mon Jul 21 06:50:15 PM UTC 2025] Build completed successfully
-[Mon Jul 21 06:50:15 PM UTC 2025] Site updated at https://docs.kaut.to
-[Mon Jul 21 06:50:15 PM UTC 2025] Disk usage: 6.9M
-[Mon Jul 21 06:50:15 PM UTC 2025] Build script completed
+INFO    -  Documentation built in 13.69 seconds
+[Wed Aug 13 01:05:16 PM UTC 2025] Build completed successfully
+[Wed Aug 13 01:05:16 PM UTC 2025] Site updated at https://docs.kaut.to
+[Wed Aug 13 01:05:16 PM UTC 2025] Disk usage: 7.6M
+[Wed Aug 13 01:05:16 PM UTC 2025] Build script completed
 ----------------------------------------
-[Mon Jul 21 06:55:01 PM UTC 2025] Starting MkDocs build...
-[Mon Jul 21 06:55:01 PM UTC 2025] Pulling latest changes from git...
+[Wed Aug 13 01:06:13 PM UTC 2025] Starting MkDocs build...
+[Wed Aug 13 01:06:13 PM UTC 2025] Pulling latest changes from git...
 From https://github.com/jkautto/docs
  * branch              main       -> FETCH_HEAD
 Already up to date.
-[Mon Jul 21 06:55:01 PM UTC 2025] Building documentation...
+[Wed Aug 13 01:06:13 PM UTC 2025] Building documentation...
 INFO    -  Cleaning site directory
 INFO    -  Building documentation to directory: /srv/docs/site
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/applications/pai-helper-agents.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/architecture/pai-subagent-system.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/guides/pai-subagent-implementation.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/mcp/local-claude-setup.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/mcp/index.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/mcp/server-setup.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/mcp/tools-reference.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/mcp/voice-mode.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/applications/pai-helper-agents.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/architecture/pai-subagent-system.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/guides/pai-subagent-implementation.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/mcp/index.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/mcp/local-claude-setup.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/mcp/server-setup.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/mcp/tools-reference.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/mcp/voice-mode.md' has no git logs, using current timestamp
 INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
   - api/github-cli-graphql-research.md
+  - architecture/pai-subagent-system.md
   - archive/github-workflow.md
   - guides/github-quick-reference.md
+  - guides/pai-subagent-implementation.md
+  - guides/vite-deployment-guide.md
   - guides/working-with-ai-agents.md
 WARNING -  A reference to 'architecture/dai-system.md' is included in the 'nav' configuration, which is not found in the documentation files.
 WARNING -  A reference to 'architecture/pai-system.md' is included in the 'nav' configuration, which is not found in the documentation files.
@@ -119,6 +83,8 @@ INFO    -  Doc file 'applications/index.md' contains an absolute link '/architec
 INFO    -  Doc file 'applications/index.md' contains an absolute link '/operations/', it was left as is.
 INFO    -  Doc file 'applications/index.md' contains an absolute link '/api/', it was left as is. Did you mean '../api/index.md'?
 INFO    -  Doc file 'applications/index.md' contains an absolute link '/guides/', it was left as is. Did you mean '../guides/index.md'?
+WARNING:root:First revision timestamp is older than last revision timestamp for page applications/pai-helper-agents.md. This can be due to a quirk in `git` follow behaviour. You can try to set `enable_git_follow: false` in the plugin configuration.
+INFO    -  Doc file 'applications/pai-helper-agents.md' contains an absolute link '/guides/ai-agent-collaboration', it was left as is. Did you mean '../guides/ai-agent-collaboration.md'?
 INFO    -  Doc file 'applications/shifts.md' contains an absolute link '/api/shifts/', it was left as is. Did you mean '../api/shifts.md'?
 INFO    -  Doc file 'applications/shifts.md' contains an absolute link '/guides/github-workflow/', it was left as is.
 INFO    -  Doc file 'applications/shifts.md' contains an absolute link '/guides/development-standards/', it was left as is.
@@ -135,6 +101,7 @@ WARNING -  Doc file 'architecture/index.md' contains a link 'dai-system.md', but
 WARNING -  Doc file 'architecture/index.md' contains a link 'pai-system.md', but the target 'architecture/pai-system.md' is not found among documentation files.
 WARNING -  Doc file 'architecture/index.md' contains a link 'infrastructure.md', but the target 'architecture/infrastructure.md' is not found among documentation files.
 WARNING -  Doc file 'architecture/index.md' contains a link 'security.md', but the target 'architecture/security.md' is not found among documentation files.
+WARNING:root:First revision timestamp is older than last revision timestamp for page architecture/pai-subagent-system.md. This can be due to a quirk in `git` follow behaviour. You can try to set `enable_git_follow: false` in the plugin configuration.
 WARNING -  Doc file 'archive/github-workflow.md' contains a link './github-cli-guide.md', but the target 'archive/github-cli-guide.md' is not found among documentation files.
 INFO    -  Doc file 'archive/github-workflow.md' contains an absolute link '/srv/docs/git-workflow.md', it was left as is.
 WARNING -  Doc file 'archive/github-workflow.md' contains a link './ai-agent-onboarding.md', but the target 'archive/ai-agent-onboarding.md' is not found among documentation files.
@@ -155,8 +122,14 @@ INFO    -  Doc file 'guides/claude-cli-advanced.md' contains an unrecognized rel
 INFO    -  Doc file 'guides/getting-started.md' contains an absolute link '/quickstart.md', it was left as is. Did you mean '../quickstart.md'?
 WARNING -  Doc file 'guides/getting-started.md' contains a link 'development-setup.md', but the target 'guides/development-setup.md' is not found among documentation files.
 WARNING -  Doc file 'guides/getting-started.md' contains a link 'authentication.md', but the target 'guides/authentication.md' is not found among documentation files.
+WARNING:root:First revision timestamp is older than last revision timestamp for page guides/pai-subagent-implementation.md. This can be due to a quirk in `git` follow behaviour. You can try to set `enable_git_follow: false` in the plugin configuration.
 WARNING -  Doc file 'guides/slack-webhooks.md' contains a link '../operations/monitoring-alerts.md', but the target 'operations/monitoring-alerts.md' is not found among documentation files.
 WARNING -  Doc file 'guides/slack-webhooks.md' contains a link '../architecture/intelligence-stack.md', but the target 'architecture/intelligence-stack.md' is not found among documentation files.
+WARNING:root:First revision timestamp is older than last revision timestamp for page mcp/index.md. This can be due to a quirk in `git` follow behaviour. You can try to set `enable_git_follow: false` in the plugin configuration.
+WARNING:root:First revision timestamp is older than last revision timestamp for page mcp/local-claude-setup.md. This can be due to a quirk in `git` follow behaviour. You can try to set `enable_git_follow: false` in the plugin configuration.
+WARNING:root:First revision timestamp is older than last revision timestamp for page mcp/server-setup.md. This can be due to a quirk in `git` follow behaviour. You can try to set `enable_git_follow: false` in the plugin configuration.
+WARNING:root:First revision timestamp is older than last revision timestamp for page mcp/tools-reference.md. This can be due to a quirk in `git` follow behaviour. You can try to set `enable_git_follow: false` in the plugin configuration.
+WARNING:root:First revision timestamp is older than last revision timestamp for page mcp/voice-mode.md. This can be due to a quirk in `git` follow behaviour. You can try to set `enable_git_follow: false` in the plugin configuration.
 WARNING -  Doc file 'operations/claude-sessions.md' contains a link './common-issues.md', but the target 'operations/common-issues.md' is not found among documentation files.
 WARNING -  Doc file 'operations/claude-sessions.md' contains a link './monitoring-alerts.md', but the target 'operations/monitoring-alerts.md' is not found among documentation files.
 WARNING -  Doc file 'operations/monitoring.md' contains a link './slack-bot-recovery.md', but the target 'operations/slack-bot-recovery.md' is not found among documentation files.
@@ -182,25 +155,47 @@ INFO    -  Doc file 'updates/2025-06-17-slack-documentation.md' contains an abso
 INFO    -  Doc file 'updates/2025-06-17-slack-documentation.md' contains an absolute link '/guides/claude-cli-advanced/', it was left as is. Did you mean '../guides/claude-cli-advanced.md'?
 INFO    -  Doc file 'updates/2025-06-17-slack-documentation.md' contains an absolute link '/guides/slack-webhooks/', it was left as is. Did you mean '../guides/slack-webhooks.md'?
 INFO    -  Doc file 'updates/2025-06-17-slack-documentation.md' contains an absolute link '/operations/slack-recovery/', it was left as is. Did you mean '../operations/slack-recovery.md'?
-INFO    -  Documentation built in 12.01 seconds
-[Mon Jul 21 06:55:15 PM UTC 2025] Build completed successfully
-[Mon Jul 21 06:55:15 PM UTC 2025] Site updated at https://docs.kaut.to
-[Mon Jul 21 06:55:15 PM UTC 2025] Disk usage: 7.0M
-[Mon Jul 21 06:55:15 PM UTC 2025] Build script completed
+INFO    -  Documentation built in 12.83 seconds
+[Wed Aug 13 01:06:27 PM UTC 2025] Build completed successfully
+[Wed Aug 13 01:06:27 PM UTC 2025] Site updated at https://docs.kaut.to
+[Wed Aug 13 01:06:27 PM UTC 2025] Disk usage: 7.7M
+[Wed Aug 13 01:06:27 PM UTC 2025] Build script completed
 ----------------------------------------
-[Mon Jul 21 07:00:01 PM UTC 2025] Starting MkDocs build...
-[Mon Jul 21 07:00:01 PM UTC 2025] Pulling latest changes from git...
+[Wed Aug 13 01:14:06 PM UTC 2025] Starting MkDocs build...
+[Wed Aug 13 01:14:06 PM UTC 2025] Pulling latest changes from git...
 From https://github.com/jkautto/docs
  * branch              main       -> FETCH_HEAD
 Already up to date.
-[Mon Jul 21 07:00:02 PM UTC 2025] Building documentation...
+[Wed Aug 13 01:14:07 PM UTC 2025] Building documentation...
 INFO    -  Cleaning site directory
 INFO    -  Building documentation to directory: /srv/docs/site
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/applications/pai-helper-agents.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/architecture/pai-subagent-system.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/guides/pai-subagent-implementation.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/mcp/local-claude-setup.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/mcp/index.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/mcp/server-setup.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/mcp/test-from-api.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/mcp/voice-mode.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/mcp/tools-reference.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/applications/pai-helper-agents.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/architecture/pai-subagent-system.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/guides/pai-subagent-implementation.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/mcp/index.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/mcp/server-setup.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/mcp/test-from-api.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/mcp/local-claude-setup.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/mcp/voice-mode.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/mcp/tools-reference.md' has no git logs, using current timestamp
 INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
   - api/github-cli-graphql-research.md
+  - architecture/pai-subagent-system.md
   - archive/github-workflow.md
   - guides/github-quick-reference.md
+  - guides/pai-subagent-implementation.md
+  - guides/vite-deployment-guide.md
   - guides/working-with-ai-agents.md
+  - mcp/test-from-api.md
 WARNING -  A reference to 'architecture/dai-system.md' is included in the 'nav' configuration, which is not found in the documentation files.
 WARNING -  A reference to 'architecture/pai-system.md' is included in the 'nav' configuration, which is not found in the documentation files.
 WARNING -  A reference to 'architecture/infrastructure.md' is included in the 'nav' configuration, which is not found in the documentation files.
@@ -235,6 +230,8 @@ INFO    -  Doc file 'applications/index.md' contains an absolute link '/architec
 INFO    -  Doc file 'applications/index.md' contains an absolute link '/operations/', it was left as is.
 INFO    -  Doc file 'applications/index.md' contains an absolute link '/api/', it was left as is. Did you mean '../api/index.md'?
 INFO    -  Doc file 'applications/index.md' contains an absolute link '/guides/', it was left as is. Did you mean '../guides/index.md'?
+WARNING:root:First revision timestamp is older than last revision timestamp for page applications/pai-helper-agents.md. This can be due to a quirk in `git` follow behaviour. You can try to set `enable_git_follow: false` in the plugin configuration.
+INFO    -  Doc file 'applications/pai-helper-agents.md' contains an absolute link '/guides/ai-agent-collaboration', it was left as is. Did you mean '../guides/ai-agent-collaboration.md'?
 INFO    -  Doc file 'applications/shifts.md' contains an absolute link '/api/shifts/', it was left as is. Did you mean '../api/shifts.md'?
 INFO    -  Doc file 'applications/shifts.md' contains an absolute link '/guides/github-workflow/', it was left as is.
 INFO    -  Doc file 'applications/shifts.md' contains an absolute link '/guides/development-standards/', it was left as is.
@@ -251,6 +248,7 @@ WARNING -  Doc file 'architecture/index.md' contains a link 'dai-system.md', but
 WARNING -  Doc file 'architecture/index.md' contains a link 'pai-system.md', but the target 'architecture/pai-system.md' is not found among documentation files.
 WARNING -  Doc file 'architecture/index.md' contains a link 'infrastructure.md', but the target 'architecture/infrastructure.md' is not found among documentation files.
 WARNING -  Doc file 'architecture/index.md' contains a link 'security.md', but the target 'architecture/security.md' is not found among documentation files.
+WARNING:root:First revision timestamp is older than last revision timestamp for page architecture/pai-subagent-system.md. This can be due to a quirk in `git` follow behaviour. You can try to set `enable_git_follow: false` in the plugin configuration.
 WARNING -  Doc file 'archive/github-workflow.md' contains a link './github-cli-guide.md', but the target 'archive/github-cli-guide.md' is not found among documentation files.
 INFO    -  Doc file 'archive/github-workflow.md' contains an absolute link '/srv/docs/git-workflow.md', it was left as is.
 WARNING -  Doc file 'archive/github-workflow.md' contains a link './ai-agent-onboarding.md', but the target 'archive/ai-agent-onboarding.md' is not found among documentation files.
@@ -271,8 +269,15 @@ INFO    -  Doc file 'guides/claude-cli-advanced.md' contains an unrecognized rel
 INFO    -  Doc file 'guides/getting-started.md' contains an absolute link '/quickstart.md', it was left as is. Did you mean '../quickstart.md'?
 WARNING -  Doc file 'guides/getting-started.md' contains a link 'development-setup.md', but the target 'guides/development-setup.md' is not found among documentation files.
 WARNING -  Doc file 'guides/getting-started.md' contains a link 'authentication.md', but the target 'guides/authentication.md' is not found among documentation files.
+WARNING:root:First revision timestamp is older than last revision timestamp for page guides/pai-subagent-implementation.md. This can be due to a quirk in `git` follow behaviour. You can try to set `enable_git_follow: false` in the plugin configuration.
 WARNING -  Doc file 'guides/slack-webhooks.md' contains a link '../operations/monitoring-alerts.md', but the target 'operations/monitoring-alerts.md' is not found among documentation files.
 WARNING -  Doc file 'guides/slack-webhooks.md' contains a link '../architecture/intelligence-stack.md', but the target 'architecture/intelligence-stack.md' is not found among documentation files.
+WARNING:root:First revision timestamp is older than last revision timestamp for page mcp/index.md. This can be due to a quirk in `git` follow behaviour. You can try to set `enable_git_follow: false` in the plugin configuration.
+WARNING:root:First revision timestamp is older than last revision timestamp for page mcp/local-claude-setup.md. This can be due to a quirk in `git` follow behaviour. You can try to set `enable_git_follow: false` in the plugin configuration.
+WARNING:root:First revision timestamp is older than last revision timestamp for page mcp/server-setup.md. This can be due to a quirk in `git` follow behaviour. You can try to set `enable_git_follow: false` in the plugin configuration.
+WARNING:root:First revision timestamp is older than last revision timestamp for page mcp/test-from-api.md. This can be due to a quirk in `git` follow behaviour. You can try to set `enable_git_follow: false` in the plugin configuration.
+WARNING:root:First revision timestamp is older than last revision timestamp for page mcp/tools-reference.md. This can be due to a quirk in `git` follow behaviour. You can try to set `enable_git_follow: false` in the plugin configuration.
+WARNING:root:First revision timestamp is older than last revision timestamp for page mcp/voice-mode.md. This can be due to a quirk in `git` follow behaviour. You can try to set `enable_git_follow: false` in the plugin configuration.
 WARNING -  Doc file 'operations/claude-sessions.md' contains a link './common-issues.md', but the target 'operations/common-issues.md' is not found among documentation files.
 WARNING -  Doc file 'operations/claude-sessions.md' contains a link './monitoring-alerts.md', but the target 'operations/monitoring-alerts.md' is not found among documentation files.
 WARNING -  Doc file 'operations/monitoring.md' contains a link './slack-bot-recovery.md', but the target 'operations/slack-bot-recovery.md' is not found among documentation files.
@@ -298,25 +303,53 @@ INFO    -  Doc file 'updates/2025-06-17-slack-documentation.md' contains an abso
 INFO    -  Doc file 'updates/2025-06-17-slack-documentation.md' contains an absolute link '/guides/claude-cli-advanced/', it was left as is. Did you mean '../guides/claude-cli-advanced.md'?
 INFO    -  Doc file 'updates/2025-06-17-slack-documentation.md' contains an absolute link '/guides/slack-webhooks/', it was left as is. Did you mean '../guides/slack-webhooks.md'?
 INFO    -  Doc file 'updates/2025-06-17-slack-documentation.md' contains an absolute link '/operations/slack-recovery/', it was left as is. Did you mean '../operations/slack-recovery.md'?
-INFO    -  Documentation built in 12.86 seconds
-[Mon Jul 21 07:00:16 PM UTC 2025] Build completed successfully
-[Mon Jul 21 07:00:16 PM UTC 2025] Site updated at https://docs.kaut.to
-[Mon Jul 21 07:00:16 PM UTC 2025] Disk usage: 7.0M
-[Mon Jul 21 07:00:16 PM UTC 2025] Build script completed
+INFO    -  Documentation built in 12.84 seconds
+[Wed Aug 13 01:14:21 PM UTC 2025] Build completed successfully
+[Wed Aug 13 01:14:21 PM UTC 2025] Site updated at https://docs.kaut.to
+[Wed Aug 13 01:14:21 PM UTC 2025] Disk usage: 7.8M
+[Wed Aug 13 01:14:21 PM UTC 2025] Build script completed
 ----------------------------------------
-[Mon Jul 21 07:05:01 PM UTC 2025] Starting MkDocs build...
-[Mon Jul 21 07:05:01 PM UTC 2025] Pulling latest changes from git...
+[Wed Aug 13 02:14:09 PM UTC 2025] Starting MkDocs build...
+[Wed Aug 13 02:14:09 PM UTC 2025] Pulling latest changes from git...
 From https://github.com/jkautto/docs
  * branch              main       -> FETCH_HEAD
 Already up to date.
-[Mon Jul 21 07:05:01 PM UTC 2025] Building documentation...
+[Wed Aug 13 02:14:10 PM UTC 2025] Building documentation...
 INFO    -  Cleaning site directory
 INFO    -  Building documentation to directory: /srv/docs/site
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/applications/pai-helper-agents.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/architecture/pai-subagent-system.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/guides/mcp-claude-code-setup.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/guides/pai-subagent-implementation.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/mcp/index.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/mcp/local-claude-setup.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/mcp/server-setup.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/mcp/search-tool.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/mcp/test-from-api.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/mcp/tools-reference.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/mcp/voice-mode.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/applications/pai-helper-agents.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/architecture/pai-subagent-system.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/guides/mcp-claude-code-setup.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/guides/pai-subagent-implementation.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/mcp/index.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/mcp/local-claude-setup.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/mcp/search-tool.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/mcp/server-setup.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/mcp/test-from-api.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/mcp/voice-mode.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/mcp/tools-reference.md' has no git logs, using current timestamp
 INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
   - api/github-cli-graphql-research.md
+  - architecture/pai-subagent-system.md
   - archive/github-workflow.md
   - guides/github-quick-reference.md
+  - guides/mcp-claude-code-setup.md
+  - guides/pai-subagent-implementation.md
+  - guides/vite-deployment-guide.md
   - guides/working-with-ai-agents.md
+  - mcp/search-tool.md
+  - mcp/test-from-api.md
 WARNING -  A reference to 'architecture/dai-system.md' is included in the 'nav' configuration, which is not found in the documentation files.
 WARNING -  A reference to 'architecture/pai-system.md' is included in the 'nav' configuration, which is not found in the documentation files.
 WARNING -  A reference to 'architecture/infrastructure.md' is included in the 'nav' configuration, which is not found in the documentation files.
@@ -351,6 +384,8 @@ INFO    -  Doc file 'applications/index.md' contains an absolute link '/architec
 INFO    -  Doc file 'applications/index.md' contains an absolute link '/operations/', it was left as is.
 INFO    -  Doc file 'applications/index.md' contains an absolute link '/api/', it was left as is. Did you mean '../api/index.md'?
 INFO    -  Doc file 'applications/index.md' contains an absolute link '/guides/', it was left as is. Did you mean '../guides/index.md'?
+WARNING:root:First revision timestamp is older than last revision timestamp for page applications/pai-helper-agents.md. This can be due to a quirk in `git` follow behaviour. You can try to set `enable_git_follow: false` in the plugin configuration.
+INFO    -  Doc file 'applications/pai-helper-agents.md' contains an absolute link '/guides/ai-agent-collaboration', it was left as is. Did you mean '../guides/ai-agent-collaboration.md'?
 INFO    -  Doc file 'applications/shifts.md' contains an absolute link '/api/shifts/', it was left as is. Did you mean '../api/shifts.md'?
 INFO    -  Doc file 'applications/shifts.md' contains an absolute link '/guides/github-workflow/', it was left as is.
 INFO    -  Doc file 'applications/shifts.md' contains an absolute link '/guides/development-standards/', it was left as is.
@@ -367,6 +402,7 @@ WARNING -  Doc file 'architecture/index.md' contains a link 'dai-system.md', but
 WARNING -  Doc file 'architecture/index.md' contains a link 'pai-system.md', but the target 'architecture/pai-system.md' is not found among documentation files.
 WARNING -  Doc file 'architecture/index.md' contains a link 'infrastructure.md', but the target 'architecture/infrastructure.md' is not found among documentation files.
 WARNING -  Doc file 'architecture/index.md' contains a link 'security.md', but the target 'architecture/security.md' is not found among documentation files.
+WARNING:root:First revision timestamp is older than last revision timestamp for page architecture/pai-subagent-system.md. This can be due to a quirk in `git` follow behaviour. You can try to set `enable_git_follow: false` in the plugin configuration.
 WARNING -  Doc file 'archive/github-workflow.md' contains a link './github-cli-guide.md', but the target 'archive/github-cli-guide.md' is not found among documentation files.
 INFO    -  Doc file 'archive/github-workflow.md' contains an absolute link '/srv/docs/git-workflow.md', it was left as is.
 WARNING -  Doc file 'archive/github-workflow.md' contains a link './ai-agent-onboarding.md', but the target 'archive/ai-agent-onboarding.md' is not found among documentation files.
@@ -387,8 +423,17 @@ INFO    -  Doc file 'guides/claude-cli-advanced.md' contains an unrecognized rel
 INFO    -  Doc file 'guides/getting-started.md' contains an absolute link '/quickstart.md', it was left as is. Did you mean '../quickstart.md'?
 WARNING -  Doc file 'guides/getting-started.md' contains a link 'development-setup.md', but the target 'guides/development-setup.md' is not found among documentation files.
 WARNING -  Doc file 'guides/getting-started.md' contains a link 'authentication.md', but the target 'guides/authentication.md' is not found among documentation files.
+WARNING:root:First revision timestamp is older than last revision timestamp for page guides/mcp-claude-code-setup.md. This can be due to a quirk in `git` follow behaviour. You can try to set `enable_git_follow: false` in the plugin configuration.
+WARNING:root:First revision timestamp is older than last revision timestamp for page guides/pai-subagent-implementation.md. This can be due to a quirk in `git` follow behaviour. You can try to set `enable_git_follow: false` in the plugin configuration.
 WARNING -  Doc file 'guides/slack-webhooks.md' contains a link '../operations/monitoring-alerts.md', but the target 'operations/monitoring-alerts.md' is not found among documentation files.
 WARNING -  Doc file 'guides/slack-webhooks.md' contains a link '../architecture/intelligence-stack.md', but the target 'architecture/intelligence-stack.md' is not found among documentation files.
+WARNING:root:First revision timestamp is older than last revision timestamp for page mcp/index.md. This can be due to a quirk in `git` follow behaviour. You can try to set `enable_git_follow: false` in the plugin configuration.
+WARNING:root:First revision timestamp is older than last revision timestamp for page mcp/local-claude-setup.md. This can be due to a quirk in `git` follow behaviour. You can try to set `enable_git_follow: false` in the plugin configuration.
+WARNING:root:First revision timestamp is older than last revision timestamp for page mcp/search-tool.md. This can be due to a quirk in `git` follow behaviour. You can try to set `enable_git_follow: false` in the plugin configuration.
+WARNING:root:First revision timestamp is older than last revision timestamp for page mcp/server-setup.md. This can be due to a quirk in `git` follow behaviour. You can try to set `enable_git_follow: false` in the plugin configuration.
+WARNING:root:First revision timestamp is older than last revision timestamp for page mcp/test-from-api.md. This can be due to a quirk in `git` follow behaviour. You can try to set `enable_git_follow: false` in the plugin configuration.
+WARNING:root:First revision timestamp is older than last revision timestamp for page mcp/tools-reference.md. This can be due to a quirk in `git` follow behaviour. You can try to set `enable_git_follow: false` in the plugin configuration.
+WARNING:root:First revision timestamp is older than last revision timestamp for page mcp/voice-mode.md. This can be due to a quirk in `git` follow behaviour. You can try to set `enable_git_follow: false` in the plugin configuration.
 WARNING -  Doc file 'operations/claude-sessions.md' contains a link './common-issues.md', but the target 'operations/common-issues.md' is not found among documentation files.
 WARNING -  Doc file 'operations/claude-sessions.md' contains a link './monitoring-alerts.md', but the target 'operations/monitoring-alerts.md' is not found among documentation files.
 WARNING -  Doc file 'operations/monitoring.md' contains a link './slack-bot-recovery.md', but the target 'operations/slack-bot-recovery.md' is not found among documentation files.
@@ -414,25 +459,73 @@ INFO    -  Doc file 'updates/2025-06-17-slack-documentation.md' contains an abso
 INFO    -  Doc file 'updates/2025-06-17-slack-documentation.md' contains an absolute link '/guides/claude-cli-advanced/', it was left as is. Did you mean '../guides/claude-cli-advanced.md'?
 INFO    -  Doc file 'updates/2025-06-17-slack-documentation.md' contains an absolute link '/guides/slack-webhooks/', it was left as is. Did you mean '../guides/slack-webhooks.md'?
 INFO    -  Doc file 'updates/2025-06-17-slack-documentation.md' contains an absolute link '/operations/slack-recovery/', it was left as is. Did you mean '../operations/slack-recovery.md'?
-INFO    -  Documentation built in 12.62 seconds
-[Mon Jul 21 07:05:15 PM UTC 2025] Build completed successfully
-[Mon Jul 21 07:05:15 PM UTC 2025] Site updated at https://docs.kaut.to
-[Mon Jul 21 07:05:15 PM UTC 2025] Disk usage: 7.0M
-[Mon Jul 21 07:05:15 PM UTC 2025] Build script completed
+INFO    -  Documentation built in 14.06 seconds
+[Wed Aug 13 02:14:25 PM UTC 2025] Build completed successfully
+[Wed Aug 13 02:14:25 PM UTC 2025] Site updated at https://docs.kaut.to
+[Wed Aug 13 02:14:25 PM UTC 2025] Disk usage: 7.9M
+[Wed Aug 13 02:14:25 PM UTC 2025] Build script completed
 ----------------------------------------
-[Mon Jul 21 07:10:01 PM UTC 2025] Starting MkDocs build...
-[Mon Jul 21 07:10:01 PM UTC 2025] Pulling latest changes from git...
+[Fri Aug 15 10:16:29 AM UTC 2025] Starting MkDocs build...
+[Fri Aug 15 10:16:29 AM UTC 2025] Pulling latest changes from git...
 From https://github.com/jkautto/docs
  * branch              main       -> FETCH_HEAD
 Already up to date.
-[Mon Jul 21 07:10:01 PM UTC 2025] Building documentation...
+[Fri Aug 15 10:16:29 AM UTC 2025] Building documentation...
 INFO    -  Cleaning site directory
 INFO    -  Building documentation to directory: /srv/docs/site
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/applications/pai-helper-agents.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/architecture/pai-subagent-system.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/guides/claude-code-sub-agents.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/guides/pai-subagent-implementation.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/guides/mcp-claude-code-setup.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/mcp/index.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/mcp/local-claude-setup.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/mcp/search-tool.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/mcp/server-setup.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/mcp/test-from-api.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/mcp/tools-reference.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/mcp/voice-mode.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/mcp-claude/architecture.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/mcp-claude/index.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/mcp-claude/deep-guide.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/mcp-claude/examples.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/mcp-claude/quick-start.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/mcp-claude/troubleshooting.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/applications/pai-helper-agents.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/architecture/pai-subagent-system.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/guides/claude-code-sub-agents.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/guides/mcp-claude-code-setup.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/guides/pai-subagent-implementation.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/mcp/index.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/mcp/local-claude-setup.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/mcp/server-setup.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/mcp/search-tool.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/mcp/test-from-api.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/mcp/tools-reference.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/mcp/voice-mode.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/mcp-claude/architecture.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/mcp-claude/index.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/mcp-claude/deep-guide.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/mcp-claude/quick-start.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/mcp-claude/troubleshooting.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/mcp-claude/examples.md' has no git logs, using current timestamp
 INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
   - api/github-cli-graphql-research.md
+  - architecture/pai-subagent-system.md
   - archive/github-workflow.md
+  - guides/claude-code-sub-agents.md
   - guides/github-quick-reference.md
+  - guides/mcp-claude-code-setup.md
+  - guides/pai-subagent-implementation.md
+  - guides/vite-deployment-guide.md
   - guides/working-with-ai-agents.md
+  - mcp/index.md
+  - mcp/local-claude-setup.md
+  - mcp/search-tool.md
+  - mcp/server-setup.md
+  - mcp/test-from-api.md
+  - mcp/tools-reference.md
+  - mcp/voice-mode.md
 WARNING -  A reference to 'architecture/dai-system.md' is included in the 'nav' configuration, which is not found in the documentation files.
 WARNING -  A reference to 'architecture/pai-system.md' is included in the 'nav' configuration, which is not found in the documentation files.
 WARNING -  A reference to 'architecture/infrastructure.md' is included in the 'nav' configuration, which is not found in the documentation files.
@@ -467,6 +560,8 @@ INFO    -  Doc file 'applications/index.md' contains an absolute link '/architec
 INFO    -  Doc file 'applications/index.md' contains an absolute link '/operations/', it was left as is.
 INFO    -  Doc file 'applications/index.md' contains an absolute link '/api/', it was left as is. Did you mean '../api/index.md'?
 INFO    -  Doc file 'applications/index.md' contains an absolute link '/guides/', it was left as is. Did you mean '../guides/index.md'?
+WARNING:root:First revision timestamp is older than last revision timestamp for page applications/pai-helper-agents.md. This can be due to a quirk in `git` follow behaviour. You can try to set `enable_git_follow: false` in the plugin configuration.
+INFO    -  Doc file 'applications/pai-helper-agents.md' contains an absolute link '/guides/ai-agent-collaboration', it was left as is. Did you mean '../guides/ai-agent-collaboration.md'?
 INFO    -  Doc file 'applications/shifts.md' contains an absolute link '/api/shifts/', it was left as is. Did you mean '../api/shifts.md'?
 INFO    -  Doc file 'applications/shifts.md' contains an absolute link '/guides/github-workflow/', it was left as is.
 INFO    -  Doc file 'applications/shifts.md' contains an absolute link '/guides/development-standards/', it was left as is.
@@ -483,6 +578,7 @@ WARNING -  Doc file 'architecture/index.md' contains a link 'dai-system.md', but
 WARNING -  Doc file 'architecture/index.md' contains a link 'pai-system.md', but the target 'architecture/pai-system.md' is not found among documentation files.
 WARNING -  Doc file 'architecture/index.md' contains a link 'infrastructure.md', but the target 'architecture/infrastructure.md' is not found among documentation files.
 WARNING -  Doc file 'architecture/index.md' contains a link 'security.md', but the target 'architecture/security.md' is not found among documentation files.
+WARNING:root:First revision timestamp is older than last revision timestamp for page architecture/pai-subagent-system.md. This can be due to a quirk in `git` follow behaviour. You can try to set `enable_git_follow: false` in the plugin configuration.
 WARNING -  Doc file 'archive/github-workflow.md' contains a link './github-cli-guide.md', but the target 'archive/github-cli-guide.md' is not found among documentation files.
 INFO    -  Doc file 'archive/github-workflow.md' contains an absolute link '/srv/docs/git-workflow.md', it was left as is.
 WARNING -  Doc file 'archive/github-workflow.md' contains a link './ai-agent-onboarding.md', but the target 'archive/ai-agent-onboarding.md' is not found among documentation files.
@@ -500,55 +596,113 @@ INFO    -  Doc file 'guides/ai-agent-collaboration.md' contains an absolute link
 INFO    -  Doc file 'guides/ai-agent-development.md' contains an absolute link '/guides/jtools-testing/', it was left as is.
 WARNING -  Doc file 'guides/claude-cli-advanced.md' contains a link '../architecture/intelligence-stack.md', but the target 'architecture/intelligence-stack.md' is not found among documentation files.
 INFO    -  Doc file 'guides/claude-cli-advanced.md' contains an unrecognized relative link '../operations/', it was left as is.
+WARNING:root:First revision timestamp is older than last revision timestamp for page guides/claude-code-sub-agents.md. This can be due to a quirk in `git` follow behaviour. You can try to set `enable_git_follow: false` in the plugin configuration.
 INFO    -  Doc file 'guides/getting-started.md' contains an absolute link '/quickstart.md', it was left as is. Did you mean '../quickstart.md'?
 WARNING -  Doc file 'guides/getting-started.md' contains a link 'development-setup.md', but the target 'guides/development-setup.md' is not found among documentation files.
 WARNING -  Doc file 'guides/getting-started.md' contains a link 'authentication.md', but the target 'guides/authentication.md' is not found among documentation files.
+WARNING:root:First revision timestamp is older than last revision timestamp for page guides/mcp-claude-code-setup.md. This can be due to a quirk in `git` follow behaviour. You can try to set `enable_git_follow: false` in the plugin configuration.
+WARNING:root:First revision timestamp is older than last revision timestamp for page guides/pai-subagent-implementation.md. This can be due to a quirk in `git` follow behaviour. You can try to set `enable_git_follow: false` in the plugin configuration.
 WARNING -  Doc file 'guides/slack-webhooks.md' contains a link '../operations/monitoring-alerts.md', but the target 'operations/monitoring-alerts.md' is not found among documentation files.
 WARNING -  Doc file 'guides/slack-webhooks.md' contains a link '../architecture/intelligence-stack.md', but the target 'architecture/intelligence-stack.md' is not found among documentation files.
-WARNING -  Doc file 'operations/claude-sessions.md' contains a link './common-issues.md', but the target 'operations/common-issues.md' is not found among documentation files.
-WARNING -  Doc file 'operations/claude-sessions.md' contains a link './monitoring-alerts.md', but the target 'operations/monitoring-alerts.md' is not found among documentation files.
-WARNING -  Doc file 'operations/monitoring.md' contains a link './slack-bot-recovery.md', but the target 'operations/slack-bot-recovery.md' is not found among documentation files.
-WARNING -  Doc file 'operations/monitoring.md' contains a link './token-refresh.md', but the target 'operations/token-refresh.md' is not found among documentation files.
-WARNING -  Doc file 'operations/monitoring.md' contains a link './incident-response.md', but the target 'operations/incident-response.md' is not found among documentation files.
-WARNING -  Doc file 'specs/active.md' contains a link 'browser-testing-toolkit.md', but the target 'specs/browser-testing-toolkit.md' is not found among documentation files.
-WARNING -  Doc file 'specs/active.md' contains a link 'kaut-mcp-server.md', but the target 'specs/kaut-mcp-server.md' is not found among documentation files.
-WARNING -  Doc file 'specs/active.md' contains a link 'ai-self-documenting.md', but the target 'specs/ai-self-documenting.md' is not found among documentation files.
-WARNING -  Doc file 'specs/active.md' contains a link 'jtools-api-architecture.md', but the target 'specs/jtools-api-architecture.md' is not found among documentation files.
-WARNING -  Doc file 'specs/active.md' contains a link 'jtools-reorganization.md', but the target 'specs/jtools-reorganization.md' is not found among documentation files.
-WARNING -  Doc file 'specs/active.md' contains a link 'jtools-unified-structure.md', but the target 'specs/jtools-unified-structure.md' is not found among documentation files.
-WARNING -  Doc file 'specs/active.md' contains a link 'jtools-testing-toolkit.md', but the target 'specs/jtools-testing-toolkit.md' is not found among documentation files.
-WARNING -  Doc file 'specs/active.md' contains a link 'context-library.md', but the target 'specs/context-library.md' is not found among documentation files.
-WARNING -  Doc file 'specs/active.md' contains a link 'context-optimization.md', but the target 'specs/context-optimization.md' is not found among documentation files.
-WARNING -  Doc file 'specs/active.md' contains a link 'specialized-agents.md', but the target 'specs/specialized-agents.md' is not found among documentation files.
-WARNING -  Doc file 'specs/documentation-optimization.md' contains a link '../path/to/doc.md', but the target 'path/to/doc.md' is not found among documentation files.
-WARNING -  Doc file 'specs/implementation.md' contains a link 'context-library.md', but the target 'specs/context-library.md' is not found among documentation files.
-WARNING -  Doc file 'specs/implementation.md' contains a link 'browser-testing-toolkit.md', but the target 'specs/browser-testing-toolkit.md' is not found among documentation files.
-WARNING -  Doc file 'specs/implementation.md' contains a link '../guides/development-setup.md', but the target 'guides/development-setup.md' is not found among documentation files.
-WARNING -  Doc file 'specs/implementation.md' contains a link '../guides/testing.md', but the target 'guides/testing.md' is not found among documentation files.
-WARNING -  Doc file 'specs/implementation.md' contains a link '../guides/deployment.md', but the target 'guides/deployment.md' is not found among documentation files.
-INFO    -  Doc file 'updates/2025-06-17-slack-documentation.md' contains an absolute link '/applications/slack-bot/', it was left as is. Did you mean '../applications/slack-bot.md'?
-INFO    -  Doc file 'updates/2025-06-17-slack-documentation.md' contains an absolute link '/guides/claude-cli-advanced/', it was left as is. Did you mean '../guides/claude-cli-advanced.md'?
-INFO    -  Doc file 'updates/2025-06-17-slack-documentation.md' contains an absolute link '/guides/slack-webhooks/', it was left as is. Did you mean '../guides/slack-webhooks.md'?
-INFO    -  Doc file 'updates/2025-06-17-slack-documentation.md' contains an absolute link '/operations/slack-recovery/', it was left as is. Did you mean '../operations/slack-recovery.md'?
-INFO    -  Documentation built in 12.67 seconds
-[Mon Jul 21 07:10:15 PM UTC 2025] Build completed successfully
-[Mon Jul 21 07:10:15 PM UTC 2025] Site updated at https://docs.kaut.to
-[Mon Jul 21 07:10:15 PM UTC 2025] Disk usage: 7.0M
-[Mon Jul 21 07:10:15 PM UTC 2025] Build script completed
-----------------------------------------
-[Mon Jul 21 07:15:01 PM UTC 2025] Starting MkDocs build...
-[Mon Jul 21 07:15:01 PM UTC 2025] Pulling latest changes from git...
+WARNING:root:First revision timestamp is older than last revision timestamp for page mcp/index.md. This can be due to a quirk in `git` follow behaviour. You can try to set `enable_git_follow: false` in the plugin configuration.
+WARNING:root:First revision timestamp is older than last revision timestamp for page mcp/local-claude-setup.md. This can be due to a quirk in `git` follow behaviour. You can try to set `enable_git_follow: false` in the plugin configuration.
+WARNING:root:First revision timestamp is older than last revision timestamp for page mcp/search-tool.md. This can be due to a quirk in `git` follow behaviour. You can try to set `enable_git_follow: false` in the plugin configuration.
+WARNING:root:First revision timestamp is older than last revision timestamp for page mcp/server-setup.md. This can be due to a quirk in `git` follow behaviour. You can try to set `enable_git_follow: false` in the plugin configuration.
+WARNING:root:First revision timestamp is older than last revision timestamp for page mcp/test-from-api.md. This can be due to a quirk in `git` follow behaviour. You can try to set `enable_git_follow: false` in the plugin configuration.
+WARNING:root:First revision timestamp is older than last revision timestamp for page mcp/tools-reference.md. This can be due to a quirk in `git` follow behaviour. You can try to set `enable_git_follow: false` in the plugin configuration.
+WARNING:root:First revision timestamp is older than last revision timestamp for page mcp/voice-mode.md. This can be due to a quirk in `git` follow behaviour. You can try to set `enable_git_follow: false` in the plugin configuration.
+ERROR   -  Encoding error reading file: mcp-claude/index.md
+ERROR   -  Error reading page 'mcp-claude/index.md': 'utf-8' codec can't decode byte 0x92 in position 3880: invalid start byte
+Traceback (most recent call last):
+  File "/srv/docs/venv/bin/mkdocs", line 8, in <module>
+    sys.exit(cli())
+  File "/srv/docs/venv/lib/python3.10/site-packages/click/core.py", line 1442, in __call__
+    return self.main(*args, **kwargs)
+  File "/srv/docs/venv/lib/python3.10/site-packages/click/core.py", line 1363, in main
+    rv = self.invoke(ctx)
+  File "/srv/docs/venv/lib/python3.10/site-packages/click/core.py", line 1830, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/srv/docs/venv/lib/python3.10/site-packages/click/core.py", line 1226, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/srv/docs/venv/lib/python3.10/site-packages/click/core.py", line 794, in invoke
+    return callback(*args, **kwargs)
+  File "/srv/docs/venv/lib/python3.10/site-packages/mkdocs/__main__.py", line 288, in build_command
+    build.build(cfg, dirty=not clean)
+  File "/srv/docs/venv/lib/python3.10/site-packages/mkdocs/commands/build.py", line 310, in build
+    _populate_page(file.page, config, files, dirty)
+  File "/srv/docs/venv/lib/python3.10/site-packages/mkdocs/commands/build.py", line 159, in _populate_page
+    page.read_source(config)
+  File "/srv/docs/venv/lib/python3.10/site-packages/mkdocs/structure/pages.py", line 212, in read_source
+    source = self.file.content_string
+  File "/srv/docs/venv/lib/python3.10/site-packages/mkdocs/structure/files.py", line 462, in content_string
+    return f.read()
+  File "/usr/lib/python3.10/codecs.py", line 322, in decode
+    (result, consumed) = self._buffer_decode(data, self.errors, final)
+  File "/usr/lib/python3.10/encodings/utf_8_sig.py", line 69, in _buffer_decode
+    return codecs.utf_8_decode(input, errors, final)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0x92 in position 3880: invalid start byte
+[Fri Aug 15 10:16:36 AM UTC 2025] Build FAILED - check errors above
+[Fri Aug 15 10:16:41 AM UTC 2025] Starting MkDocs build...
+[Fri Aug 15 10:16:41 AM UTC 2025] Pulling latest changes from git...
 From https://github.com/jkautto/docs
  * branch              main       -> FETCH_HEAD
 Already up to date.
-[Mon Jul 21 07:15:02 PM UTC 2025] Building documentation...
+[Fri Aug 15 10:16:42 AM UTC 2025] Building documentation...
 INFO    -  Cleaning site directory
 INFO    -  Building documentation to directory: /srv/docs/site
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/applications/pai-helper-agents.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/architecture/pai-subagent-system.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/guides/claude-code-sub-agents.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/guides/mcp-claude-code-setup.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/guides/pai-subagent-implementation.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/mcp/index.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/mcp/local-claude-setup.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/mcp/search-tool.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/mcp/server-setup.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/mcp/test-from-api.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/mcp/tools-reference.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/mcp-claude/index.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/mcp/voice-mode.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/mcp-claude/architecture.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/mcp-claude/deep-guide.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/mcp-claude/examples.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/mcp-claude/troubleshooting.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/mcp-claude/quick-start.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/applications/pai-helper-agents.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/architecture/pai-subagent-system.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/guides/claude-code-sub-agents.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/guides/mcp-claude-code-setup.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/guides/pai-subagent-implementation.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/mcp/index.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/mcp/local-claude-setup.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/mcp/search-tool.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/mcp/server-setup.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/mcp/test-from-api.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/mcp/tools-reference.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/mcp/voice-mode.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/mcp-claude/index.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/mcp-claude/architecture.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/mcp-claude/deep-guide.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/mcp-claude/examples.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/mcp-claude/quick-start.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/mcp-claude/troubleshooting.md' has no git logs, using current timestamp
 INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
   - api/github-cli-graphql-research.md
+  - architecture/pai-subagent-system.md
   - archive/github-workflow.md
+  - guides/claude-code-sub-agents.md
   - guides/github-quick-reference.md
+  - guides/mcp-claude-code-setup.md
+  - guides/pai-subagent-implementation.md
+  - guides/vite-deployment-guide.md
   - guides/working-with-ai-agents.md
+  - mcp/index.md
+  - mcp/local-claude-setup.md
+  - mcp/search-tool.md
+  - mcp/server-setup.md
+  - mcp/test-from-api.md
+  - mcp/tools-reference.md
+  - mcp/voice-mode.md
 WARNING -  A reference to 'architecture/dai-system.md' is included in the 'nav' configuration, which is not found in the documentation files.
 WARNING -  A reference to 'architecture/pai-system.md' is included in the 'nav' configuration, which is not found in the documentation files.
 WARNING -  A reference to 'architecture/infrastructure.md' is included in the 'nav' configuration, which is not found in the documentation files.
@@ -583,6 +737,8 @@ INFO    -  Doc file 'applications/index.md' contains an absolute link '/architec
 INFO    -  Doc file 'applications/index.md' contains an absolute link '/operations/', it was left as is.
 INFO    -  Doc file 'applications/index.md' contains an absolute link '/api/', it was left as is. Did you mean '../api/index.md'?
 INFO    -  Doc file 'applications/index.md' contains an absolute link '/guides/', it was left as is. Did you mean '../guides/index.md'?
+WARNING:root:First revision timestamp is older than last revision timestamp for page applications/pai-helper-agents.md. This can be due to a quirk in `git` follow behaviour. You can try to set `enable_git_follow: false` in the plugin configuration.
+INFO    -  Doc file 'applications/pai-helper-agents.md' contains an absolute link '/guides/ai-agent-collaboration', it was left as is. Did you mean '../guides/ai-agent-collaboration.md'?
 INFO    -  Doc file 'applications/shifts.md' contains an absolute link '/api/shifts/', it was left as is. Did you mean '../api/shifts.md'?
 INFO    -  Doc file 'applications/shifts.md' contains an absolute link '/guides/github-workflow/', it was left as is.
 INFO    -  Doc file 'applications/shifts.md' contains an absolute link '/guides/development-standards/', it was left as is.
@@ -599,6 +755,7 @@ WARNING -  Doc file 'architecture/index.md' contains a link 'dai-system.md', but
 WARNING -  Doc file 'architecture/index.md' contains a link 'pai-system.md', but the target 'architecture/pai-system.md' is not found among documentation files.
 WARNING -  Doc file 'architecture/index.md' contains a link 'infrastructure.md', but the target 'architecture/infrastructure.md' is not found among documentation files.
 WARNING -  Doc file 'architecture/index.md' contains a link 'security.md', but the target 'architecture/security.md' is not found among documentation files.
+WARNING:root:First revision timestamp is older than last revision timestamp for page architecture/pai-subagent-system.md. This can be due to a quirk in `git` follow behaviour. You can try to set `enable_git_follow: false` in the plugin configuration.
 WARNING -  Doc file 'archive/github-workflow.md' contains a link './github-cli-guide.md', but the target 'archive/github-cli-guide.md' is not found among documentation files.
 INFO    -  Doc file 'archive/github-workflow.md' contains an absolute link '/srv/docs/git-workflow.md', it was left as is.
 WARNING -  Doc file 'archive/github-workflow.md' contains a link './ai-agent-onboarding.md', but the target 'archive/ai-agent-onboarding.md' is not found among documentation files.
@@ -616,55 +773,107 @@ INFO    -  Doc file 'guides/ai-agent-collaboration.md' contains an absolute link
 INFO    -  Doc file 'guides/ai-agent-development.md' contains an absolute link '/guides/jtools-testing/', it was left as is.
 WARNING -  Doc file 'guides/claude-cli-advanced.md' contains a link '../architecture/intelligence-stack.md', but the target 'architecture/intelligence-stack.md' is not found among documentation files.
 INFO    -  Doc file 'guides/claude-cli-advanced.md' contains an unrecognized relative link '../operations/', it was left as is.
+WARNING:root:First revision timestamp is older than last revision timestamp for page guides/claude-code-sub-agents.md. This can be due to a quirk in `git` follow behaviour. You can try to set `enable_git_follow: false` in the plugin configuration.
 INFO    -  Doc file 'guides/getting-started.md' contains an absolute link '/quickstart.md', it was left as is. Did you mean '../quickstart.md'?
 WARNING -  Doc file 'guides/getting-started.md' contains a link 'development-setup.md', but the target 'guides/development-setup.md' is not found among documentation files.
 WARNING -  Doc file 'guides/getting-started.md' contains a link 'authentication.md', but the target 'guides/authentication.md' is not found among documentation files.
+WARNING:root:First revision timestamp is older than last revision timestamp for page guides/mcp-claude-code-setup.md. This can be due to a quirk in `git` follow behaviour. You can try to set `enable_git_follow: false` in the plugin configuration.
+WARNING:root:First revision timestamp is older than last revision timestamp for page guides/pai-subagent-implementation.md. This can be due to a quirk in `git` follow behaviour. You can try to set `enable_git_follow: false` in the plugin configuration.
 WARNING -  Doc file 'guides/slack-webhooks.md' contains a link '../operations/monitoring-alerts.md', but the target 'operations/monitoring-alerts.md' is not found among documentation files.
 WARNING -  Doc file 'guides/slack-webhooks.md' contains a link '../architecture/intelligence-stack.md', but the target 'architecture/intelligence-stack.md' is not found among documentation files.
-WARNING -  Doc file 'operations/claude-sessions.md' contains a link './common-issues.md', but the target 'operations/common-issues.md' is not found among documentation files.
-WARNING -  Doc file 'operations/claude-sessions.md' contains a link './monitoring-alerts.md', but the target 'operations/monitoring-alerts.md' is not found among documentation files.
-WARNING -  Doc file 'operations/monitoring.md' contains a link './slack-bot-recovery.md', but the target 'operations/slack-bot-recovery.md' is not found among documentation files.
-WARNING -  Doc file 'operations/monitoring.md' contains a link './token-refresh.md', but the target 'operations/token-refresh.md' is not found among documentation files.
-WARNING -  Doc file 'operations/monitoring.md' contains a link './incident-response.md', but the target 'operations/incident-response.md' is not found among documentation files.
-WARNING -  Doc file 'specs/active.md' contains a link 'browser-testing-toolkit.md', but the target 'specs/browser-testing-toolkit.md' is not found among documentation files.
-WARNING -  Doc file 'specs/active.md' contains a link 'kaut-mcp-server.md', but the target 'specs/kaut-mcp-server.md' is not found among documentation files.
-WARNING -  Doc file 'specs/active.md' contains a link 'ai-self-documenting.md', but the target 'specs/ai-self-documenting.md' is not found among documentation files.
-WARNING -  Doc file 'specs/active.md' contains a link 'jtools-api-architecture.md', but the target 'specs/jtools-api-architecture.md' is not found among documentation files.
-WARNING -  Doc file 'specs/active.md' contains a link 'jtools-reorganization.md', but the target 'specs/jtools-reorganization.md' is not found among documentation files.
-WARNING -  Doc file 'specs/active.md' contains a link 'jtools-unified-structure.md', but the target 'specs/jtools-unified-structure.md' is not found among documentation files.
-WARNING -  Doc file 'specs/active.md' contains a link 'jtools-testing-toolkit.md', but the target 'specs/jtools-testing-toolkit.md' is not found among documentation files.
-WARNING -  Doc file 'specs/active.md' contains a link 'context-library.md', but the target 'specs/context-library.md' is not found among documentation files.
-WARNING -  Doc file 'specs/active.md' contains a link 'context-optimization.md', but the target 'specs/context-optimization.md' is not found among documentation files.
-WARNING -  Doc file 'specs/active.md' contains a link 'specialized-agents.md', but the target 'specs/specialized-agents.md' is not found among documentation files.
-WARNING -  Doc file 'specs/documentation-optimization.md' contains a link '../path/to/doc.md', but the target 'path/to/doc.md' is not found among documentation files.
-WARNING -  Doc file 'specs/implementation.md' contains a link 'context-library.md', but the target 'specs/context-library.md' is not found among documentation files.
-WARNING -  Doc file 'specs/implementation.md' contains a link 'browser-testing-toolkit.md', but the target 'specs/browser-testing-toolkit.md' is not found among documentation files.
-WARNING -  Doc file 'specs/implementation.md' contains a link '../guides/development-setup.md', but the target 'guides/development-setup.md' is not found among documentation files.
-WARNING -  Doc file 'specs/implementation.md' contains a link '../guides/testing.md', but the target 'guides/testing.md' is not found among documentation files.
-WARNING -  Doc file 'specs/implementation.md' contains a link '../guides/deployment.md', but the target 'guides/deployment.md' is not found among documentation files.
-INFO    -  Doc file 'updates/2025-06-17-slack-documentation.md' contains an absolute link '/applications/slack-bot/', it was left as is. Did you mean '../applications/slack-bot.md'?
-INFO    -  Doc file 'updates/2025-06-17-slack-documentation.md' contains an absolute link '/guides/claude-cli-advanced/', it was left as is. Did you mean '../guides/claude-cli-advanced.md'?
-INFO    -  Doc file 'updates/2025-06-17-slack-documentation.md' contains an absolute link '/guides/slack-webhooks/', it was left as is. Did you mean '../guides/slack-webhooks.md'?
-INFO    -  Doc file 'updates/2025-06-17-slack-documentation.md' contains an absolute link '/operations/slack-recovery/', it was left as is. Did you mean '../operations/slack-recovery.md'?
-INFO    -  Documentation built in 11.94 seconds
-[Mon Jul 21 07:15:15 PM UTC 2025] Build completed successfully
-[Mon Jul 21 07:15:15 PM UTC 2025] Site updated at https://docs.kaut.to
-[Mon Jul 21 07:15:15 PM UTC 2025] Disk usage: 7.0M
-[Mon Jul 21 07:15:15 PM UTC 2025] Build script completed
-----------------------------------------
-[Mon Jul 21 07:20:01 PM UTC 2025] Starting MkDocs build...
-[Mon Jul 21 07:20:01 PM UTC 2025] Pulling latest changes from git...
+WARNING:root:First revision timestamp is older than last revision timestamp for page mcp/index.md. This can be due to a quirk in `git` follow behaviour. You can try to set `enable_git_follow: false` in the plugin configuration.
+WARNING:root:First revision timestamp is older than last revision timestamp for page mcp/local-claude-setup.md. This can be due to a quirk in `git` follow behaviour. You can try to set `enable_git_follow: false` in the plugin configuration.
+WARNING:root:First revision timestamp is older than last revision timestamp for page mcp/search-tool.md. This can be due to a quirk in `git` follow behaviour. You can try to set `enable_git_follow: false` in the plugin configuration.
+WARNING:root:First revision timestamp is older than last revision timestamp for page mcp/server-setup.md. This can be due to a quirk in `git` follow behaviour. You can try to set `enable_git_follow: false` in the plugin configuration.
+WARNING:root:First revision timestamp is older than last revision timestamp for page mcp/test-from-api.md. This can be due to a quirk in `git` follow behaviour. You can try to set `enable_git_follow: false` in the plugin configuration.
+WARNING:root:First revision timestamp is older than last revision timestamp for page mcp/tools-reference.md. This can be due to a quirk in `git` follow behaviour. You can try to set `enable_git_follow: false` in the plugin configuration.
+WARNING:root:First revision timestamp is older than last revision timestamp for page mcp/voice-mode.md. This can be due to a quirk in `git` follow behaviour. You can try to set `enable_git_follow: false` in the plugin configuration.
+ERROR   -  Encoding error reading file: mcp-claude/index.md
+ERROR   -  Error reading page 'mcp-claude/index.md': 'utf-8' codec can't decode byte 0x92 in position 3880: invalid start byte
+Traceback (most recent call last):
+  File "/srv/docs/venv/bin/mkdocs", line 8, in <module>
+    sys.exit(cli())
+  File "/srv/docs/venv/lib/python3.10/site-packages/click/core.py", line 1442, in __call__
+    return self.main(*args, **kwargs)
+  File "/srv/docs/venv/lib/python3.10/site-packages/click/core.py", line 1363, in main
+    rv = self.invoke(ctx)
+  File "/srv/docs/venv/lib/python3.10/site-packages/click/core.py", line 1830, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/srv/docs/venv/lib/python3.10/site-packages/click/core.py", line 1226, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/srv/docs/venv/lib/python3.10/site-packages/click/core.py", line 794, in invoke
+    return callback(*args, **kwargs)
+  File "/srv/docs/venv/lib/python3.10/site-packages/mkdocs/__main__.py", line 288, in build_command
+    build.build(cfg, dirty=not clean)
+  File "/srv/docs/venv/lib/python3.10/site-packages/mkdocs/commands/build.py", line 310, in build
+    _populate_page(file.page, config, files, dirty)
+  File "/srv/docs/venv/lib/python3.10/site-packages/mkdocs/commands/build.py", line 159, in _populate_page
+    page.read_source(config)
+  File "/srv/docs/venv/lib/python3.10/site-packages/mkdocs/structure/pages.py", line 212, in read_source
+    source = self.file.content_string
+  File "/srv/docs/venv/lib/python3.10/site-packages/mkdocs/structure/files.py", line 462, in content_string
+    return f.read()
+  File "/usr/lib/python3.10/codecs.py", line 322, in decode
+    (result, consumed) = self._buffer_decode(data, self.errors, final)
+  File "/usr/lib/python3.10/encodings/utf_8_sig.py", line 69, in _buffer_decode
+    return codecs.utf_8_decode(input, errors, final)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0x92 in position 3880: invalid start byte
+[Fri Aug 15 10:16:49 AM UTC 2025] Build FAILED - check errors above
+[Fri Aug 15 10:20:01 AM UTC 2025] Starting MkDocs build...
+[Fri Aug 15 10:20:01 AM UTC 2025] Pulling latest changes from git...
 From https://github.com/jkautto/docs
  * branch              main       -> FETCH_HEAD
 Already up to date.
-[Mon Jul 21 07:20:01 PM UTC 2025] Building documentation...
+[Fri Aug 15 10:20:02 AM UTC 2025] Building documentation...
 INFO    -  Cleaning site directory
 INFO    -  Building documentation to directory: /srv/docs/site
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/applications/pai-helper-agents.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/architecture/pai-subagent-system.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/guides/claude-code-sub-agents.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/guides/pai-subagent-implementation.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/guides/mcp-claude-code-setup.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/mcp/index.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/mcp/search-tool.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/mcp/server-setup.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/mcp/local-claude-setup.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/mcp/test-from-api.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/mcp/tools-reference.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/mcp/voice-mode.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/mcp-claude/deep-guide.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/mcp-claude/index.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/mcp-claude/quick-start.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/applications/pai-helper-agents.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/architecture/pai-subagent-system.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/guides/claude-code-sub-agents.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/guides/mcp-claude-code-setup.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/guides/pai-subagent-implementation.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/mcp/index.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/mcp/search-tool.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/mcp/local-claude-setup.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/mcp/server-setup.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/mcp/tools-reference.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/mcp/voice-mode.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/mcp/test-from-api.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/mcp-claude/index.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/mcp-claude/quick-start.md' has no git logs, using current timestamp
+WARNING -  [git-revision-date-localized-plugin] '/srv/docs/docs/mcp-claude/deep-guide.md' has no git logs, using current timestamp
 INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
   - api/github-cli-graphql-research.md
+  - architecture/pai-subagent-system.md
   - archive/github-workflow.md
+  - guides/claude-code-sub-agents.md
   - guides/github-quick-reference.md
+  - guides/mcp-claude-code-setup.md
+  - guides/pai-subagent-implementation.md
+  - guides/vite-deployment-guide.md
   - guides/working-with-ai-agents.md
+  - mcp/index.md
+  - mcp/local-claude-setup.md
+  - mcp/search-tool.md
+  - mcp/server-setup.md
+  - mcp/test-from-api.md
+  - mcp/tools-reference.md
+  - mcp/voice-mode.md
 WARNING -  A reference to 'architecture/dai-system.md' is included in the 'nav' configuration, which is not found in the documentation files.
 WARNING -  A reference to 'architecture/pai-system.md' is included in the 'nav' configuration, which is not found in the documentation files.
 WARNING -  A reference to 'architecture/infrastructure.md' is included in the 'nav' configuration, which is not found in the documentation files.
@@ -673,6 +882,9 @@ WARNING -  A reference to 'guides/development-setup.md' is included in the 'nav'
 WARNING -  A reference to 'guides/authentication.md' is included in the 'nav' configuration, which is not found in the documentation files.
 WARNING -  A reference to 'guides/google-services.md' is included in the 'nav' configuration, which is not found in the documentation files.
 WARNING -  A reference to 'guides/deployment.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  A reference to 'mcp-claude/examples.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  A reference to 'mcp-claude/architecture.md' is included in the 'nav' configuration, which is not found in the documentation files.
+WARNING -  A reference to 'mcp-claude/troubleshooting.md' is included in the 'nav' configuration, which is not found in the documentation files.
 WARNING -  A reference to 'api/tools.md' is included in the 'nav' configuration, which is not found in the documentation files.
 WARNING -  A reference to 'api/task.md' is included in the 'nav' configuration, which is not found in the documentation files.
 WARNING -  A reference to 'api/pai-web.md' is included in the 'nav' configuration, which is not found in the documentation files.
@@ -699,6 +911,8 @@ INFO    -  Doc file 'applications/index.md' contains an absolute link '/architec
 INFO    -  Doc file 'applications/index.md' contains an absolute link '/operations/', it was left as is.
 INFO    -  Doc file 'applications/index.md' contains an absolute link '/api/', it was left as is. Did you mean '../api/index.md'?
 INFO    -  Doc file 'applications/index.md' contains an absolute link '/guides/', it was left as is. Did you mean '../guides/index.md'?
+WARNING:root:First revision timestamp is older than last revision timestamp for page applications/pai-helper-agents.md. This can be due to a quirk in `git` follow behaviour. You can try to set `enable_git_follow: false` in the plugin configuration.
+INFO    -  Doc file 'applications/pai-helper-agents.md' contains an absolute link '/guides/ai-agent-collaboration', it was left as is. Did you mean '../guides/ai-agent-collaboration.md'?
 INFO    -  Doc file 'applications/shifts.md' contains an absolute link '/api/shifts/', it was left as is. Did you mean '../api/shifts.md'?
 INFO    -  Doc file 'applications/shifts.md' contains an absolute link '/guides/github-workflow/', it was left as is.
 INFO    -  Doc file 'applications/shifts.md' contains an absolute link '/guides/development-standards/', it was left as is.
@@ -715,6 +929,7 @@ WARNING -  Doc file 'architecture/index.md' contains a link 'dai-system.md', but
 WARNING -  Doc file 'architecture/index.md' contains a link 'pai-system.md', but the target 'architecture/pai-system.md' is not found among documentation files.
 WARNING -  Doc file 'architecture/index.md' contains a link 'infrastructure.md', but the target 'architecture/infrastructure.md' is not found among documentation files.
 WARNING -  Doc file 'architecture/index.md' contains a link 'security.md', but the target 'architecture/security.md' is not found among documentation files.
+WARNING:root:First revision timestamp is older than last revision timestamp for page architecture/pai-subagent-system.md. This can be due to a quirk in `git` follow behaviour. You can try to set `enable_git_follow: false` in the plugin configuration.
 WARNING -  Doc file 'archive/github-workflow.md' contains a link './github-cli-guide.md', but the target 'archive/github-cli-guide.md' is not found among documentation files.
 INFO    -  Doc file 'archive/github-workflow.md' contains an absolute link '/srv/docs/git-workflow.md', it was left as is.
 WARNING -  Doc file 'archive/github-workflow.md' contains a link './ai-agent-onboarding.md', but the target 'archive/ai-agent-onboarding.md' is not found among documentation files.
@@ -732,11 +947,28 @@ INFO    -  Doc file 'guides/ai-agent-collaboration.md' contains an absolute link
 INFO    -  Doc file 'guides/ai-agent-development.md' contains an absolute link '/guides/jtools-testing/', it was left as is.
 WARNING -  Doc file 'guides/claude-cli-advanced.md' contains a link '../architecture/intelligence-stack.md', but the target 'architecture/intelligence-stack.md' is not found among documentation files.
 INFO    -  Doc file 'guides/claude-cli-advanced.md' contains an unrecognized relative link '../operations/', it was left as is.
+WARNING:root:First revision timestamp is older than last revision timestamp for page guides/claude-code-sub-agents.md. This can be due to a quirk in `git` follow behaviour. You can try to set `enable_git_follow: false` in the plugin configuration.
 INFO    -  Doc file 'guides/getting-started.md' contains an absolute link '/quickstart.md', it was left as is. Did you mean '../quickstart.md'?
 WARNING -  Doc file 'guides/getting-started.md' contains a link 'development-setup.md', but the target 'guides/development-setup.md' is not found among documentation files.
 WARNING -  Doc file 'guides/getting-started.md' contains a link 'authentication.md', but the target 'guides/authentication.md' is not found among documentation files.
+WARNING:root:First revision timestamp is older than last revision timestamp for page guides/mcp-claude-code-setup.md. This can be due to a quirk in `git` follow behaviour. You can try to set `enable_git_follow: false` in the plugin configuration.
+WARNING:root:First revision timestamp is older than last revision timestamp for page guides/pai-subagent-implementation.md. This can be due to a quirk in `git` follow behaviour. You can try to set `enable_git_follow: false` in the plugin configuration.
 WARNING -  Doc file 'guides/slack-webhooks.md' contains a link '../operations/monitoring-alerts.md', but the target 'operations/monitoring-alerts.md' is not found among documentation files.
 WARNING -  Doc file 'guides/slack-webhooks.md' contains a link '../architecture/intelligence-stack.md', but the target 'architecture/intelligence-stack.md' is not found among documentation files.
+WARNING:root:First revision timestamp is older than last revision timestamp for page mcp/index.md. This can be due to a quirk in `git` follow behaviour. You can try to set `enable_git_follow: false` in the plugin configuration.
+WARNING:root:First revision timestamp is older than last revision timestamp for page mcp/local-claude-setup.md. This can be due to a quirk in `git` follow behaviour. You can try to set `enable_git_follow: false` in the plugin configuration.
+WARNING:root:First revision timestamp is older than last revision timestamp for page mcp/search-tool.md. This can be due to a quirk in `git` follow behaviour. You can try to set `enable_git_follow: false` in the plugin configuration.
+WARNING:root:First revision timestamp is older than last revision timestamp for page mcp/server-setup.md. This can be due to a quirk in `git` follow behaviour. You can try to set `enable_git_follow: false` in the plugin configuration.
+WARNING:root:First revision timestamp is older than last revision timestamp for page mcp/test-from-api.md. This can be due to a quirk in `git` follow behaviour. You can try to set `enable_git_follow: false` in the plugin configuration.
+WARNING:root:First revision timestamp is older than last revision timestamp for page mcp/tools-reference.md. This can be due to a quirk in `git` follow behaviour. You can try to set `enable_git_follow: false` in the plugin configuration.
+WARNING:root:First revision timestamp is older than last revision timestamp for page mcp/voice-mode.md. This can be due to a quirk in `git` follow behaviour. You can try to set `enable_git_follow: false` in the plugin configuration.
+WARNING:root:First revision timestamp is older than last revision timestamp for page mcp-claude/index.md. This can be due to a quirk in `git` follow behaviour. You can try to set `enable_git_follow: false` in the plugin configuration.
+WARNING -  Doc file 'mcp-claude/index.md' contains a link 'examples.md', but the target 'mcp-claude/examples.md' is not found among documentation files.
+WARNING -  Doc file 'mcp-claude/index.md' contains a link 'troubleshooting.md', but the target 'mcp-claude/troubleshooting.md' is not found among documentation files.
+WARNING -  Doc file 'mcp-claude/index.md' contains a link 'architecture.md', but the target 'mcp-claude/architecture.md' is not found among documentation files.
+WARNING:root:First revision timestamp is older than last revision timestamp for page mcp-claude/deep-guide.md. This can be due to a quirk in `git` follow behaviour. You can try to set `enable_git_follow: false` in the plugin configuration.
+WARNING -  Doc file 'mcp-claude/deep-guide.md' contains a link 'examples.md', but the target 'mcp-claude/examples.md' is not found among documentation files.
+WARNING:root:First revision timestamp is older than last revision timestamp for page mcp-claude/quick-start.md. This can be due to a quirk in `git` follow behaviour. You can try to set `enable_git_follow: false` in the plugin configuration.
 WARNING -  Doc file 'operations/claude-sessions.md' contains a link './common-issues.md', but the target 'operations/common-issues.md' is not found among documentation files.
 WARNING -  Doc file 'operations/claude-sessions.md' contains a link './monitoring-alerts.md', but the target 'operations/monitoring-alerts.md' is not found among documentation files.
 WARNING -  Doc file 'operations/monitoring.md' contains a link './slack-bot-recovery.md', but the target 'operations/slack-bot-recovery.md' is not found among documentation files.
@@ -762,241 +994,9 @@ INFO    -  Doc file 'updates/2025-06-17-slack-documentation.md' contains an abso
 INFO    -  Doc file 'updates/2025-06-17-slack-documentation.md' contains an absolute link '/guides/claude-cli-advanced/', it was left as is. Did you mean '../guides/claude-cli-advanced.md'?
 INFO    -  Doc file 'updates/2025-06-17-slack-documentation.md' contains an absolute link '/guides/slack-webhooks/', it was left as is. Did you mean '../guides/slack-webhooks.md'?
 INFO    -  Doc file 'updates/2025-06-17-slack-documentation.md' contains an absolute link '/operations/slack-recovery/', it was left as is. Did you mean '../operations/slack-recovery.md'?
-INFO    -  Documentation built in 12.73 seconds
-[Mon Jul 21 07:20:15 PM UTC 2025] Build completed successfully
-[Mon Jul 21 07:20:15 PM UTC 2025] Site updated at https://docs.kaut.to
-[Mon Jul 21 07:20:15 PM UTC 2025] Disk usage: 7.0M
-[Mon Jul 21 07:20:15 PM UTC 2025] Build script completed
-----------------------------------------
-[Mon Jul 21 07:25:01 PM UTC 2025] Starting MkDocs build...
-[Mon Jul 21 07:25:01 PM UTC 2025] Pulling latest changes from git...
-From https://github.com/jkautto/docs
- * branch              main       -> FETCH_HEAD
-Already up to date.
-[Mon Jul 21 07:25:01 PM UTC 2025] Building documentation...
-INFO    -  Cleaning site directory
-INFO    -  Building documentation to directory: /srv/docs/site
-INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
-  - api/github-cli-graphql-research.md
-  - archive/github-workflow.md
-  - guides/github-quick-reference.md
-  - guides/working-with-ai-agents.md
-WARNING -  A reference to 'architecture/dai-system.md' is included in the 'nav' configuration, which is not found in the documentation files.
-WARNING -  A reference to 'architecture/pai-system.md' is included in the 'nav' configuration, which is not found in the documentation files.
-WARNING -  A reference to 'architecture/infrastructure.md' is included in the 'nav' configuration, which is not found in the documentation files.
-WARNING -  A reference to 'architecture/security.md' is included in the 'nav' configuration, which is not found in the documentation files.
-WARNING -  A reference to 'guides/development-setup.md' is included in the 'nav' configuration, which is not found in the documentation files.
-WARNING -  A reference to 'guides/authentication.md' is included in the 'nav' configuration, which is not found in the documentation files.
-WARNING -  A reference to 'guides/google-services.md' is included in the 'nav' configuration, which is not found in the documentation files.
-WARNING -  A reference to 'guides/deployment.md' is included in the 'nav' configuration, which is not found in the documentation files.
-WARNING -  A reference to 'api/tools.md' is included in the 'nav' configuration, which is not found in the documentation files.
-WARNING -  A reference to 'api/task.md' is included in the 'nav' configuration, which is not found in the documentation files.
-WARNING -  A reference to 'api/pai-web.md' is included in the 'nav' configuration, which is not found in the documentation files.
-WARNING -  A reference to 'applications/pastebin.md' is included in the 'nav' configuration, which is not found in the documentation files.
-WARNING -  A reference to 'applications/auth.md' is included in the 'nav' configuration, which is not found in the documentation files.
-WARNING -  A reference to 'specs/browser-testing-toolkit.md' is included in the 'nav' configuration, which is not found in the documentation files.
-WARNING -  A reference to 'specs/jtools-testing-toolkit.md' is included in the 'nav' configuration, which is not found in the documentation files.
-WARNING -  Doc file 'index.md' contains a link 'operations/index.md', but the target is not found among documentation files.
-WARNING -  Doc file 'api/index.md' contains a link './tools.md', but the target 'api/tools.md' is not found among documentation files.
-WARNING -  Doc file 'api/index.md' contains a link './task.md', but the target 'api/task.md' is not found among documentation files.
-WARNING -  Doc file 'api/index.md' contains a link './pai-web.md', but the target 'api/pai-web.md' is not found among documentation files.
-INFO    -  Doc file 'api/index.md' contains an absolute link '/architecture/', it was left as is. Did you mean '../architecture/index.md'?
-INFO    -  Doc file 'api/index.md' contains an absolute link '/guides/authentication/', it was left as is.
-INFO    -  Doc file 'api/index.md' contains an absolute link '/guides/development-setup/', it was left as is.
-INFO    -  Doc file 'api/index.md' contains an absolute link '/architecture/security/', it was left as is.
-INFO    -  Doc file 'api/shifts.md' contains an absolute link '/applications/shifts/', it was left as is. Did you mean '../applications/shifts.md'?
-INFO    -  Doc file 'api/shifts.md' contains an absolute link '/guides/authentication/', it was left as is.
-INFO    -  Doc file 'api/shifts.md' contains an absolute link '/api/', it was left as is. Did you mean 'index.md'?
-WARNING -  Doc file 'applications/index.md' contains a link 'jtools-testing-toolkit.md', but the target 'applications/jtools-testing-toolkit.md' is not found among documentation files.
-INFO    -  Doc file 'applications/index.md' contains an absolute link '/applications/shifts/', it was left as is. Did you mean 'shifts.md'?
-INFO    -  Doc file 'applications/index.md' contains an absolute link '/applications/pai-dashboard/', it was left as is.
-INFO    -  Doc file 'applications/index.md' contains an absolute link '/applications/pastebin/', it was left as is.
-INFO    -  Doc file 'applications/index.md' contains an absolute link '/architecture/', it was left as is. Did you mean '../architecture/index.md'?
-INFO    -  Doc file 'applications/index.md' contains an absolute link '/operations/', it was left as is.
-INFO    -  Doc file 'applications/index.md' contains an absolute link '/api/', it was left as is. Did you mean '../api/index.md'?
-INFO    -  Doc file 'applications/index.md' contains an absolute link '/guides/', it was left as is. Did you mean '../guides/index.md'?
-INFO    -  Doc file 'applications/shifts.md' contains an absolute link '/api/shifts/', it was left as is. Did you mean '../api/shifts.md'?
-INFO    -  Doc file 'applications/shifts.md' contains an absolute link '/guides/github-workflow/', it was left as is.
-INFO    -  Doc file 'applications/shifts.md' contains an absolute link '/guides/development-standards/', it was left as is.
-INFO    -  Doc file 'applications/shifts.md' contains an absolute link '/guides/testing/', it was left as is.
-WARNING -  Doc file 'applications/slack-bot.md' contains a link '../architecture/intelligence-stack.md', but the target 'architecture/intelligence-stack.md' is not found among documentation files.
-INFO    -  Doc file 'applications/jtools-testing-toolkit/index.md' contains an absolute link '/guides/jtools-testing/', it was left as is.
-INFO    -  Doc file 'applications/jtools-testing-toolkit/index.md' contains an absolute link '/specs/jtools-testing-toolkit/', it was left as is.
-INFO    -  Doc file 'applications/jtools-testing-toolkit/index.md' contains an absolute link '/guides/browser-testing/', it was left as is.
-INFO    -  Doc file 'applications/jtools-testing-toolkit/index.md' contains an absolute link '/guides/ci-cd-setup/', it was left as is.
-INFO    -  Doc file 'applications/jtools-testing-toolkit/guide.md' contains an absolute link '/specs/jtools-testing-toolkit/', it was left as is.
-INFO    -  Doc file 'applications/jtools-testing-toolkit/guide.md' contains an absolute link '/guides/ci-cd-setup/', it was left as is.
-INFO    -  Doc file 'applications/jtools-testing-toolkit/guide.md' contains an absolute link '/guides/performance-testing/', it was left as is.
-WARNING -  Doc file 'architecture/index.md' contains a link 'dai-system.md', but the target 'architecture/dai-system.md' is not found among documentation files.
-WARNING -  Doc file 'architecture/index.md' contains a link 'pai-system.md', but the target 'architecture/pai-system.md' is not found among documentation files.
-WARNING -  Doc file 'architecture/index.md' contains a link 'infrastructure.md', but the target 'architecture/infrastructure.md' is not found among documentation files.
-WARNING -  Doc file 'architecture/index.md' contains a link 'security.md', but the target 'architecture/security.md' is not found among documentation files.
-WARNING -  Doc file 'archive/github-workflow.md' contains a link './github-cli-guide.md', but the target 'archive/github-cli-guide.md' is not found among documentation files.
-INFO    -  Doc file 'archive/github-workflow.md' contains an absolute link '/srv/docs/git-workflow.md', it was left as is.
-WARNING -  Doc file 'archive/github-workflow.md' contains a link './ai-agent-onboarding.md', but the target 'archive/ai-agent-onboarding.md' is not found among documentation files.
-WARNING -  Doc file 'archive/github-workflow.md' contains a link './development-standards.md', but the target 'archive/development-standards.md' is not found among documentation files.
-INFO    -  Doc file 'context/index.md' contains an absolute link '/srv/context/development/github-issue-driven-workflow.md', it was left as is.
-WARNING -  Doc file 'guides/index.md' contains a link 'jtools-testing.md', but the target 'guides/jtools-testing.md' is not found among documentation files.
-WARNING -  Doc file 'guides/index.md' contains a link 'browser-testing.md', but the target 'guides/browser-testing.md' is not found among documentation files.
-INFO    -  Doc file 'guides/index.md' contains an absolute link '/reference/commands/', it was left as is.
-INFO    -  Doc file 'guides/index.md' contains an absolute link '/api/', it was left as is. Did you mean '../api/index.md'?
-INFO    -  Doc file 'guides/index.md' contains an absolute link '/reference/configs/', it was left as is.
-INFO    -  Doc file 'guides/index.md' contains an absolute link '/reference/env-vars/', it was left as is.
-INFO    -  Doc file 'guides/ai-agent-collaboration.md' contains an absolute link '/guides/ai-agent-onboarding/', it was left as is. Did you mean 'ai-agent-onboarding.md'?
-INFO    -  Doc file 'guides/ai-agent-collaboration.md' contains an absolute link '/guides/ai-agent-development/', it was left as is. Did you mean 'ai-agent-development.md'?
-INFO    -  Doc file 'guides/ai-agent-collaboration.md' contains an absolute link '/guides/jtools-testing/', it was left as is.
-INFO    -  Doc file 'guides/ai-agent-development.md' contains an absolute link '/guides/jtools-testing/', it was left as is.
-WARNING -  Doc file 'guides/claude-cli-advanced.md' contains a link '../architecture/intelligence-stack.md', but the target 'architecture/intelligence-stack.md' is not found among documentation files.
-INFO    -  Doc file 'guides/claude-cli-advanced.md' contains an unrecognized relative link '../operations/', it was left as is.
-INFO    -  Doc file 'guides/getting-started.md' contains an absolute link '/quickstart.md', it was left as is. Did you mean '../quickstart.md'?
-WARNING -  Doc file 'guides/getting-started.md' contains a link 'development-setup.md', but the target 'guides/development-setup.md' is not found among documentation files.
-WARNING -  Doc file 'guides/getting-started.md' contains a link 'authentication.md', but the target 'guides/authentication.md' is not found among documentation files.
-WARNING -  Doc file 'guides/slack-webhooks.md' contains a link '../operations/monitoring-alerts.md', but the target 'operations/monitoring-alerts.md' is not found among documentation files.
-WARNING -  Doc file 'guides/slack-webhooks.md' contains a link '../architecture/intelligence-stack.md', but the target 'architecture/intelligence-stack.md' is not found among documentation files.
-WARNING -  Doc file 'operations/claude-sessions.md' contains a link './common-issues.md', but the target 'operations/common-issues.md' is not found among documentation files.
-WARNING -  Doc file 'operations/claude-sessions.md' contains a link './monitoring-alerts.md', but the target 'operations/monitoring-alerts.md' is not found among documentation files.
-WARNING -  Doc file 'operations/monitoring.md' contains a link './slack-bot-recovery.md', but the target 'operations/slack-bot-recovery.md' is not found among documentation files.
-WARNING -  Doc file 'operations/monitoring.md' contains a link './token-refresh.md', but the target 'operations/token-refresh.md' is not found among documentation files.
-WARNING -  Doc file 'operations/monitoring.md' contains a link './incident-response.md', but the target 'operations/incident-response.md' is not found among documentation files.
-WARNING -  Doc file 'specs/active.md' contains a link 'browser-testing-toolkit.md', but the target 'specs/browser-testing-toolkit.md' is not found among documentation files.
-WARNING -  Doc file 'specs/active.md' contains a link 'kaut-mcp-server.md', but the target 'specs/kaut-mcp-server.md' is not found among documentation files.
-WARNING -  Doc file 'specs/active.md' contains a link 'ai-self-documenting.md', but the target 'specs/ai-self-documenting.md' is not found among documentation files.
-WARNING -  Doc file 'specs/active.md' contains a link 'jtools-api-architecture.md', but the target 'specs/jtools-api-architecture.md' is not found among documentation files.
-WARNING -  Doc file 'specs/active.md' contains a link 'jtools-reorganization.md', but the target 'specs/jtools-reorganization.md' is not found among documentation files.
-WARNING -  Doc file 'specs/active.md' contains a link 'jtools-unified-structure.md', but the target 'specs/jtools-unified-structure.md' is not found among documentation files.
-WARNING -  Doc file 'specs/active.md' contains a link 'jtools-testing-toolkit.md', but the target 'specs/jtools-testing-toolkit.md' is not found among documentation files.
-WARNING -  Doc file 'specs/active.md' contains a link 'context-library.md', but the target 'specs/context-library.md' is not found among documentation files.
-WARNING -  Doc file 'specs/active.md' contains a link 'context-optimization.md', but the target 'specs/context-optimization.md' is not found among documentation files.
-WARNING -  Doc file 'specs/active.md' contains a link 'specialized-agents.md', but the target 'specs/specialized-agents.md' is not found among documentation files.
-WARNING -  Doc file 'specs/documentation-optimization.md' contains a link '../path/to/doc.md', but the target 'path/to/doc.md' is not found among documentation files.
-WARNING -  Doc file 'specs/implementation.md' contains a link 'context-library.md', but the target 'specs/context-library.md' is not found among documentation files.
-WARNING -  Doc file 'specs/implementation.md' contains a link 'browser-testing-toolkit.md', but the target 'specs/browser-testing-toolkit.md' is not found among documentation files.
-WARNING -  Doc file 'specs/implementation.md' contains a link '../guides/development-setup.md', but the target 'guides/development-setup.md' is not found among documentation files.
-WARNING -  Doc file 'specs/implementation.md' contains a link '../guides/testing.md', but the target 'guides/testing.md' is not found among documentation files.
-WARNING -  Doc file 'specs/implementation.md' contains a link '../guides/deployment.md', but the target 'guides/deployment.md' is not found among documentation files.
-INFO    -  Doc file 'updates/2025-06-17-slack-documentation.md' contains an absolute link '/applications/slack-bot/', it was left as is. Did you mean '../applications/slack-bot.md'?
-INFO    -  Doc file 'updates/2025-06-17-slack-documentation.md' contains an absolute link '/guides/claude-cli-advanced/', it was left as is. Did you mean '../guides/claude-cli-advanced.md'?
-INFO    -  Doc file 'updates/2025-06-17-slack-documentation.md' contains an absolute link '/guides/slack-webhooks/', it was left as is. Did you mean '../guides/slack-webhooks.md'?
-INFO    -  Doc file 'updates/2025-06-17-slack-documentation.md' contains an absolute link '/operations/slack-recovery/', it was left as is. Did you mean '../operations/slack-recovery.md'?
-INFO    -  Documentation built in 12.00 seconds
-[Mon Jul 21 07:25:14 PM UTC 2025] Build completed successfully
-[Mon Jul 21 07:25:14 PM UTC 2025] Site updated at https://docs.kaut.to
-[Mon Jul 21 07:25:14 PM UTC 2025] Disk usage: 7.0M
-[Mon Jul 21 07:25:14 PM UTC 2025] Build script completed
-----------------------------------------
-[Mon Jul 21 07:30:01 PM UTC 2025] Starting MkDocs build...
-[Mon Jul 21 07:30:01 PM UTC 2025] Pulling latest changes from git...
-From https://github.com/jkautto/docs
- * branch              main       -> FETCH_HEAD
-Already up to date.
-[Mon Jul 21 07:30:02 PM UTC 2025] Building documentation...
-INFO    -  Cleaning site directory
-INFO    -  Building documentation to directory: /srv/docs/site
-INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
-  - api/github-cli-graphql-research.md
-  - archive/github-workflow.md
-  - guides/github-quick-reference.md
-  - guides/working-with-ai-agents.md
-WARNING -  A reference to 'architecture/dai-system.md' is included in the 'nav' configuration, which is not found in the documentation files.
-WARNING -  A reference to 'architecture/pai-system.md' is included in the 'nav' configuration, which is not found in the documentation files.
-WARNING -  A reference to 'architecture/infrastructure.md' is included in the 'nav' configuration, which is not found in the documentation files.
-WARNING -  A reference to 'architecture/security.md' is included in the 'nav' configuration, which is not found in the documentation files.
-WARNING -  A reference to 'guides/development-setup.md' is included in the 'nav' configuration, which is not found in the documentation files.
-WARNING -  A reference to 'guides/authentication.md' is included in the 'nav' configuration, which is not found in the documentation files.
-WARNING -  A reference to 'guides/google-services.md' is included in the 'nav' configuration, which is not found in the documentation files.
-WARNING -  A reference to 'guides/deployment.md' is included in the 'nav' configuration, which is not found in the documentation files.
-WARNING -  A reference to 'api/tools.md' is included in the 'nav' configuration, which is not found in the documentation files.
-WARNING -  A reference to 'api/task.md' is included in the 'nav' configuration, which is not found in the documentation files.
-WARNING -  A reference to 'api/pai-web.md' is included in the 'nav' configuration, which is not found in the documentation files.
-WARNING -  A reference to 'applications/pastebin.md' is included in the 'nav' configuration, which is not found in the documentation files.
-WARNING -  A reference to 'applications/auth.md' is included in the 'nav' configuration, which is not found in the documentation files.
-WARNING -  A reference to 'specs/browser-testing-toolkit.md' is included in the 'nav' configuration, which is not found in the documentation files.
-WARNING -  A reference to 'specs/jtools-testing-toolkit.md' is included in the 'nav' configuration, which is not found in the documentation files.
-WARNING -  Doc file 'index.md' contains a link 'operations/index.md', but the target is not found among documentation files.
-WARNING -  Doc file 'api/index.md' contains a link './tools.md', but the target 'api/tools.md' is not found among documentation files.
-WARNING -  Doc file 'api/index.md' contains a link './task.md', but the target 'api/task.md' is not found among documentation files.
-WARNING -  Doc file 'api/index.md' contains a link './pai-web.md', but the target 'api/pai-web.md' is not found among documentation files.
-INFO    -  Doc file 'api/index.md' contains an absolute link '/architecture/', it was left as is. Did you mean '../architecture/index.md'?
-INFO    -  Doc file 'api/index.md' contains an absolute link '/guides/authentication/', it was left as is.
-INFO    -  Doc file 'api/index.md' contains an absolute link '/guides/development-setup/', it was left as is.
-INFO    -  Doc file 'api/index.md' contains an absolute link '/architecture/security/', it was left as is.
-INFO    -  Doc file 'api/shifts.md' contains an absolute link '/applications/shifts/', it was left as is. Did you mean '../applications/shifts.md'?
-INFO    -  Doc file 'api/shifts.md' contains an absolute link '/guides/authentication/', it was left as is.
-INFO    -  Doc file 'api/shifts.md' contains an absolute link '/api/', it was left as is. Did you mean 'index.md'?
-WARNING -  Doc file 'applications/index.md' contains a link 'jtools-testing-toolkit.md', but the target 'applications/jtools-testing-toolkit.md' is not found among documentation files.
-INFO    -  Doc file 'applications/index.md' contains an absolute link '/applications/shifts/', it was left as is. Did you mean 'shifts.md'?
-INFO    -  Doc file 'applications/index.md' contains an absolute link '/applications/pai-dashboard/', it was left as is.
-INFO    -  Doc file 'applications/index.md' contains an absolute link '/applications/pastebin/', it was left as is.
-INFO    -  Doc file 'applications/index.md' contains an absolute link '/architecture/', it was left as is. Did you mean '../architecture/index.md'?
-INFO    -  Doc file 'applications/index.md' contains an absolute link '/operations/', it was left as is.
-INFO    -  Doc file 'applications/index.md' contains an absolute link '/api/', it was left as is. Did you mean '../api/index.md'?
-INFO    -  Doc file 'applications/index.md' contains an absolute link '/guides/', it was left as is. Did you mean '../guides/index.md'?
-INFO    -  Doc file 'applications/shifts.md' contains an absolute link '/api/shifts/', it was left as is. Did you mean '../api/shifts.md'?
-INFO    -  Doc file 'applications/shifts.md' contains an absolute link '/guides/github-workflow/', it was left as is.
-INFO    -  Doc file 'applications/shifts.md' contains an absolute link '/guides/development-standards/', it was left as is.
-INFO    -  Doc file 'applications/shifts.md' contains an absolute link '/guides/testing/', it was left as is.
-WARNING -  Doc file 'applications/slack-bot.md' contains a link '../architecture/intelligence-stack.md', but the target 'architecture/intelligence-stack.md' is not found among documentation files.
-INFO    -  Doc file 'applications/jtools-testing-toolkit/index.md' contains an absolute link '/guides/jtools-testing/', it was left as is.
-INFO    -  Doc file 'applications/jtools-testing-toolkit/index.md' contains an absolute link '/specs/jtools-testing-toolkit/', it was left as is.
-INFO    -  Doc file 'applications/jtools-testing-toolkit/index.md' contains an absolute link '/guides/browser-testing/', it was left as is.
-INFO    -  Doc file 'applications/jtools-testing-toolkit/index.md' contains an absolute link '/guides/ci-cd-setup/', it was left as is.
-INFO    -  Doc file 'applications/jtools-testing-toolkit/guide.md' contains an absolute link '/specs/jtools-testing-toolkit/', it was left as is.
-INFO    -  Doc file 'applications/jtools-testing-toolkit/guide.md' contains an absolute link '/guides/ci-cd-setup/', it was left as is.
-INFO    -  Doc file 'applications/jtools-testing-toolkit/guide.md' contains an absolute link '/guides/performance-testing/', it was left as is.
-WARNING -  Doc file 'architecture/index.md' contains a link 'dai-system.md', but the target 'architecture/dai-system.md' is not found among documentation files.
-WARNING -  Doc file 'architecture/index.md' contains a link 'pai-system.md', but the target 'architecture/pai-system.md' is not found among documentation files.
-WARNING -  Doc file 'architecture/index.md' contains a link 'infrastructure.md', but the target 'architecture/infrastructure.md' is not found among documentation files.
-WARNING -  Doc file 'architecture/index.md' contains a link 'security.md', but the target 'architecture/security.md' is not found among documentation files.
-WARNING -  Doc file 'archive/github-workflow.md' contains a link './github-cli-guide.md', but the target 'archive/github-cli-guide.md' is not found among documentation files.
-INFO    -  Doc file 'archive/github-workflow.md' contains an absolute link '/srv/docs/git-workflow.md', it was left as is.
-WARNING -  Doc file 'archive/github-workflow.md' contains a link './ai-agent-onboarding.md', but the target 'archive/ai-agent-onboarding.md' is not found among documentation files.
-WARNING -  Doc file 'archive/github-workflow.md' contains a link './development-standards.md', but the target 'archive/development-standards.md' is not found among documentation files.
-INFO    -  Doc file 'context/index.md' contains an absolute link '/srv/context/development/github-issue-driven-workflow.md', it was left as is.
-WARNING -  Doc file 'guides/index.md' contains a link 'jtools-testing.md', but the target 'guides/jtools-testing.md' is not found among documentation files.
-WARNING -  Doc file 'guides/index.md' contains a link 'browser-testing.md', but the target 'guides/browser-testing.md' is not found among documentation files.
-INFO    -  Doc file 'guides/index.md' contains an absolute link '/reference/commands/', it was left as is.
-INFO    -  Doc file 'guides/index.md' contains an absolute link '/api/', it was left as is. Did you mean '../api/index.md'?
-INFO    -  Doc file 'guides/index.md' contains an absolute link '/reference/configs/', it was left as is.
-INFO    -  Doc file 'guides/index.md' contains an absolute link '/reference/env-vars/', it was left as is.
-INFO    -  Doc file 'guides/ai-agent-collaboration.md' contains an absolute link '/guides/ai-agent-onboarding/', it was left as is. Did you mean 'ai-agent-onboarding.md'?
-INFO    -  Doc file 'guides/ai-agent-collaboration.md' contains an absolute link '/guides/ai-agent-development/', it was left as is. Did you mean 'ai-agent-development.md'?
-INFO    -  Doc file 'guides/ai-agent-collaboration.md' contains an absolute link '/guides/jtools-testing/', it was left as is.
-INFO    -  Doc file 'guides/ai-agent-development.md' contains an absolute link '/guides/jtools-testing/', it was left as is.
-WARNING -  Doc file 'guides/claude-cli-advanced.md' contains a link '../architecture/intelligence-stack.md', but the target 'architecture/intelligence-stack.md' is not found among documentation files.
-INFO    -  Doc file 'guides/claude-cli-advanced.md' contains an unrecognized relative link '../operations/', it was left as is.
-INFO    -  Doc file 'guides/getting-started.md' contains an absolute link '/quickstart.md', it was left as is. Did you mean '../quickstart.md'?
-WARNING -  Doc file 'guides/getting-started.md' contains a link 'development-setup.md', but the target 'guides/development-setup.md' is not found among documentation files.
-WARNING -  Doc file 'guides/getting-started.md' contains a link 'authentication.md', but the target 'guides/authentication.md' is not found among documentation files.
-WARNING -  Doc file 'guides/slack-webhooks.md' contains a link '../operations/monitoring-alerts.md', but the target 'operations/monitoring-alerts.md' is not found among documentation files.
-WARNING -  Doc file 'guides/slack-webhooks.md' contains a link '../architecture/intelligence-stack.md', but the target 'architecture/intelligence-stack.md' is not found among documentation files.
-WARNING -  Doc file 'operations/claude-sessions.md' contains a link './common-issues.md', but the target 'operations/common-issues.md' is not found among documentation files.
-WARNING -  Doc file 'operations/claude-sessions.md' contains a link './monitoring-alerts.md', but the target 'operations/monitoring-alerts.md' is not found among documentation files.
-WARNING -  Doc file 'operations/monitoring.md' contains a link './slack-bot-recovery.md', but the target 'operations/slack-bot-recovery.md' is not found among documentation files.
-WARNING -  Doc file 'operations/monitoring.md' contains a link './token-refresh.md', but the target 'operations/token-refresh.md' is not found among documentation files.
-WARNING -  Doc file 'operations/monitoring.md' contains a link './incident-response.md', but the target 'operations/incident-response.md' is not found among documentation files.
-WARNING -  Doc file 'specs/active.md' contains a link 'browser-testing-toolkit.md', but the target 'specs/browser-testing-toolkit.md' is not found among documentation files.
-WARNING -  Doc file 'specs/active.md' contains a link 'kaut-mcp-server.md', but the target 'specs/kaut-mcp-server.md' is not found among documentation files.
-WARNING -  Doc file 'specs/active.md' contains a link 'ai-self-documenting.md', but the target 'specs/ai-self-documenting.md' is not found among documentation files.
-WARNING -  Doc file 'specs/active.md' contains a link 'jtools-api-architecture.md', but the target 'specs/jtools-api-architecture.md' is not found among documentation files.
-WARNING -  Doc file 'specs/active.md' contains a link 'jtools-reorganization.md', but the target 'specs/jtools-reorganization.md' is not found among documentation files.
-WARNING -  Doc file 'specs/active.md' contains a link 'jtools-unified-structure.md', but the target 'specs/jtools-unified-structure.md' is not found among documentation files.
-WARNING -  Doc file 'specs/active.md' contains a link 'jtools-testing-toolkit.md', but the target 'specs/jtools-testing-toolkit.md' is not found among documentation files.
-WARNING -  Doc file 'specs/active.md' contains a link 'context-library.md', but the target 'specs/context-library.md' is not found among documentation files.
-WARNING -  Doc file 'specs/active.md' contains a link 'context-optimization.md', but the target 'specs/context-optimization.md' is not found among documentation files.
-WARNING -  Doc file 'specs/active.md' contains a link 'specialized-agents.md', but the target 'specs/specialized-agents.md' is not found among documentation files.
-WARNING -  Doc file 'specs/documentation-optimization.md' contains a link '../path/to/doc.md', but the target 'path/to/doc.md' is not found among documentation files.
-WARNING -  Doc file 'specs/implementation.md' contains a link 'context-library.md', but the target 'specs/context-library.md' is not found among documentation files.
-WARNING -  Doc file 'specs/implementation.md' contains a link 'browser-testing-toolkit.md', but the target 'specs/browser-testing-toolkit.md' is not found among documentation files.
-WARNING -  Doc file 'specs/implementation.md' contains a link '../guides/development-setup.md', but the target 'guides/development-setup.md' is not found among documentation files.
-WARNING -  Doc file 'specs/implementation.md' contains a link '../guides/testing.md', but the target 'guides/testing.md' is not found among documentation files.
-WARNING -  Doc file 'specs/implementation.md' contains a link '../guides/deployment.md', but the target 'guides/deployment.md' is not found among documentation files.
-INFO    -  Doc file 'updates/2025-06-17-slack-documentation.md' contains an absolute link '/applications/slack-bot/', it was left as is. Did you mean '../applications/slack-bot.md'?
-INFO    -  Doc file 'updates/2025-06-17-slack-documentation.md' contains an absolute link '/guides/claude-cli-advanced/', it was left as is. Did you mean '../guides/claude-cli-advanced.md'?
-INFO    -  Doc file 'updates/2025-06-17-slack-documentation.md' contains an absolute link '/guides/slack-webhooks/', it was left as is. Did you mean '../guides/slack-webhooks.md'?
-INFO    -  Doc file 'updates/2025-06-17-slack-documentation.md' contains an absolute link '/operations/slack-recovery/', it was left as is. Did you mean '../operations/slack-recovery.md'?
-INFO    -  Documentation built in 13.28 seconds
-[Mon Jul 21 07:30:16 PM UTC 2025] Build completed successfully
-[Mon Jul 21 07:30:16 PM UTC 2025] Site updated at https://docs.kaut.to
-[Mon Jul 21 07:30:16 PM UTC 2025] Disk usage: 7.0M
-[Mon Jul 21 07:30:16 PM UTC 2025] Build script completed
+INFO    -  Documentation built in 15.08 seconds
+[Fri Aug 15 10:20:18 AM UTC 2025] Build completed successfully
+[Fri Aug 15 10:20:18 AM UTC 2025] Site updated at https://docs.kaut.to
+[Fri Aug 15 10:20:18 AM UTC 2025] Disk usage: 8.2M
+[Fri Aug 15 10:20:18 AM UTC 2025] Build script completed
 ----------------------------------------

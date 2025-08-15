@@ -5,6 +5,8 @@ Practical guides and tutorials for working with the kaut.to ecosystem.
 ## Quick Navigation
 - **New to the project?** → [Getting Started](getting-started.md)
 - **AI agent onboarding?** → [AI Agent Onboarding](ai-agent-onboarding.md)
+- **Creating Claude Code sub-agents?** → [Claude Code Sub-Agents](claude-code-sub-agents.md)
+- **Setting up MCP with Claude Code?** → [MCP Claude Code Setup](mcp-claude-code-setup.md)
 - **Need Git help?** → [Git Workflow Guide](git-workflow.md)
 - **GitHub issues?** → [GitHub Quick Reference](github-quick-reference.md)
 - **Working with other AIs?** → [Working with AI Agents](working-with-ai-agents.md)
@@ -25,6 +27,12 @@ Technical reference for AI agents. Includes modular architecture patterns, debug
 ### [AI Agent Collaboration](ai-agent-collaboration.md)
 Team collaboration guidelines for multiple AI agents working together. Covers communication channels, handoff procedures, and conflict resolution.
 
+### [Claude Code Sub-Agents](claude-code-sub-agents.md) ⭐ NEW
+Complete guide for creating Claude Code CLI native sub-agents with YAML frontmatter. Covers file structure, agent design, and the critical restart requirement. Essential for specialized AI assistants.
+
+### [PAI Sub-Agent Implementation](pai-subagent-implementation.md)
+Complete guide for creating and deploying PAI sub-agents. Includes templates, testing procedures, deployment process, and best practices for specialized agent development.
+
 ### Version Control & GitHub
 
 #### [Git Workflow Guide](git-workflow.md)
@@ -42,6 +50,9 @@ Optimized project management guide specifically for Claude Code CLI. Covers Git 
 
 ### [Working with AI Agents](working-with-ai-agents.md) ⭐ NEW
 Practical lessons from collaborating with various AI agents. Includes common behaviors, review processes, and coordination tips.
+
+### [MCP Claude Code Setup](mcp-claude-code-setup.md) ⭐ NEW
+Complete guide for setting up the PAI MCP Toolkit with Claude Code CLI. Includes installation, authentication, and usage examples for task management, email, calendar, Slack, and file operations.
 
 ### [Vite Deployment Guide](vite-deployment-guide.md) ⭐ NEW
 Quick fixes for common Vite app deployment issues. Covers blank screens, CSS problems, and nginx configuration.

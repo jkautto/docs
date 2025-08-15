@@ -165,6 +165,8 @@ backend/
 - CSS not imported in JavaScript (Vite requirement)
 - Solution: Import all CSS in `src/main.js`
 - Ensure nginx serves from `/dist/` directory
+- Check index.html references `/src/main.js` not built assets
+- Fix Node.js-only code with `typeof process !== 'undefined'` checks
 
 **Schedule not saving**:
 - Check backend is running (port 8003)

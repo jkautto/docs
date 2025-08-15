@@ -143,6 +143,13 @@ nav:
     - Token Optimization: operations/token-optimization.md
     - Troubleshooting: operations/troubleshooting.md
     - Emergency Procedures: operations/emergency-procedures.md
+  - MCP & Claude.ai:
+    - Overview: mcp-claude/index.md
+    - Quick Start: mcp-claude/quick-start.md
+    - Deep Guide: mcp-claude/deep-guide.md
+    - Examples: mcp-claude/examples.md
+    - Architecture: mcp-claude/architecture.md
+    - Troubleshooting: mcp-claude/troubleshooting.md
   - API Reference:
     - Overview: api/index.md
     - Shifts API: api/shifts.md
@@ -152,6 +159,7 @@ nav:
   - Applications:
     - Overview: applications/index.md
     - PAI Slack Bot: applications/slack-bot.md
+    - PAI Helper Agents: applications/pai-helper-agents.md
     - JTools Testing Toolkit:
       - Overview: applications/jtools-testing-toolkit/index.md
       - Guide: applications/jtools-testing-toolkit/guide.md
